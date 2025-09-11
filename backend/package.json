@@ -5,12 +5,23 @@
   "license": "ISC",
   "homepage": "https://github.com/AU-aidanwalden/NBADraft-482",
   "author": "Aidan Walden & Colin Molina",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsx --watch src/index.ts"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/express": "^5.0.3",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.3.1"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.15.0",
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "prisma": "^6.15.0"
   }
 }
