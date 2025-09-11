@@ -65,11 +65,45 @@ export async function login(req: Request, res: Response) {
 
   if (result) {
     // Grants the user a token if credentials are valid
-    const token = jwt.sign({ username }, jwtSecret, {
+    const token = jwt.sign({ userId: user.id }, jwtSecret, {
       expiresIn: jwtExpiration,
     });
+
+    // Set cookie so that token can be retrieved later
+    res.setHeader(
+      "Set-Cookie",
+      `token=${token}; HttpOnly; Path=/; Max-Age=${jwtExpiration}`
+    );
     res.json({ token: token });
   } else {
     res.status(401).json({ message: "Invalid credentials" });
+  }
+}
+
+export async function whoami(req: Request, res: Response) {
+  const token = req.cookies.token;
+
+  if (!token) {
+    return res.status(401).json({ message: "No token provided" });
+  }
+
+  if (!jwtSecret) {
+    return res.status(500).json({ message: "JWT secret is not configured" });
+  }
+
+  try {
+    const decoded = jwt.verify(token, jwtSecret) as { userId: number };
+    const user = await prisma.user.findUnique({
+      where: { id: decoded.userId },
+      select: { id: true, username: true },
+    });
+
+    if (!user) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    res.json({ user });
+  } catch (error) {
+    res.status(401).json({ message: "Invalid token" });
   }
 }

@@ -1,4 +1,5 @@
 import express, { Request, Response } from "express";
+import cookieParser from "cookie-parser";
 import prisma from "./database.js";
 
 const app = express();
@@ -9,6 +10,7 @@ app.get("/", (req: Request, res: Response) => {
 });
 
 app.use(express.json());
+app.use(cookieParser());
 
 // Import and use auth routes
 import authRoutes from "./routes/authRoutes.js";

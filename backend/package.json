@@ -9,10 +9,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tsx --watch src/index.ts"
+    "start": "npx tsx --watch src/index.ts",
+    "build": "npx prisma generate --schema src/prisma/schema.prisma && npx tsc --build && rm -rf dist/generated && cp -r src/generated dist/generated",
+    "run": "node --env-file .env dist/index.js"
   },
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
+    "@types/cookie-parser": "^1.4.9",
     "@types/express": "^5.0.3",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^24.3.1"
@@ -20,6 +23,7 @@
   "dependencies": {
     "@prisma/client": "^6.15.0",
     "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
     "prisma": "^6.15.0"
