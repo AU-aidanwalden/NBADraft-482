@@ -1,0 +1,215 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="NBA Draft ER Diagram" id="er-diagram">
+    <mxGraphModel dx="3498" dy="1409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="users-table" value="Users" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="50" y="50" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="users-id" value="PK id: BIGINT UNSIGNED" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="users-table" vertex="1">
+          <mxGeometry y="26" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="users-username" value="UK username: VARCHAR(255)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="users-table" vertex="1">
+          <mxGeometry y="56" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="users-password" value="passwordHash: CHAR(60)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="users-table" vertex="1">
+          <mxGeometry y="84" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="users-timestamps" value="createdAt, updatedAt" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="users-table" vertex="1">
+          <mxGeometry y="112" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="sessions-table" value="Sessions" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="320" y="30" width="200" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sessions-id" value="PK id: BIGINT UNSIGNED" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="sessions-table" vertex="1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sessions-user" value="FK user_id: BIGINT UNSIGNED" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="sessions-table" vertex="1">
+          <mxGeometry y="52" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sessions-token" value="UK token_hash: CHAR(60)" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="sessions-table" vertex="1">
+          <mxGeometry y="78" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sessions-parent" value="FK parent_id: BIGINT UNSIGNED" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="sessions-table" vertex="1">
+          <mxGeometry y="104" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="sessions-timestamps" value="created_at, last_used_at, expires_at" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="sessions-table" vertex="1">
+          <mxGeometry y="130" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="draftclass-table" value="DraftClass" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="50" y="380" width="160" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="draftclass-year" value="PK year: INT" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="draftclass-table" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="draftclass-name" value="name: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="draftclass-table" vertex="1">
+          <mxGeometry y="54" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="mockdraft-table" value="MockDraft" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="270" y="250" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mockdraft-id" value="PK mockID: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="mockdraft-table" vertex="1">
+          <mxGeometry y="26" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="mockdraft-title" value="title: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="mockdraft-table" vertex="1">
+          <mxGeometry y="54" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="mockdraft-owner" value="FK owner: BIGINT UNSIGNED" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="mockdraft-table" vertex="1">
+          <mxGeometry y="82" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="draftpick-table" value="DraftPick" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="90" y="518" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="draftpick-pick" value="PK pickNumber: INT" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="draftpick-table" vertex="1">
+          <mxGeometry y="26" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="draftpick-round" value="round: INT" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="draftpick-table" vertex="1">
+          <mxGeometry y="54" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="draftpick-user" value="FK user_id: BIGINT UNSIGNED" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="draftpick-table" vertex="1">
+          <mxGeometry y="82" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="mockselection-table" value="MockSelection" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="320" y="400" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mockselection-order" value="PK order: INT" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="mockselection-table" vertex="1">
+          <mxGeometry y="26" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="mockselection-player" value="FK player: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="mockselection-table" vertex="1">
+          <mxGeometry y="54" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="mockselection-team" value="FK team: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="mockselection-table" vertex="1">
+          <mxGeometry y="82" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="player-table" value="Player" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="550" y="380" width="180" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="player-id" value="PK playerID: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="player-table" vertex="1">
+          <mxGeometry y="26" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="player-name" value="name: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="player-table" vertex="1">
+          <mxGeometry y="54" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="player-college" value="college: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="player-table" vertex="1">
+          <mxGeometry y="82" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="player-stats" value="stats: JSON, careerLength: INT" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="player-table" vertex="1">
+          <mxGeometry y="110" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="team-table" value="Team" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="550" y="560" width="180" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="team-id" value="PK teamID: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="team-table" vertex="1">
+          <mxGeometry y="26" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="team-name" value="name: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="team-table" vertex="1">
+          <mxGeometry y="54" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="team-city" value="FK city: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="team-table" vertex="1">
+          <mxGeometry y="82" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="city-table" value="City" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="780" y="560" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="city-name" value="PK name: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="city-table" vertex="1">
+          <mxGeometry y="26" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="city-country" value="country: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="city-table" vertex="1">
+          <mxGeometry y="54" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="city-state" value="state: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="city-table" vertex="1">
+          <mxGeometry y="82" width="160" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="comment-table" value="Comment" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="780" y="250" width="200" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="comment-id" value="PK commentID: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="comment-table" vertex="1">
+          <mxGeometry y="26" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="comment-author" value="FK author: BIGINT UNSIGNED" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="comment-table" vertex="1">
+          <mxGeometry y="54" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="comment-target" value="targetType, targetID: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="comment-table" vertex="1">
+          <mxGeometry y="82" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="comment-content" value="content: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="comment-table" vertex="1">
+          <mxGeometry y="110" width="200" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="vote-table" value="Vote" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="280" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vote-id" value="PK voteID: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="vote-table" vertex="1">
+          <mxGeometry y="26" width="180" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="vote-type" value="type: ENUM, targetID: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="vote-table" vertex="1">
+          <mxGeometry y="54" width="180" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-users-sessions" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="users-username" target="sessions-user" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-sessions-parent" value="" style="endArrow=ERzeroToMany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="sessions-parent" target="sessions-table" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="147" />
+              <mxPoint x="560" y="75" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-sessions-parent-label" value="parent" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="530" y="100" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-users-mockdraft" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="users-table" target="mockdraft-owner" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="346" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-users-draftpick" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="users-username" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint y="120" />
+              <mxPoint y="280" />
+              <mxPoint y="480" />
+            </Array>
+            <mxPoint x="-100" y="190" as="sourcePoint" />
+            <mxPoint x="90" y="614" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-users-comment" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="240" />
+              <mxPoint x="480" y="240" />
+              <mxPoint x="600" y="240" />
+              <mxPoint x="640" y="240" />
+              <mxPoint x="680" y="240" />
+              <mxPoint x="720" y="320" />
+            </Array>
+            <mxPoint x="250" y="150" as="sourcePoint" />
+            <mxPoint x="780" y="383" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rel-draftclass-pick" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="draftclass-table" target="draftpick-table" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-mockdraft-selection" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mockdraft-table" target="mockselection-table" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-selection-player" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mockselection-player" target="player-name" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-selection-team" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mockselection-table" target="team-table" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-team-city" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="team-city" target="city-name" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rel-comment-vote" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="comment-target" target="vote-type" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
