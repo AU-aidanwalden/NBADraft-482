@@ -8,17 +8,18 @@ import {
 import { Request, Response } from "express";
 import prisma from "../database.js";
 import { randomBytes } from "crypto";
+import RefreshToken from "../types/auth/RefreshToken.js";
 
 if (!jwtSecret || jwtSecret === "undefined") {
   throw new Error("JWT secret is not configured");
 }
 
-async function generateRefreshToken(userId: bigint) {
+async function generateRefreshToken(userId: bigint): Promise<RefreshToken> {
   const refreshToken = randomBytes(128).toString("hex");
 
   const hash = await bcrypt.hash(refreshToken, 10);
 
-  await prisma.sessions.create({
+  const session = await prisma.sessions.create({
     data: {
       userId,
       tokenHash: hash,
@@ -27,9 +28,10 @@ async function generateRefreshToken(userId: bigint) {
       createdAt: new Date(),
       lastUsedAt: new Date(),
     },
+    select: { id: true },
   });
 
-  return refreshToken;
+  return { refreshToken, sessionId: session.id as unknown as bigint };
 }
 
 export async function register(req: Request, res: Response) {
@@ -84,9 +86,12 @@ export async function login(req: Request, res: Response) {
 
   if (result) {
     // Grants the user a token if credentials are valid
+    const { refreshToken, sessionId } = await generateRefreshToken(user.id);
+
     const token = jwt.sign(
       {
         sub: String(user.id),
+        sid: String(sessionId),
       },
       jwtSecret!,
       {
@@ -94,8 +99,6 @@ export async function login(req: Request, res: Response) {
         issuer: "nbadraft482",
       }
     );
-
-    const refreshToken = await generateRefreshToken(user.id);
 
     res.cookie("refreshToken", refreshToken, {
       httpOnly: true,
@@ -119,7 +122,7 @@ export async function refresh(req: Request, res: Response) {
   }
 
   try {
-    // Find candidate sessions (no selector available, so filter by non-expired)
+    // Find candidate sessions
     const candidates = await prisma.sessions.findMany({
       where: { expiresAt: { gt: new Date() } },
       select: { id: true, userId: true, tokenHash: true, expiresAt: true },
@@ -158,7 +161,8 @@ export async function refresh(req: Request, res: Response) {
     }
 
     // Create new refresh token row and set cookie
-    const newRefresh = await generateRefreshToken(matched.userId);
+    const { refreshToken: newRefresh, sessionId: newSessionId } =
+      await generateRefreshToken(matched.userId);
 
     // Rotate: remove old session row
     await prisma.sessions.delete({ where: { id: matched.id } });
@@ -172,10 +176,14 @@ export async function refresh(req: Request, res: Response) {
     });
 
     // Issue new access token
-    const access = jwt.sign({ sub: String(matched.userId) }, jwtSecret!, {
-      expiresIn: jwtAccessExpiration,
-      issuer: "nbadraft482",
-    });
+    const access = jwt.sign(
+      { sub: String(matched.userId), sid: String(newSessionId) },
+      jwtSecret!,
+      {
+        expiresIn: jwtAccessExpiration,
+        issuer: "nbadraft482",
+      }
+    );
 
     return res.json({ token: access });
   } catch (err) {

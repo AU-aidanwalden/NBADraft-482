@@ -5,6 +5,7 @@ declare global {
         id: number;
         iat: number;
         exp: number;
+        sessionId: number;
       };
     }
   }
