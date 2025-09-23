@@ -157,11 +157,11 @@ export async function refresh(req: Request, res: Response) {
         .json({ message: "Invalid or expired refresh token" });
     }
 
-    // Rotate: remove old session row
-    await prisma.sessions.delete({ where: { id: matched.id } });
-
     // Create new refresh token row and set cookie
     const newRefresh = await generateRefreshToken(matched.userId);
+
+    // Rotate: remove old session row
+    await prisma.sessions.delete({ where: { id: matched.id } });
 
     res.cookie("refreshToken", newRefresh, {
       httpOnly: true,
