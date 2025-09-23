@@ -3,15 +3,38 @@ generator client {
     output   = "../generated/client"
 }
 
-datasource sql {
+datasource db {
     provider = "mysql"
     url      = env("DATABASE_URL")
 }
 
-model User {
-    id           Int      @id @default(autoincrement())
-    username     String   @unique @sql.VarChar(32)
-    passwordHash String   @sql.VarChar(255)
-    createdAt    DateTime @default(now())
-    updatedAt    DateTime @updatedAt
+model Users {
+    id           BigInt   @id @default(autoincrement()) @db.UnsignedBigInt
+    username     String   @unique @db.VarChar(255)
+    passwordHash String   @db.Char(60)
+    createdAt    DateTime @default(now()) @db.DateTime(6)
+    updatedAt    DateTime @updatedAt @db.DateTime(6)
+
+    Sessions Sessions[]
+
+    @@map("Users")
+}
+
+model Sessions {
+    id         BigInt    @id @default(autoincrement()) @db.UnsignedBigInt
+    userId     BigInt    @map("user_id") @db.UnsignedBigInt
+    tokenHash  String    @unique @map("token_hash") @db.Char(60)
+    createdAt  DateTime  @default(now()) @map("created_at") @db.DateTime(6)
+    lastUsedAt DateTime? @map("last_used_at") @db.DateTime(6)
+    expiresAt  DateTime  @map("expires_at") @db.DateTime(6)
+    parentId   BigInt?   @map("parent_id") @db.UnsignedBigInt
+
+    user     Users      @relation(fields: [userId], references: [id], onDelete: Cascade)
+    parent   Sessions?  @relation("SessionParent", fields: [parentId], references: [id])
+    children Sessions[] @relation("SessionParent")
+
+    @@index([userId], map: "idx_sessions_user_id")
+    @@index([expiresAt], map: "idx_sessions_expires_at")
+    @@index([parentId], map: "idx_sessions_parent_id")
+    @@map("Sessions")
 }
