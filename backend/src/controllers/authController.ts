@@ -100,13 +100,22 @@ export async function login(req: Request, res: Response) {
       }
     );
 
-    res.cookie("refreshToken", refreshToken, {
+    console.log("NODE_ENV:", process.env.NODE_ENV);
+
+    const sameSite =
+      process.env.NODE_ENV === "production"
+        ? "strict"
+        : ("lax" as "strict" | "lax");
+
+    const cookieOptions = {
       httpOnly: true,
-      secure: true,
-      sameSite: "strict",
+      secure: process.env.NODE_ENV === "production",
+      sameSite: sameSite,
       path: "/api/auth/refresh",
       maxAge: refreshExpiration,
-    });
+    };
+
+    res.cookie("refreshToken", refreshToken, cookieOptions);
 
     res.json({ token: token });
   } else {
@@ -168,9 +177,11 @@ export async function refresh(req: Request, res: Response) {
     await prisma.sessions.delete({ where: { id: matched.id } });
 
     res.cookie("refreshToken", newRefresh, {
-      httpOnly: true,
-      secure: true,
-      sameSite: "strict",
+      httpOnly: process.env.NODE_ENV === "production",
+      secure: process.env.NODE_ENV === "production",
+      sameSite: (process.env.NODE_ENV === "production" ? "strict" : "lax") as
+        | "strict"
+        | "lax",
       path: "/api/auth/refresh",
       maxAge: refreshExpiration,
     });

@@ -12,18 +12,23 @@
     <button class="btn blue" onClick="window.location.href = 'homepage.html'">Catch&Shoot</button>
   </header>
   
+  <form id="login-form">
     <div class="username-func">
-		<input type="text" placeholder="Username" class="username-bar"/>
+      <input type="text" name="username" placeholder="Username" class="username-bar" required/>
     </div>	
     <div class="password-func">
-		<input type="text" placeholder="Password" class="password-bar"/>
+      <input type="password" name="password" placeholder="Password" class="password-bar" required/>
     </div>	
     <header class="login button">
-		<button class="btn green">Login</button>
-	</div>	
+      <button type="submit" class="btn green">Login</button>
+    </header>	
+  </form>
+  
 	<p>
 		Need an account? Register <strong><u><a href ="registerpage.html"> here.</a></u></strong>
 	</p>
+	
+	<script src="js/login.js"></script>
 </body>  
 </html>
 

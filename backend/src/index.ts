@@ -3,9 +3,15 @@ import cookieParser from "cookie-parser";
 import prisma from "./database.js";
 import helmet from "helmet";
 import cors from "cors";
+import path from "path";
+import { fileURLToPath } from "url";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Needed because we are using modules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // https://helmetjs.github.io/#reference
 app.use(
@@ -31,6 +37,20 @@ app.use(
   })
 );
 
+app.use(
+  express.static(path.join(__dirname, "..", "..", "frontend"), {
+    maxAge: "1d",
+    etag: true,
+    setHeaders: (res, path) => {
+      if (path.endsWith(".html")) {
+        res.setHeader("Cache-Control", "no-cache");
+      } else {
+        res.setHeader("Cache-Control", "public, max-age=31536000, immutable");
+      }
+    },
+  })
+);
+
 app.use(express.json());
 app.use(cookieParser());
 
@@ -39,10 +59,6 @@ import authRoutes from "./routes/authRoutes.js";
 const api = express.Router();
 api.use("/auth", authRoutes);
 app.use("/api", api);
-
-app.get("/", (req: Request, res: Response) => {
-  res.send("hello world");
-});
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
