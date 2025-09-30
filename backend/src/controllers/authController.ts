@@ -9,6 +9,16 @@ import { Request, Response } from "express";
 import prisma from "../database.js";
 import { randomBytes } from "crypto";
 import RefreshToken from "../types/auth/RefreshToken.js";
+import {
+  fetchUserById,
+  fetchUserByUsername,
+  createUser,
+} from "../db/queries/users.queries.js";
+import {
+  createSession,
+  deleteSession,
+  fetchSessionsByUserId,
+} from "../db/queries/sessions.queries.js";
 
 if (!jwtSecret || jwtSecret === "undefined") {
   throw new Error("JWT secret is not configured");
@@ -19,17 +29,11 @@ async function generateRefreshToken(userId: bigint): Promise<RefreshToken> {
 
   const hash = await bcrypt.hash(refreshToken, 10);
 
-  const session = await prisma.sessions.create({
-    data: {
-      userId,
-      tokenHash: hash,
-      expiresAt: new Date(Date.now() + refreshExpiration),
-      parentId: null,
-      createdAt: new Date(),
-      lastUsedAt: new Date(),
-    },
-    select: { id: true },
-  });
+  const session = await createSession(
+    userId,
+    hash,
+    new Date(Date.now() + refreshExpiration)
+  );
 
   return { refreshToken, sessionId: session.id as unknown as bigint };
 }
@@ -38,9 +42,7 @@ export async function register(req: Request, res: Response) {
   const { username, password } = req.body;
 
   // Check if user already exists
-  const existingUser = await prisma.users.findUnique({
-    where: { username },
-  });
+  const existingUser = await fetchUserByUsername(username);
 
   if (existingUser) {
     return res.status(400).json({ message: "Username already taken" });
@@ -54,12 +56,7 @@ export async function register(req: Request, res: Response) {
 
   // Create new user in the database
 
-  await prisma.users.create({
-    data: {
-      username,
-      passwordHash: hash,
-    },
-  });
+  await createUser(username, hash);
 
   res.status(201).json({ message: "User registered successfully" });
 }
@@ -70,10 +67,7 @@ export async function login(req: Request, res: Response) {
   // Bcrypt password comparison implemented according to
   // https://www.bcrypt.io/languages/javascript
 
-  const user = await prisma.users.findUnique({
-    where: { username },
-    select: { id: true, passwordHash: true },
-  });
+  const user = await fetchUserByUsername(username);
 
   if (!user) {
     return res.status(401).json({ message: "Invalid credentials" });
@@ -130,12 +124,13 @@ export async function refresh(req: Request, res: Response) {
     return res.status(401).json({ message: "No refresh token provided" });
   }
 
+  if (!req.user) {
+    return res.status(401).json({ message: "No user found" });
+  }
+
   try {
     // Find candidate sessions
-    const candidates = await prisma.sessions.findMany({
-      where: { expiresAt: { gt: new Date() } },
-      select: { id: true, userId: true, tokenHash: true, expiresAt: true },
-    });
+    const candidates = await fetchSessionsByUserId(req.user.id);
 
     let matched: { id: bigint; userId: bigint; expiresAt: Date } | null = null;
 
@@ -162,7 +157,7 @@ export async function refresh(req: Request, res: Response) {
     }
 
     if (matched.expiresAt.getTime() <= Date.now()) {
-      await prisma.sessions.delete({ where: { id: matched.id } });
+      await deleteSession(matched.id);
       res.clearCookie("refreshToken", { path: "/api/auth/refresh" });
       return res
         .status(401)
@@ -174,7 +169,7 @@ export async function refresh(req: Request, res: Response) {
       await generateRefreshToken(matched.userId);
 
     // Rotate: remove old session row
-    await prisma.sessions.delete({ where: { id: matched.id } });
+    await deleteSession(matched.id);
 
     res.cookie("refreshToken", newRefresh, {
       httpOnly: process.env.NODE_ENV === "production",
@@ -211,10 +206,7 @@ export async function whoami(req: Request, res: Response) {
   }
 
   try {
-    const userData = await prisma.users.findUnique({
-      where: { id: user.id },
-      select: { id: true, username: true },
-    });
+    const userData = await fetchUserById(user.id);
 
     if (!userData) {
       return res.status(404).json({ message: "User not found" });
