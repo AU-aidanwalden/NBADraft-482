@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
   <diagram name="NBA Draft ER Diagram" id="er-diagram">
-    <mxGraphModel dx="3498" dy="1409" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+    <mxGraphModel dx="1122" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -83,7 +83,7 @@
           <mxGeometry y="82" width="180" height="28" as="geometry" />
         </mxCell>
         <mxCell id="player-table" value="Player" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="550" y="380" width="180" height="138" as="geometry" />
+          <mxGeometry x="320" y="670" width="180" height="138" as="geometry" />
         </mxCell>
         <mxCell id="player-id" value="PK playerID: VARCHAR" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" parent="player-table" vertex="1">
           <mxGeometry y="26" width="180" height="28" as="geometry" />
@@ -166,12 +166,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="rel-users-draftpick" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="users-username" edge="1">
+        <mxCell id="rel-users-draftpick" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mockdraft-table" edge="1" target="draftclass-year">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint y="120" />
-              <mxPoint y="280" />
-              <mxPoint y="480" />
+              <mxPoint x="270" y="380" />
+              <mxPoint x="260" y="400" />
             </Array>
             <mxPoint x="-100" y="190" as="sourcePoint" />
             <mxPoint x="90" y="614" as="targetPoint" />
@@ -197,17 +196,32 @@
         <mxCell id="rel-mockdraft-selection" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mockdraft-table" target="mockselection-table" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rel-selection-player" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="mockselection-player" target="player-name" edge="1">
+        <mxCell id="rel-selection-player" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=0.459;exitY=0.99;exitDx=0;exitDy=0;entryX=0.459;entryY=0.024;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" parent="1" source="mockselection-team" target="player-table" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rel-selection-team" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mockselection-table" target="team-table" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rel-team-city" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="team-city" target="city-name" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="rel-comment-vote" value="" style="endArrow=ERoneToMany;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="comment-target" target="vote-type" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cnssI8uFv_oNywonU4cv-1" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=0.01;exitY=0.821;exitDx=0;exitDy=0;entryX=1.024;entryY=0.724;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="city-country" target="team-name">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="756" as="sourcePoint" />
+            <mxPoint x="760" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnssI8uFv_oNywonU4cv-2" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=0.999;exitY=0.276;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="draftpick-round" target="player-table">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="657.5" as="sourcePoint" />
+            <mxPoint x="290" y="820.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cnssI8uFv_oNywonU4cv-3" value="" style="endArrow=ERmany;html=1;rounded=0;exitX=0.337;exitY=1.055;exitDx=0;exitDy=0;entryX=1.004;entryY=-0.114;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="team-city" target="player-college">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="690" as="sourcePoint" />
+            <mxPoint x="550" y="853" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
