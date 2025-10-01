@@ -6,7 +6,6 @@ import {
   jwtSecret,
 } from "../config/config.js";
 import { Request, Response } from "express";
-import prisma from "../database.js";
 import { randomBytes } from "crypto";
 import RefreshToken from "../types/auth/RefreshToken.js";
 import {
@@ -35,7 +34,7 @@ async function generateRefreshToken(userId: bigint): Promise<RefreshToken> {
     new Date(Date.now() + refreshExpiration)
   );
 
-  return { refreshToken, sessionId: session.id as unknown as bigint };
+  return { refreshToken, sessionId: session.id };
 }
 
 export async function register(req: Request, res: Response) {
@@ -135,14 +134,11 @@ export async function refresh(req: Request, res: Response) {
     let matched: { id: bigint; userId: bigint; expiresAt: Date } | null = null;
 
     for (const s of candidates) {
-      const ok = await bcrypt.compare(
-        refreshToken,
-        s.tokenHash as unknown as string
-      );
+      const ok = await bcrypt.compare(refreshToken, s.tokenHash);
       if (ok) {
         matched = {
-          id: s.id as unknown as bigint,
-          userId: s.userId as unknown as bigint,
+          id: s.id,
+          userId: s.userId,
           expiresAt: s.expiresAt,
         };
         break;

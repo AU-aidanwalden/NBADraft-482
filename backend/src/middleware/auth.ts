@@ -1,7 +1,7 @@
 import { Request, Response, NextFunction } from "express";
 import jwt from "jsonwebtoken";
 import { jwtSecret } from "../config/config.js";
-import prisma from "../database.js";
+import db from "../database.js";
 
 if (!jwtSecret || jwtSecret === "undefined") {
   throw new Error("JWT secret is not configured");
@@ -35,9 +35,13 @@ export async function authMiddleware(
     const sessionId = BigInt(sessionIdStr);
 
     // Verify session exists and not expired
-    const session = await prisma.sessions.findUnique({
-      where: { id: sessionId },
-      select: { id: true, userId: true, expiresAt: true },
+    const session = await db.query.sessions.findFirst({
+      where: (sessionsTable, { eq }) => eq(sessionsTable.id, sessionId),
+      columns: {
+        id: true,
+        userId: true,
+        expiresAt: true,
+      },
     });
 
     if (
