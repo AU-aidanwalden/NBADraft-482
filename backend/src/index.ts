@@ -1,6 +1,6 @@
 import express, { Request, Response } from "express";
 import cookieParser from "cookie-parser";
-import prisma from "./database.js";
+import { pool } from "./database.js";
 import helmet from "helmet";
 import cors from "cors";
 import path from "path";
@@ -66,6 +66,9 @@ app.listen(PORT, () => {
 
 // Shut down database connection on exit
 process.on("SIGINT", async () => {
-  await prisma.$disconnect();
-  process.exit(0);
+  try {
+    await pool.end();
+  } finally {
+    process.exit(0);
+  }
 });
