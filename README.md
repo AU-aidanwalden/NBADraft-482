@@ -34,4 +34,4 @@ npm run lint
 
 ## Styling
 
-We are using Tailwind CSS with [DaisyUI](https://daisyui.com/docs/intro/)and [Heroicons](https://heroicons.com/). DaisyUI components and Heroicons will be used across all pages for consisency. Global styles live in `src/app/globals.css`, and additional shared UI pieces live in `src/components/`.
+We are using Tailwind CSS with [DaisyUI](https://daisyui.com/docs/intro/) and [Heroicons](https://heroicons.com/). DaisyUI components and Heroicons will be used across all pages for consisency. Global styles live in `src/app/globals.css`, and additional shared UI pieces live in `src/components/`.
