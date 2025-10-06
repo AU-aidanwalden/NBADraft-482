@@ -49,7 +49,7 @@ export default function RegisterPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-5">
-      <Header session={session ?? null} />
+      <Header session={session?.session ?? null} />
 
       <form onSubmit={handleSubmit}>
         <div className="flex justify-center mb-5">

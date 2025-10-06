@@ -7,7 +7,7 @@ export default async function Home() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-5">
-      <Header session={session} />
+      <Header session={session?.session ?? null} />
       <div className="flex justify-center mb-5">
         <input
           type="text"

@@ -12,7 +12,7 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
 
   return (
     <div className="min-h-screen bg-gray-100 p-5">
-      <Header session={session} />
+      <Header session={session?.session ?? null} />
       <main className="bg-white p-5 rounded-xl shadow-md max-w-4xl mx-auto">
         <h2 className={styles.title}>{year} NBA Draft</h2>
         <div className={styles["player-list"]}>
