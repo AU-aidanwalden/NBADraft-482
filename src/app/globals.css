@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Custom button styles matching original Catch&Shoot design */
+  .btn-blue {
+    @apply px-4 py-2 bg-blue-600 text-white rounded-md cursor-pointer text-sm border-none hover:bg-blue-700;
+  }
+
+  .btn-green {
+    @apply px-4 py-2 bg-green-600 text-white rounded-md cursor-pointer text-sm border-none hover:bg-green-700;
+  }
+
+  .btn-gray {
+    @apply px-4 py-2 bg-gray-200 text-gray-900 rounded-md cursor-pointer text-sm border-none hover:bg-gray-300;
+  }
+}

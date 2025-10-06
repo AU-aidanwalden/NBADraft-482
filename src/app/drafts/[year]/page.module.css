@@ -1,0 +1,116 @@
+/* Base styles */
+  
+  .btn {
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .btn.blue {
+    background: #2563eb;
+    color: white;
+  }
+  
+  .btn.blue:hover {
+    background: #1d4ed8;
+  }
+  
+  .btn.green {
+    background: #16a34a;
+    color: white;
+  }
+  
+  .btn.green:hover {
+    background: #15803d;
+  }
+  
+  .btn.gray {
+    background: #e5e7eb;
+    color: #111827;
+  }
+  
+  .btn.gray:hover {
+    background: #d1d5db;
+  }
+  
+  /* Main content card */
+  .card {
+    background: white;
+    padding: 24px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  /* Title */
+  .title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Player list container */
+  .player-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  /* Individual player row */
+  .player-rows {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9fafb;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    transition: background 0.2s;
+  }
+  
+  .player-rows:hover {
+    background: #f1f5f9;
+  }
+  
+  /* Text styles */
+  .draft-pick {
+    font-weight: bold;
+    color: #2563eb;
+    min-width: 40px;
+  }
+  
+  .player-name {
+    flex: 1;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    color: #111827;
+  }
+  
+  .team-name {
+    font-style: italic;
+    color: #6b7280;
+    min-width: 150px;
+    text-align: right;
+  }
+  
+  /* Responsive behavior */
+  @media (max-width: 600px) {
+    .player-rows {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4px;
+    }
+  
+    .player-name,
+    .team-name {
+      text-align: left;
+      min-width: unset;
+    }
+  }
+  

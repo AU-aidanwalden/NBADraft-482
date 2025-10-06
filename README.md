@@ -1,24 +1,37 @@
 # Catch&Shoot (NBADraft-482)
 
-## Running
+## Development
 
-To run the site, ensure that:
+### Install dependencies (one-time setup):
 
-- Node.js is installed
-- A MySQL database using the schema file in `backend/nbadraft_schema.sql` is running and accessible
+```bash
+npm install
+```
 
-Then, open a terminal and navigate to the `backend` directory.
-Run `npm i` to install dependencies
+Create`.env.local` and provide values for:
 
-Then, create a `.env` file with the following variables defined:
+- `DATABASE_URL` – MySQL connection string shared with Drizzle ORM.
+- `BETTER_AUTH_SECRET` – signing secret for Better Auth once it is configured.
 
-- `JWT_SECRET` the secret key used for signing JWT tokens
-- `DATABASE_URL` the url (beginning with mysql://) for accessing the MySQL database
-- `NODE_ENV` one of `production` or `development`
+### Run the dev server at `http://localhost:3000`:
 
-Once this is all set up, run:
+```bash
+npm run dev
+```
 
-- `npm run build`
-- `npm run run`
+### Create a production build and serve it:
 
-And you will be running the backend. The frontend should be accessible at the URL the server is running on.
+```bash
+npm run build
+npm start
+```
+
+### Lint the codebase:
+
+```bash
+npm run lint
+```
+
+## Styling
+
+We are using Tailwind CSS with (https://daisyui.com/docs/intro/)[DaisyUI] and (https://heroicons.com/)[Heroicons]. DaisyUI components and Heroicons will be used across all pages for consisency. Global styles live in `src/app/globals.css`, and additional shared UI pieces live in `src/components/`.

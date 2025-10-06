@@ -1,6 +1,9 @@
 .DS_Store
-backend/dist
-backend/node_modules
-backend/.env
-backend/src/generated
-backend/tsconfig.tsbuildinfo
+node_modules
+dist
+.env
+.vscode
+.idea
+.claude
+.next
+*.log
