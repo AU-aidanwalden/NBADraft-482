@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
 import type { Session } from "better-auth/types";
@@ -8,10 +9,27 @@ interface AccountButtonProps {
   initialSession: Session | null;
 }
 
+interface ModalState {
+  success: boolean;
+  message: string;
+}
+
 export default function AccountButton({ initialSession }: AccountButtonProps) {
   const { data: session } = useSession();
   const currentSession = session ?? initialSession;
   const router = useRouter();
+  const [modalState, setModalState] = useState<ModalState | null>(null);
+
+  useEffect(() => {
+    if (modalState) {
+      const modalElement = document.getElementById(
+        "account-status-modal"
+      ) as HTMLDialogElement;
+      if (modalElement) {
+        modalElement.showModal();
+      }
+    }
+  }, [modalState]);
 
   let statusText = "";
   const buttonClassName = "btn btn-success btn-md";
@@ -59,17 +77,42 @@ export default function AccountButton({ initialSession }: AccountButtonProps) {
 
   async function handleClick(_e: React.MouseEvent) {
     if (currentSession) {
-      await signOut();
-      router.push("/");
+      const result = await signOut();
+      if (!result.error) {
+        setModalState({ success: true, message: "Logged out successfully." });
+        router.refresh();
+      } else {
+        setModalState({
+          success: false,
+          message: result.error.message || "Error logging out.",
+        });
+      }
     } else {
       router.push("/login");
     }
   }
 
   return (
-    <button className={buttonClassName} onClick={handleClick}>
-      {icon}
-      {statusText}
-    </button>
+    <>
+      {modalState && (
+        <dialog id="account-status-modal" className="modal">
+          <div className="modal-box">
+            <h3 className="font-bold text-lg">
+              {modalState.success ? "Success" : "Error"}
+            </h3>
+            <p className="py-4">{modalState.message}</p>
+            <div className="modal-action">
+              <form method="dialog">
+                <button className="btn btn-neutral">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+      )}
+      <button className={buttonClassName} onClick={handleClick}>
+        {icon}
+        {statusText}
+      </button>
+    </>
   );
 }
