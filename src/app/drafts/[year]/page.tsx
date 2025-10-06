@@ -1,16 +1,18 @@
 import Header from "@/components/ui/Header";
 import styles from "./page.module.css";
+import { getServerSession } from "@/app/actions";
 
 interface DraftsPageProps {
-  params: { year: string };
+  params: Promise<{ year: string }>;
 }
 
-export default function DraftsPage({ params }: DraftsPageProps) {
-  const { year } = params;
+export default async function DraftsPage({ params }: DraftsPageProps) {
+  const { year } = await params;
+  const session = await getServerSession();
 
   return (
     <div className="min-h-screen bg-gray-100 p-5">
-      <Header />
+      <Header session={session} />
       <main className="bg-white p-5 rounded-xl shadow-md max-w-4xl mx-auto">
         <h2 className={styles.title}>{year} NBA Draft</h2>
         <div className={styles["player-list"]}>

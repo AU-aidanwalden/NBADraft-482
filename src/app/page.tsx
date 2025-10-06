@@ -1,10 +1,13 @@
 import Link from "next/link";
 import Header from "@/components/ui/Header";
+import { getServerSession } from "./actions";
 
-export default function Home() {
+export default async function Home() {
+  const session = await getServerSession();
+
   return (
     <div className="min-h-screen bg-gray-100 p-5">
-      <Header />
+      <Header session={session} />
       <div className="flex justify-center mb-5">
         <input
           type="text"

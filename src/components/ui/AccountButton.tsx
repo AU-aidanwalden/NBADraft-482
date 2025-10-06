@@ -2,22 +2,22 @@
 
 import { useRouter } from "next/navigation";
 import { useSession, signOut } from "@/lib/auth-client";
-import clsx from "clsx";
+import type { Session } from "better-auth/types";
 
-export default function AccountButton() {
-  const { data: session, isPending } = useSession();
+interface AccountButtonProps {
+  initialSession: Session | null;
+}
+
+export default function AccountButton({ initialSession }: AccountButtonProps) {
+  const { data: session } = useSession();
+  const currentSession = session ?? initialSession;
   const router = useRouter();
 
   let statusText = "";
-  const buttonClassName = clsx("btn btn-success btn-md", {
-    "btn-disabled": isPending,
-  });
+  const buttonClassName = "btn btn-success btn-md";
 
   let icon: React.ReactNode;
-  if (isPending) {
-    statusText = "Loading...";
-    icon = <span className="loading loading-spinner size-5" />;
-  } else if (session) {
+  if (currentSession) {
     statusText = "Logout";
     icon = (
       <svg
@@ -58,7 +58,7 @@ export default function AccountButton() {
   }
 
   async function handleClick(_e: React.MouseEvent) {
-    if (session) {
+    if (currentSession) {
       await signOut();
       router.push("/");
     } else {

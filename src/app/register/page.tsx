@@ -4,10 +4,12 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 import Header from "@/components/ui/Header";
+import { useSession } from "@/lib/auth-client";
 import clsx from "clsx";
 
 export default function RegisterPage() {
   const router = useRouter();
+  const { data: session } = useSession();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
@@ -47,7 +49,7 @@ export default function RegisterPage() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-5">
-      <Header />
+      <Header session={session ?? null} />
 
       <form onSubmit={handleSubmit}>
         <div className="flex justify-center mb-5">
