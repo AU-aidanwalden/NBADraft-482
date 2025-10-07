@@ -48,7 +48,7 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-100 p-5">
+    <div className="min-h-screen p-5">
       <Header session={session?.session ?? null} />
 
       <form onSubmit={handleSubmit}>
@@ -57,7 +57,7 @@ export default function RegisterPage() {
             type="text"
             name="username"
             placeholder="Username"
-            className="w-[10%] min-w-[200px] px-3 py-2 border border-gray-300 rounded-md"
+            className="input w-[10%] min-w-[200px] px-3 py-2 border rounded-md"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
@@ -69,7 +69,7 @@ export default function RegisterPage() {
             type="password"
             name="password"
             placeholder="Password"
-            className="w-[10%] min-w-[200px] px-3 py-2 border border-gray-300 rounded-md"
+            className="input w-[10%] min-w-[200px] px-3 py-2 border rounded-md"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
