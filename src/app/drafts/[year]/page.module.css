@@ -7,7 +7,7 @@
     max-width: 700px;
     margin: 0 auto;
   }
-  
+
   /* Title */
   .title {
     text-align: center;
@@ -15,14 +15,14 @@
     font-weight: bold;
     margin-bottom: 20px;
   }
-  
+
   /* Player list container */
   .player-list {
     display: flex;
     flex-direction: column;
     gap: 16px;
   }
-  
+
   /* Individual player row */
   .player-rows {
     display: flex;
@@ -34,18 +34,18 @@
     border: 1px solid #e5e7eb;
     transition: background-color 0.2s;
   }
-  
+
   .player-rows:hover {
     background-color: var(--color-accent);
   }
-  
+
   /* Text styles */
   .draft-pick {
     font-weight: bold;
     color: #2563eb;
     min-width: 40px;
   }
-  
+
   .player-name {
     flex: 1;
     text-align: center;
@@ -55,17 +55,17 @@
     transition: color 0.2s;
   }
 
-  .player-name:hover {
+  .player-rows:hover .player-name {
     color: var(--color-accent-content);
   }
-  
+
   .team-name {
     font-style: italic;
     color: #6b7280;
     min-width: 150px;
     text-align: right;
   }
-  
+
   /* Responsive behavior */
   @media (max-width: 600px) {
     .player-rows {
@@ -73,11 +73,10 @@
       align-items: flex-start;
       gap: 4px;
     }
-  
+
     .player-name,
     .team-name {
       text-align: left;
       min-width: unset;
     }
   }
-  
