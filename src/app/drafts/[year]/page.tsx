@@ -23,44 +23,43 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
       acc[round].push(selection);
       return acc;
     },
-    {}
+    {},
   );
 
   const rounds = Object.entries(picksByRound).sort(
-    ([roundA], [roundB]) => Number(roundA) - Number(roundB)
+    ([roundA], [roundB]) => Number(roundA) - Number(roundB),
   );
 
   return (
-    <div className="min-h-screen p-5">
+    <div className={styles.page}>
       <Header session={session?.session ?? null} />
-      <main className="bg-base-300 p-5 rounded-xl shadow-md max-w-4xl mx-auto">
+      <main className={styles.card}>
         <h2 className={styles.title}>{year} NBA Draft</h2>
-        <div className={styles["player-list"]}>
+        <div className={styles.playerList}>
           {rounds.length === 0 ? (
-            <p className="text-center text-base-content/70">
+            <p className={styles.emptyState}>
               Draft data for {year} is not yet available.
             </p>
           ) : (
             rounds.map(([round, picks]) => {
               const headingClassName =
                 Number(round) > 1
-                  ? "text-xl font-semibold mt-6"
-                  : "text-xl font-semibold";
+                  ? `${styles.roundHeading} ${styles.roundHeadingSpacing}`
+                  : styles.roundHeading;
 
               return (
                 <Fragment key={round}>
                   <h3 className={headingClassName}>Round {round}</h3>
                   {picks.map((selection) => (
-                    <div key={selection.pick} className={styles["player-rows"]}>
-                      <span className={styles["draft-pick"]}>
-                        #{selection.pick}
-                      </span>
-                      <span className={styles["player-name"]}>
+                    <div
+                      key={selection.pick}
+                      className={styles.playerRow}
+                    >
+                      <span className={styles.draftPick}>#{selection.pick}</span>
+                      <span className={styles.playerName}>
                         {selection.player}
                       </span>
-                      <span className={styles["team-name"]}>
-                        {selection.team}
-                      </span>
+                      <span className={styles.teamName}>{selection.team}</span>
                     </div>
                   ))}
                 </Fragment>
