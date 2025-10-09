@@ -19,36 +19,22 @@ export default async function Home() {
       <main className="p-5 rounded-xl shadow-md max-w-4xl mx-auto">
         <h2 className="text-2xl text-center mb-4">Draft Classes</h2>
         <div className="flex flex-col gap-3">
-          <div className="flex justify-between items-center">
-            <span className="text-lg font-bold">2025</span>
-            <div className="flex gap-2.5">
-              <Link href="/drafts/2025">
-                <button className="btn btn-soft">View Class</button>
-              </Link>
-              <button className="btn btn-soft">View re-drafts</button>
-              <button className="btn btn-soft">Create Re-draft</button>
+            {["2025", "2024", "2023", "2022", "2021", "2020", "2019", "2018", "2017"].map((year) => (
+            <div
+              key={year}
+              className="flex flex-wrap justify-between items-center gap-2"
+            >
+              <span className="text-lg font-bold">{year}</span>
+              <div className="flex flex-wrap gap-2.5 justify-end">
+                <Link href={`/drafts/${year}`}>
+                  <button className="btn btn-soft">View Class</button>
+                </Link>
+                <button className="btn btn-soft">View re-drafts</button>
+                <button className="btn btn-soft">Create Re-draft</button>
+              </div>
             </div>
-          </div>
-          <div className="flex justify-between items-center">
-            <span className="text-lg font-bold">2024</span>
-            <div className="flex gap-2.5">
-              <Link href="/drafts/2024">
-                <button className="btn btn-soft">View Class</button>
-              </Link>
-              <button className="btn btn-soft">View re-drafts</button>
-              <button className="btn btn-soft">Create Re-draft</button>
-            </div>
-          </div>
-          <div className="flex justify-between items-center">
-            <span className="text-lg font-bold">2023</span>
-            <div className="flex gap-2.5">
-              <Link href="/drafts/2023">
-                <button className="btn btn-soft">View Class</button>
-              </Link>
-              <button className="btn btn-soft">View re-drafts</button>
-              <button className="btn btn-soft">Create Re-draft</button>
-            </div>
-          </div>
+          ))}
+
           <div>
             <span className="italic">etc.</span>
           </div>
