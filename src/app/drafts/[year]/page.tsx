@@ -20,7 +20,7 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
   const session = await getServerSession();
 
   //csv is fetched
-  const filePath = path.join(process.cwd(), "public", "data", `draft_${year}.csv`);
+  const filePath = path.join(process.cwd(), "src", "data", `draft_${year}.csv`);
   let csvText = "";
   try {
     csvText = fs.readFileSync(filePath, "utf8");
