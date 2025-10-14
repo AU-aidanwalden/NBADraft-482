@@ -17,7 +17,9 @@ const draftYears = [
   "2015",
   "2014",
   "2013",
-  "2012"
+  "2012",
+  "2011",
+  "2010"
 ];
 
 export default function DraftClasses() {
