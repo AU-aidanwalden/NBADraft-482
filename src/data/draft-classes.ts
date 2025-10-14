@@ -54,12 +54,12 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 10,
       "player": "Khaman Maluach",
-      "team": "Phoenix Suns"
+      "team": "Houston Rockets",
     },
     {
       "pick": 11,
       "player": "Cedric Coward",
-      "team": "Memphis Grizzlies"
+      "team": "Portland Trailblazers"
     },
     {
       "pick": 12,
@@ -69,7 +69,7 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 13,
       "player": "Derik Queen",
-      "team": "New Orleans Pelicans"
+      "team": "Atlanta Hawks"
     },
     {
       "pick": 14,
@@ -84,7 +84,7 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 16,
       "player": "Yang Hansen",
-      "team": "Portland Trail Blazers"
+      "team": "Memphis Grizzlies"
     },
     {
       "pick": 17,
@@ -94,7 +94,7 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 18,
       "player": "Walter Clayton Jr.",
-      "team": "Utah Jazz"
+      "team": "Washington Wizards"
     },
     {
       "pick": 19,
@@ -114,7 +114,7 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 22,
       "player": "Drake Powell",
-      "team": "Brooklyn Nets"
+      "team": "Atlanta Hawks"
     },
     {
       "pick": 23,
@@ -184,7 +184,7 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 36,
       "player": "Adou Thiero",
-      "team": "Brooklyn Nets (traded to Lakers)"
+      "team": "Brooklyn Nets"
     },
     {
       "pick": 37,
@@ -194,7 +194,7 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 38,
       "player": "Kam Jones",
-      "team": "San Antonio Spurs (traded to Pacers)"
+      "team": "San Antonio Spurs"
     },
     {
       "pick": 39,
@@ -204,12 +204,12 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 40,
       "player": "Micah Peavy",
-      "team": "Washington Wizards (traded to Pelicans)"
+      "team": "Washington Wizards"
     },
     {
       "pick": 41,
       "player": "Koby Brea",
-      "team": "Golden State Warriors (traded to Suns)"
+      "team": "Golden State Warriors"
     },
     {
       "pick": 42,
@@ -229,12 +229,12 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 45,
       "player": "Rocco Zikarsky",
-      "team": "Chicago Bulls (traded to Wolves)"
+      "team": "Chicago Bulls"
     },
     {
       "pick": 46,
       "player": "Amari Williams",
-      "team": "Orlando Magic (traded to Celtics)"
+      "team": "Orlando Magic"
     },
     {
       "pick": 47,
@@ -254,17 +254,17 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 50,
       "player": "Kobe Sanders",
-      "team": "New York Knicks (traded to Clippers)"
+      "team": "New York Knicks"
     },
     {
       "pick": 51,
       "player": "Mohamed Diawara",
-      "team": "Los Angeles Clippers (traded to Knicks)"
+      "team": "Los Angeles Clippers"
     },
     {
       "pick": 52,
       "player": "Alex Toohey",
-      "team": "Phoenix Suns (traded to Warriors)"
+      "team": "Phoenix Suns"
     },
     {
       "pick": 53,
@@ -279,17 +279,17 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 55,
       "player": "Lachlan Olbrich",
-      "team": "Los Angeles Lakers (traded to Bulls)"
+      "team": "Los Angeles Lakers"
     },
     {
       "pick": 56,
       "player": "Will Richard",
-      "team": "Memphis Grizzlies (traded to Warriors)"
+      "team": "Memphis Grizzlies"
     },
     {
       "pick": 57,
       "player": "Max Shulga",
-      "team": "Magic (traded to Celtics)"
+      "team": "Orlando Magic"
     },
     {
       "pick": 58,
@@ -299,7 +299,12 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
     {
       "pick": 59,
       "player": "Jahmai Mashack",
-      "team": "Houston Rockets (traded to Grizzlies)"
+      "team": "Houston Rockets"
+    },
+    {
+      "pick": 60,
+      "player": "Forfeited",
+      "team": "New York Knicks"
     }
   ],
   "2024": [
@@ -341,7 +346,7 @@ export const DRAFT_CLASSES: Record<string, DraftPick[]> = {
   {
     "pick": 8,
     "player": "Rob Dillingham",
-    "team": "Minnesota Timberwolves"
+    "team": "San Antonio Spurs"
   },
   {
     "pick": 9,
