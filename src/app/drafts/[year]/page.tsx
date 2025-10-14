@@ -2,6 +2,8 @@ import { Fragment } from "react";
 import { getServerSession } from "@/app/actions";
 import Header from "@/components/ui/Header";
 import styles from "./page.module.css";
+import fs from "fs";
+import path from "path";
 
 interface DraftPick {
   pick: number;
@@ -18,8 +20,13 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
   const session = await getServerSession();
 
   //csv is fetched
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL ?? ""}/data/draft_${year}.csv`);
-  const csvText = await res.text();
+  const filePath = path.join(process.cwd(), "public", "data", `draft_${year}.csv`);
+  let csvText = "";
+  try {
+    csvText = fs.readFileSync(filePath, "utf8");
+  } catch (err) {
+    console.error(`Failed to read CSV for year ${year}:`, err);
+  }
 
   //csv is parsed, each pick, player, and team is retrieved
   const lines = csvText.trim().split("\n");
