@@ -2,11 +2,11 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { useSession, signOut } from "@/lib/auth-client";
-import type { Session } from "better-auth/types";
+import { signOut } from "@/lib/auth-client";
+import type { ServerSession } from "@/app/actions";
 
 interface AccountButtonProps {
-  initialSession: Session | null;
+  currentSession: ServerSession | null;
 }
 
 interface ModalState {
@@ -14,9 +14,7 @@ interface ModalState {
   message: string;
 }
 
-export default function AccountButton({ initialSession }: AccountButtonProps) {
-  const { data: session } = useSession();
-  const currentSession = session ?? initialSession;
+export default function AccountButton({ currentSession }: AccountButtonProps) {
   const router = useRouter();
   const [modalState, setModalState] = useState<ModalState | null>(null);
 

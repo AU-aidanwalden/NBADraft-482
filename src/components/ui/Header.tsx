@@ -1,18 +1,16 @@
 import Link from "next/link";
 import AccountButton from "./AccountButton";
-import type { Session } from "better-auth/types";
+import { getServerSession } from "@/app/actions";
 
-interface HeaderProps {
-  session: Session | null;
-}
+export default async function Header() {
+  const session = await getServerSession();
 
-export default function Header({ session }: HeaderProps) {
   return (
     <header className="flex justify-between mb-5">
       <Link href="/">
         <button className="btn btn-md btn-primary">Catch&Shoot</button>
       </Link>
-      <AccountButton initialSession={session} />
+      <AccountButton currentSession={session} />
     </header>
   );
 }
