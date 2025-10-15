@@ -1,0 +1,10564 @@
+{
+  "1990": [
+    {
+      "pick": 1,
+      "player": "Derrick Coleman",
+      "team": "NJN"
+    },
+    {
+      "pick": 2,
+      "player": "Gary Payton",
+      "team": "SEA"
+    },
+    {
+      "pick": 3,
+      "player": "Mahmoud Abdul-Rauf",
+      "team": "DEN"
+    },
+    {
+      "pick": 4,
+      "player": "Dennis Scott",
+      "team": "ORL"
+    },
+    {
+      "pick": 5,
+      "player": "Kendall Gill",
+      "team": "CHH"
+    },
+    {
+      "pick": 6,
+      "player": "Felton Spencer",
+      "team": "MIN"
+    },
+    {
+      "pick": 7,
+      "player": "Lionel Simmons",
+      "team": "SAC"
+    },
+    {
+      "pick": 8,
+      "player": "Bo Kimble",
+      "team": "LAC"
+    },
+    {
+      "pick": 9,
+      "player": "Willie Burton",
+      "team": "MIA"
+    },
+    {
+      "pick": 10,
+      "player": "Rumeal Robinson",
+      "team": "ATL"
+    },
+    {
+      "pick": 11,
+      "player": "Tyrone Hill",
+      "team": "GSW"
+    },
+    {
+      "pick": 12,
+      "player": "Alec Kessler",
+      "team": "HOU"
+    },
+    {
+      "pick": 13,
+      "player": "Loy Vaught",
+      "team": "LAC"
+    },
+    {
+      "pick": 14,
+      "player": "Travis Mays",
+      "team": "SAC"
+    },
+    {
+      "pick": 15,
+      "player": "Dave Jamerson",
+      "team": "MIA"
+    },
+    {
+      "pick": 16,
+      "player": "Terry Mills",
+      "team": "MIL"
+    },
+    {
+      "pick": 17,
+      "player": "Jerrod Mustaf",
+      "team": "NYK"
+    },
+    {
+      "pick": 18,
+      "player": "Duane Causwell",
+      "team": "SAC"
+    },
+    {
+      "pick": 19,
+      "player": "Dee Brown",
+      "team": "BOS"
+    },
+    {
+      "pick": 20,
+      "player": "Gerald Glass",
+      "team": "MIN"
+    },
+    {
+      "pick": 21,
+      "player": "Jayson Williams",
+      "team": "PHO"
+    },
+    {
+      "pick": 22,
+      "player": "Tate George",
+      "team": "NJN"
+    },
+    {
+      "pick": 23,
+      "player": "Anthony Bonner",
+      "team": "SAC"
+    },
+    {
+      "pick": 24,
+      "player": "Dwayne Schintzius",
+      "team": "SAS"
+    },
+    {
+      "pick": 25,
+      "player": "Alaa Abdelnaby",
+      "team": "POR"
+    },
+    {
+      "pick": 26,
+      "player": "Lance Blanks",
+      "team": "DET"
+    },
+    {
+      "pick": 27,
+      "player": "Elden Campbell",
+      "team": "LAL"
+    },
+    {
+      "pick": 28,
+      "player": "Les Jepsen",
+      "team": "GSW"
+    },
+    {
+      "pick": 29,
+      "player": "Toni Kukoč",
+      "team": "CHI"
+    },
+    {
+      "pick": 30,
+      "player": "Carl Herrera",
+      "team": "MIA"
+    },
+    {
+      "pick": 31,
+      "player": "Negele Knight",
+      "team": "PHO"
+    },
+    {
+      "pick": 32,
+      "player": "Brian Oliver",
+      "team": "PHI"
+    },
+    {
+      "pick": 33,
+      "player": "Walter Palmer",
+      "team": "UTA"
+    },
+    {
+      "pick": 34,
+      "player": "Kevin Pritchard",
+      "team": "GSW"
+    },
+    {
+      "pick": 35,
+      "player": "Greg Foster",
+      "team": "WSB"
+    },
+    {
+      "pick": 36,
+      "player": "Trevor Wilson",
+      "team": "ATL"
+    },
+    {
+      "pick": 37,
+      "player": "A.J. English",
+      "team": "WSB"
+    },
+    {
+      "pick": 38,
+      "player": "Jud Buechler",
+      "team": "SEA"
+    },
+    {
+      "pick": 39,
+      "player": "Steve Scheffler",
+      "team": "CHH"
+    },
+    {
+      "pick": 40,
+      "player": "Bimbo Coles",
+      "team": "SAC"
+    },
+    {
+      "pick": 41,
+      "player": "Steve Bardo",
+      "team": "ATL"
+    },
+    {
+      "pick": 42,
+      "player": "Marcus Liberty",
+      "team": "DEN"
+    },
+    {
+      "pick": 43,
+      "player": "Tony Massenburg",
+      "team": "SAS"
+    },
+    {
+      "pick": 44,
+      "player": "Steve Henson",
+      "team": "MIL"
+    },
+    {
+      "pick": 45,
+      "player": "Antonio Davis",
+      "team": "IND"
+    },
+    {
+      "pick": 46,
+      "player": "Kenny Williams",
+      "team": "IND"
+    },
+    {
+      "pick": 47,
+      "player": "Derek Strong",
+      "team": "PHI"
+    },
+    {
+      "pick": 48,
+      "player": "Cedric Ceballos",
+      "team": "PHO"
+    },
+    {
+      "pick": 49,
+      "player": "Phil Henderson",
+      "team": "DAL"
+    },
+    {
+      "pick": 50,
+      "player": "Miloš Babić",
+      "team": "PHO"
+    },
+    {
+      "pick": 51,
+      "player": "Tony Smith",
+      "team": "LAL"
+    },
+    {
+      "pick": 52,
+      "player": "Stefano Rusconi",
+      "team": "CLE"
+    },
+    {
+      "pick": 53,
+      "player": "Abdul Shamsid-Deen",
+      "team": "SEA"
+    },
+    {
+      "pick": 54,
+      "player": "Sean Higgins",
+      "team": "SAS"
+    }
+  ],
+  "1991": [
+    {
+      "pick": 1,
+      "player": "Larry Johnson",
+      "team": "CHH"
+    },
+    {
+      "pick": 2,
+      "player": "Kenny Anderson",
+      "team": "NJN"
+    },
+    {
+      "pick": 3,
+      "player": "Billy Owens",
+      "team": "SAC"
+    },
+    {
+      "pick": 4,
+      "player": "Dikembe Mutombo",
+      "team": "DEN"
+    },
+    {
+      "pick": 5,
+      "player": "Steve Smith",
+      "team": "MIA"
+    },
+    {
+      "pick": 6,
+      "player": "Doug Smith",
+      "team": "DAL"
+    },
+    {
+      "pick": 7,
+      "player": "Luc Longley",
+      "team": "MIN"
+    },
+    {
+      "pick": 8,
+      "player": "Mark Macon",
+      "team": "DEN"
+    },
+    {
+      "pick": 9,
+      "player": "Stacey Augmon",
+      "team": "ATL"
+    },
+    {
+      "pick": 10,
+      "player": "Bison Dele",
+      "team": "ORL"
+    },
+    {
+      "pick": 11,
+      "player": "Terrell Brandon",
+      "team": "CLE"
+    },
+    {
+      "pick": 12,
+      "player": "Greg Anthony",
+      "team": "NYK"
+    },
+    {
+      "pick": 13,
+      "player": "Dale Davis",
+      "team": "IND"
+    },
+    {
+      "pick": 14,
+      "player": "Rich King",
+      "team": "SEA"
+    },
+    {
+      "pick": 15,
+      "player": "Anthony Avent",
+      "team": "ATL"
+    },
+    {
+      "pick": 16,
+      "player": "Chris Gatling",
+      "team": "GSW"
+    },
+    {
+      "pick": 17,
+      "player": "Victor Alexander",
+      "team": "GSW"
+    },
+    {
+      "pick": 18,
+      "player": "Kevin Brooks",
+      "team": "MIL"
+    },
+    {
+      "pick": 19,
+      "player": "LaBradford Smith",
+      "team": "WSB"
+    },
+    {
+      "pick": 20,
+      "player": "John Turner",
+      "team": "HOU"
+    },
+    {
+      "pick": 21,
+      "player": "Eric Murdock",
+      "team": "UTA"
+    },
+    {
+      "pick": 22,
+      "player": "LeRon Ellis",
+      "team": "LAC"
+    },
+    {
+      "pick": 23,
+      "player": "Stanley Roberts",
+      "team": "ORL"
+    },
+    {
+      "pick": 24,
+      "player": "Rick Fox",
+      "team": "BOS"
+    },
+    {
+      "pick": 25,
+      "player": "Shaun Vandiver",
+      "team": "GSW"
+    },
+    {
+      "pick": 26,
+      "player": "Mark Randall",
+      "team": "CHI"
+    },
+    {
+      "pick": 27,
+      "player": "Pete Chilcutt",
+      "team": "SAC"
+    },
+    {
+      "pick": 28,
+      "player": "Kevin Lynch",
+      "team": "CHH"
+    },
+    {
+      "pick": 29,
+      "player": "George Ackles",
+      "team": "MIA"
+    },
+    {
+      "pick": 30,
+      "player": "Rodney Monroe",
+      "team": "ATL"
+    },
+    {
+      "pick": 31,
+      "player": "Randy Brown",
+      "team": "SAC"
+    },
+    {
+      "pick": 32,
+      "player": "Chad Gallagher",
+      "team": "PHO"
+    },
+    {
+      "pick": 33,
+      "player": "Donald Hodge",
+      "team": "DAL"
+    },
+    {
+      "pick": 34,
+      "player": "Myron Brown",
+      "team": "MIN"
+    },
+    {
+      "pick": 35,
+      "player": "Mike Iuzzolino",
+      "team": "DAL"
+    },
+    {
+      "pick": 36,
+      "player": "Chris Corchiani",
+      "team": "ORL"
+    },
+    {
+      "pick": 37,
+      "player": "Elliot Perry",
+      "team": "LAC"
+    },
+    {
+      "pick": 38,
+      "player": "Joe Wylie",
+      "team": "LAC"
+    },
+    {
+      "pick": 39,
+      "player": "Jimmy Oliver",
+      "team": "CLE"
+    },
+    {
+      "pick": 40,
+      "player": "Doug Overton",
+      "team": "DET"
+    },
+    {
+      "pick": 41,
+      "player": "Sean Green",
+      "team": "IND"
+    },
+    {
+      "pick": 42,
+      "player": "Steve Hood",
+      "team": "SAC"
+    },
+    {
+      "pick": 43,
+      "player": "Lamont Strothers",
+      "team": "GSW"
+    },
+    {
+      "pick": 44,
+      "player": "Alvaro Teheran",
+      "team": "PHI"
+    },
+    {
+      "pick": 45,
+      "player": "Bobby Phills",
+      "team": "MIL"
+    },
+    {
+      "pick": 46,
+      "player": "Richard Dumas",
+      "team": "PHO"
+    },
+    {
+      "pick": 47,
+      "player": "Keith Hughes",
+      "team": "HOU"
+    },
+    {
+      "pick": 48,
+      "player": "Isaac Austin",
+      "team": "UTA"
+    },
+    {
+      "pick": 49,
+      "player": "Greg Sutton",
+      "team": "SAS"
+    },
+    {
+      "pick": 50,
+      "player": "Joey Wright",
+      "team": "PHO"
+    },
+    {
+      "pick": 51,
+      "player": "Žan Tabak",
+      "team": "HOU"
+    },
+    {
+      "pick": 52,
+      "player": "Anthony Jones",
+      "team": "LAL"
+    },
+    {
+      "pick": 53,
+      "player": "Von McDade",
+      "team": "NJN"
+    },
+    {
+      "pick": 54,
+      "player": "Marcus Kennedy",
+      "team": "POR"
+    }
+  ],
+  "1992": [
+    {
+      "pick": 1,
+      "player": "Shaquille O'Neal",
+      "team": "ORL"
+    },
+    {
+      "pick": 2,
+      "player": "Alonzo Mourning",
+      "team": "CHH"
+    },
+    {
+      "pick": 3,
+      "player": "Christian Laettner",
+      "team": "MIN"
+    },
+    {
+      "pick": 4,
+      "player": "Jim Jackson",
+      "team": "DAL"
+    },
+    {
+      "pick": 5,
+      "player": "LaPhonso Ellis",
+      "team": "DEN"
+    },
+    {
+      "pick": 6,
+      "player": "Tom Gugliotta",
+      "team": "WSB"
+    },
+    {
+      "pick": 7,
+      "player": "Walt Williams",
+      "team": "SAC"
+    },
+    {
+      "pick": 8,
+      "player": "Todd Day",
+      "team": "MIL"
+    },
+    {
+      "pick": 9,
+      "player": "Clarence Weatherspoon",
+      "team": "PHI"
+    },
+    {
+      "pick": 10,
+      "player": "Adam Keefe",
+      "team": "ATL"
+    },
+    {
+      "pick": 11,
+      "player": "Robert Horry",
+      "team": "HOU"
+    },
+    {
+      "pick": 12,
+      "player": "Harold Miner",
+      "team": "MIA"
+    },
+    {
+      "pick": 13,
+      "player": "Bryant Stith",
+      "team": "DEN"
+    },
+    {
+      "pick": 14,
+      "player": "Malik Sealy",
+      "team": "IND"
+    },
+    {
+      "pick": 15,
+      "player": "Anthony Peeler",
+      "team": "LAL"
+    },
+    {
+      "pick": 16,
+      "player": "Randy Woods",
+      "team": "LAC"
+    },
+    {
+      "pick": 17,
+      "player": "Doug Christie",
+      "team": "SEA"
+    },
+    {
+      "pick": 18,
+      "player": "Tracy Murray",
+      "team": "SAS"
+    },
+    {
+      "pick": 19,
+      "player": "Don MacLean",
+      "team": "DET"
+    },
+    {
+      "pick": 20,
+      "player": "Hubert Davis",
+      "team": "NYK"
+    },
+    {
+      "pick": 21,
+      "player": "Jon Barry",
+      "team": "BOS"
+    },
+    {
+      "pick": 22,
+      "player": "Oliver Miller",
+      "team": "PHO"
+    },
+    {
+      "pick": 23,
+      "player": "Lee Mayberry",
+      "team": "MIL"
+    },
+    {
+      "pick": 24,
+      "player": "Latrell Sprewell",
+      "team": "GSW"
+    },
+    {
+      "pick": 25,
+      "player": "Elmore Spencer",
+      "team": "LAC"
+    },
+    {
+      "pick": 26,
+      "player": "Dave Johnson",
+      "team": "POR"
+    },
+    {
+      "pick": 27,
+      "player": "Byron Houston",
+      "team": "CHI"
+    },
+    {
+      "pick": 28,
+      "player": "Marlon Maxey",
+      "team": "MIN"
+    },
+    {
+      "pick": 29,
+      "player": "P.J. Brown",
+      "team": "NJN"
+    },
+    {
+      "pick": 30,
+      "player": "Sean Rooks",
+      "team": "DAL"
+    },
+    {
+      "pick": 31,
+      "player": "Reggie Smith",
+      "team": "POR"
+    },
+    {
+      "pick": 32,
+      "player": "Brent Price",
+      "team": "WSB"
+    },
+    {
+      "pick": 33,
+      "player": "Corey Williams",
+      "team": "CHI"
+    },
+    {
+      "pick": 34,
+      "player": "Chris Smith",
+      "team": "MIN"
+    },
+    {
+      "pick": 35,
+      "player": "Tony Bennett",
+      "team": "CHH"
+    },
+    {
+      "pick": 36,
+      "player": "Duane Cooper",
+      "team": "LAL"
+    },
+    {
+      "pick": 37,
+      "player": "Isaiah Morris",
+      "team": "MIA"
+    },
+    {
+      "pick": 38,
+      "player": "Elmer Bennett",
+      "team": "ATL"
+    },
+    {
+      "pick": 39,
+      "player": "Litterial Green",
+      "team": "CHI"
+    },
+    {
+      "pick": 40,
+      "player": "Steve Rogers",
+      "team": "NJN"
+    },
+    {
+      "pick": 41,
+      "player": "Popeye Jones",
+      "team": "HOU"
+    },
+    {
+      "pick": 42,
+      "player": "Matt Geiger",
+      "team": "MIA"
+    },
+    {
+      "pick": 43,
+      "player": "Sasha Danilović",
+      "team": "GSW"
+    },
+    {
+      "pick": 44,
+      "player": "Henry Williams",
+      "team": "SAS"
+    },
+    {
+      "pick": 45,
+      "player": "Chris King",
+      "team": "SEA"
+    },
+    {
+      "pick": 46,
+      "player": "Robert Werdann",
+      "team": "DEN"
+    },
+    {
+      "pick": 47,
+      "player": "Darren Morningstar",
+      "team": "BOS"
+    },
+    {
+      "pick": 48,
+      "player": "Brian Davis",
+      "team": "PHO"
+    },
+    {
+      "pick": 49,
+      "player": "Ron Ellis",
+      "team": "PHO"
+    },
+    {
+      "pick": 50,
+      "player": "Matt Fish",
+      "team": "GSW"
+    },
+    {
+      "pick": 51,
+      "player": "Tim Burroughs",
+      "team": "MIN"
+    },
+    {
+      "pick": 52,
+      "player": "Matt Steigenga",
+      "team": "CHI"
+    },
+    {
+      "pick": 53,
+      "player": "Curtis Blair",
+      "team": "HOU"
+    },
+    {
+      "pick": 54,
+      "player": "Brett Roberts",
+      "team": "SAC"
+    }
+  ],
+  "1993": [
+    {
+      "pick": 1,
+      "player": "Chris Webber",
+      "team": "ORL"
+    },
+    {
+      "pick": 2,
+      "player": "Shawn Bradley",
+      "team": "PHI"
+    },
+    {
+      "pick": 3,
+      "player": "Anfernee Hardaway",
+      "team": "GSW"
+    },
+    {
+      "pick": 4,
+      "player": "Jamal Mashburn",
+      "team": "DAL"
+    },
+    {
+      "pick": 5,
+      "player": "Isaiah Rider",
+      "team": "MIN"
+    },
+    {
+      "pick": 6,
+      "player": "Calbert Cheaney",
+      "team": "WSB"
+    },
+    {
+      "pick": 7,
+      "player": "Bobby Hurley",
+      "team": "SAC"
+    },
+    {
+      "pick": 8,
+      "player": "Vin Baker",
+      "team": "MIL"
+    },
+    {
+      "pick": 9,
+      "player": "Rodney Rogers",
+      "team": "DEN"
+    },
+    {
+      "pick": 10,
+      "player": "Lindsey Hunter",
+      "team": "DET"
+    },
+    {
+      "pick": 11,
+      "player": "Allan Houston",
+      "team": "DET"
+    },
+    {
+      "pick": 12,
+      "player": "George Lynch",
+      "team": "LAL"
+    },
+    {
+      "pick": 13,
+      "player": "Terry Dehere",
+      "team": "LAC"
+    },
+    {
+      "pick": 14,
+      "player": "Scott Haskin",
+      "team": "IND"
+    },
+    {
+      "pick": 15,
+      "player": "Doug Edwards",
+      "team": "ATL"
+    },
+    {
+      "pick": 16,
+      "player": "Rex Walters",
+      "team": "NJN"
+    },
+    {
+      "pick": 17,
+      "player": "Greg Graham",
+      "team": "CHH"
+    },
+    {
+      "pick": 18,
+      "player": "Luther Wright",
+      "team": "UTA"
+    },
+    {
+      "pick": 19,
+      "player": "Acie Earl",
+      "team": "BOS"
+    },
+    {
+      "pick": 20,
+      "player": "Scott Burrell",
+      "team": "CHH"
+    },
+    {
+      "pick": 21,
+      "player": "James Robinson",
+      "team": "POR"
+    },
+    {
+      "pick": 22,
+      "player": "Chris Mills",
+      "team": "CLE"
+    },
+    {
+      "pick": 23,
+      "player": "Ervin Johnson",
+      "team": "SEA"
+    },
+    {
+      "pick": 24,
+      "player": "Sam Cassell",
+      "team": "HOU"
+    },
+    {
+      "pick": 25,
+      "player": "Corie Blount",
+      "team": "CHI"
+    },
+    {
+      "pick": 26,
+      "player": "Geert Hammink",
+      "team": "ORL"
+    },
+    {
+      "pick": 27,
+      "player": "Malcolm Mackey",
+      "team": "PHO"
+    },
+    {
+      "pick": 28,
+      "player": "Lucious Harris",
+      "team": "DAL"
+    },
+    {
+      "pick": 29,
+      "player": "Sherron Mills",
+      "team": "MIN"
+    },
+    {
+      "pick": 30,
+      "player": "Gheorghe Mureșan",
+      "team": "WSB"
+    },
+    {
+      "pick": 31,
+      "player": "Evers Burns",
+      "team": "SAC"
+    },
+    {
+      "pick": 32,
+      "player": "Alphonso Ford",
+      "team": "PHI"
+    },
+    {
+      "pick": 33,
+      "player": "Eric Riley",
+      "team": "DAL"
+    },
+    {
+      "pick": 34,
+      "player": "Darnell Mee",
+      "team": "GSW"
+    },
+    {
+      "pick": 35,
+      "player": "Ed Stokes",
+      "team": "MIA"
+    },
+    {
+      "pick": 36,
+      "player": "John Best",
+      "team": "NJN"
+    },
+    {
+      "pick": 37,
+      "player": "Nick Van Exel",
+      "team": "LAL"
+    },
+    {
+      "pick": 38,
+      "player": "Conrad McRae",
+      "team": "WSB"
+    },
+    {
+      "pick": 39,
+      "player": "Thomas Hill",
+      "team": "IND"
+    },
+    {
+      "pick": 40,
+      "player": "Rich Manning",
+      "team": "ATL"
+    },
+    {
+      "pick": 41,
+      "player": "Anthony Reed",
+      "team": "CHI"
+    },
+    {
+      "pick": 42,
+      "player": "Adonis Jordan",
+      "team": "SEA"
+    },
+    {
+      "pick": 43,
+      "player": "Josh Grant",
+      "team": "DEN"
+    },
+    {
+      "pick": 44,
+      "player": "Alex Holcombe",
+      "team": "SAC"
+    },
+    {
+      "pick": 45,
+      "player": "Bryon Russell",
+      "team": "UTA"
+    },
+    {
+      "pick": 46,
+      "player": "Richard Petruška",
+      "team": "HOU"
+    },
+    {
+      "pick": 47,
+      "player": "Chris Whitney",
+      "team": "SAS"
+    },
+    {
+      "pick": 48,
+      "player": "Kevin Thompson",
+      "team": "POR"
+    },
+    {
+      "pick": 49,
+      "player": "Mark Buford",
+      "team": "PHO"
+    },
+    {
+      "pick": 50,
+      "player": "Marcelo Nicola",
+      "team": "HOU"
+    },
+    {
+      "pick": 51,
+      "player": "Spencer Dunkley",
+      "team": "IND"
+    },
+    {
+      "pick": 52,
+      "player": "Mike Peplowski",
+      "team": "SAC"
+    },
+    {
+      "pick": 53,
+      "player": "Leonard White",
+      "team": "LAC"
+    },
+    {
+      "pick": 54,
+      "player": "Byron Wilson",
+      "team": "PHO"
+    }
+  ],
+  "1994": [
+    {
+      "pick": 1,
+      "player": "Glenn Robinson",
+      "team": "MIL"
+    },
+    {
+      "pick": 2,
+      "player": "Jason Kidd",
+      "team": "DAL"
+    },
+    {
+      "pick": 3,
+      "player": "Grant Hill",
+      "team": "DET"
+    },
+    {
+      "pick": 4,
+      "player": "Donyell Marshall",
+      "team": "MIN"
+    },
+    {
+      "pick": 5,
+      "player": "Juwan Howard",
+      "team": "WSB"
+    },
+    {
+      "pick": 6,
+      "player": "Sharone Wright",
+      "team": "PHI"
+    },
+    {
+      "pick": 7,
+      "player": "Lamond Murray",
+      "team": "LAC"
+    },
+    {
+      "pick": 8,
+      "player": "Brian Grant",
+      "team": "SAC"
+    },
+    {
+      "pick": 9,
+      "player": "Eric Montross",
+      "team": "BOS"
+    },
+    {
+      "pick": 10,
+      "player": "Eddie Jones",
+      "team": "LAL"
+    },
+    {
+      "pick": 11,
+      "player": "Carlos Rogers",
+      "team": "SEA"
+    },
+    {
+      "pick": 12,
+      "player": "Khalid Reeves",
+      "team": "MIA"
+    },
+    {
+      "pick": 13,
+      "player": "Jalen Rose",
+      "team": "DEN"
+    },
+    {
+      "pick": 14,
+      "player": "Yinka Dare",
+      "team": "NJN"
+    },
+    {
+      "pick": 15,
+      "player": "Eric Piatkowski",
+      "team": "IND"
+    },
+    {
+      "pick": 16,
+      "player": "Clifford Rozier",
+      "team": "GSW"
+    },
+    {
+      "pick": 17,
+      "player": "Aaron McKie",
+      "team": "POR"
+    },
+    {
+      "pick": 18,
+      "player": "Eric Mobley",
+      "team": "MIL"
+    },
+    {
+      "pick": 19,
+      "player": "Tony Dumas",
+      "team": "DAL"
+    },
+    {
+      "pick": 20,
+      "player": "B.J. Tyler",
+      "team": "PHI"
+    },
+    {
+      "pick": 21,
+      "player": "Dickey Simpkins",
+      "team": "CHI"
+    },
+    {
+      "pick": 22,
+      "player": "Bill Curley",
+      "team": "SAS"
+    },
+    {
+      "pick": 23,
+      "player": "Wesley Person",
+      "team": "PHO"
+    },
+    {
+      "pick": 24,
+      "player": "Monty Williams",
+      "team": "NYK"
+    },
+    {
+      "pick": 25,
+      "player": "Greg Minor",
+      "team": "LAC"
+    },
+    {
+      "pick": 26,
+      "player": "Charlie Ward",
+      "team": "NYK"
+    },
+    {
+      "pick": 27,
+      "player": "Brooks Thompson",
+      "team": "ORL"
+    },
+    {
+      "pick": 28,
+      "player": "Deon Thomas",
+      "team": "DAL"
+    },
+    {
+      "pick": 29,
+      "player": "Antonio Lang",
+      "team": "PHO"
+    },
+    {
+      "pick": 30,
+      "player": "Howard Eisley",
+      "team": "MIN"
+    },
+    {
+      "pick": 31,
+      "player": "Rodney Dent",
+      "team": "ORL"
+    },
+    {
+      "pick": 32,
+      "player": "Jim McIlvaine",
+      "team": "WSB"
+    },
+    {
+      "pick": 33,
+      "player": "Derrick Alston",
+      "team": "PHI"
+    },
+    {
+      "pick": 34,
+      "player": "Gaylon Nickerson",
+      "team": "ATL"
+    },
+    {
+      "pick": 35,
+      "player": "Michael Smith",
+      "team": "SAC"
+    },
+    {
+      "pick": 36,
+      "player": "Andrei Fetisov",
+      "team": "BOS"
+    },
+    {
+      "pick": 37,
+      "player": "Dontonio Wingfield",
+      "team": "SEA"
+    },
+    {
+      "pick": 38,
+      "player": "Darrin Hancock",
+      "team": "CHH"
+    },
+    {
+      "pick": 39,
+      "player": "Anthony Miller",
+      "team": "GSW"
+    },
+    {
+      "pick": 40,
+      "player": "Jeff Webster",
+      "team": "MIA"
+    },
+    {
+      "pick": 41,
+      "player": "William Njoku",
+      "team": "IND"
+    },
+    {
+      "pick": 42,
+      "player": "Gary Collier",
+      "team": "CLE"
+    },
+    {
+      "pick": 43,
+      "player": "Shawnelle Scott",
+      "team": "POR"
+    },
+    {
+      "pick": 44,
+      "player": "Damon Bailey",
+      "team": "IND"
+    },
+    {
+      "pick": 45,
+      "player": "Dwayne Morton",
+      "team": "GSW"
+    },
+    {
+      "pick": 46,
+      "player": "Voshon Lenard",
+      "team": "MIL"
+    },
+    {
+      "pick": 47,
+      "player": "Jamie Watson",
+      "team": "UTA"
+    },
+    {
+      "pick": 48,
+      "player": "Jevon Crudup",
+      "team": "DET"
+    },
+    {
+      "pick": 49,
+      "player": "Kris Bruton",
+      "team": "CHI"
+    },
+    {
+      "pick": 50,
+      "player": "Charles Claxton",
+      "team": "PHO"
+    },
+    {
+      "pick": 51,
+      "player": "Lawrence Funderburke",
+      "team": "SAC"
+    },
+    {
+      "pick": 52,
+      "player": "Anthony Goldwire",
+      "team": "PHO"
+    },
+    {
+      "pick": 53,
+      "player": "Albert Burditt",
+      "team": "HOU"
+    },
+    {
+      "pick": 54,
+      "player": "Željko Rebrača",
+      "team": "SEA"
+    }
+  ],
+  "1995": [
+    {
+      "pick": 1,
+      "player": "Joe Smith",
+      "team": "GSW"
+    },
+    {
+      "pick": 2,
+      "player": "Antonio McDyess",
+      "team": "LAC"
+    },
+    {
+      "pick": 3,
+      "player": "Jerry Stackhouse",
+      "team": "PHI"
+    },
+    {
+      "pick": 4,
+      "player": "Rasheed Wallace",
+      "team": "WSB"
+    },
+    {
+      "pick": 5,
+      "player": "Kevin Garnett",
+      "team": "MIN"
+    },
+    {
+      "pick": 6,
+      "player": "Bryant Reeves",
+      "team": "VAN"
+    },
+    {
+      "pick": 7,
+      "player": "Damon Stoudamire",
+      "team": "TOR"
+    },
+    {
+      "pick": 8,
+      "player": "Shawn Respert",
+      "team": "POR"
+    },
+    {
+      "pick": 9,
+      "player": "Ed O'Bannon",
+      "team": "NJN"
+    },
+    {
+      "pick": 10,
+      "player": "Kurt Thomas",
+      "team": "MIA"
+    },
+    {
+      "pick": 11,
+      "player": "Gary Trent",
+      "team": "MIL"
+    },
+    {
+      "pick": 12,
+      "player": "Cherokee Parks",
+      "team": "DAL"
+    },
+    {
+      "pick": 13,
+      "player": "Corliss Williamson",
+      "team": "SAC"
+    },
+    {
+      "pick": 14,
+      "player": "Eric Williams",
+      "team": "BOS"
+    },
+    {
+      "pick": 15,
+      "player": "Brent Barry",
+      "team": "DEN"
+    },
+    {
+      "pick": 16,
+      "player": "Alan Henderson",
+      "team": "ATL"
+    },
+    {
+      "pick": 17,
+      "player": "Bob Sura",
+      "team": "CLE"
+    },
+    {
+      "pick": 18,
+      "player": "Theo Ratliff",
+      "team": "DET"
+    },
+    {
+      "pick": 19,
+      "player": "Randolph Childress",
+      "team": "DET"
+    },
+    {
+      "pick": 20,
+      "player": "Jason Caffey",
+      "team": "CHI"
+    },
+    {
+      "pick": 21,
+      "player": "Michael Finley",
+      "team": "PHO"
+    },
+    {
+      "pick": 22,
+      "player": "George Zídek",
+      "team": "CHH"
+    },
+    {
+      "pick": 23,
+      "player": "Travis Best",
+      "team": "IND"
+    },
+    {
+      "pick": 24,
+      "player": "Loren Meyer",
+      "team": "DAL"
+    },
+    {
+      "pick": 25,
+      "player": "David Vaughn",
+      "team": "ORL"
+    },
+    {
+      "pick": 26,
+      "player": "Sherell Ford",
+      "team": "SEA"
+    },
+    {
+      "pick": 27,
+      "player": "Mario Bennett",
+      "team": "PHO"
+    },
+    {
+      "pick": 28,
+      "player": "Greg Ostertag",
+      "team": "UTA"
+    },
+    {
+      "pick": 29,
+      "player": "Cory Alexander",
+      "team": "SAS"
+    },
+    {
+      "pick": 30,
+      "player": "Lou Roe",
+      "team": "DET"
+    },
+    {
+      "pick": 31,
+      "player": "Dragan Tarlać",
+      "team": "CHI"
+    },
+    {
+      "pick": 32,
+      "player": "Terrence Rencher",
+      "team": "WSB"
+    },
+    {
+      "pick": 33,
+      "player": "Junior Burrough",
+      "team": "BOS"
+    },
+    {
+      "pick": 34,
+      "player": "Andrew DeClercq",
+      "team": "GSW"
+    },
+    {
+      "pick": 35,
+      "player": "Jimmy King",
+      "team": "TOR"
+    },
+    {
+      "pick": 36,
+      "player": "Lawrence Moten",
+      "team": "VAN"
+    },
+    {
+      "pick": 37,
+      "player": "Frankie King",
+      "team": "LAL"
+    },
+    {
+      "pick": 38,
+      "player": "Rashard Griffith",
+      "team": "MIL"
+    },
+    {
+      "pick": 39,
+      "player": "Donny Marshall",
+      "team": "CLE"
+    },
+    {
+      "pick": 40,
+      "player": "Dwayne Whitfield",
+      "team": "GSW"
+    },
+    {
+      "pick": 41,
+      "player": "Erik Meek",
+      "team": "HOU"
+    },
+    {
+      "pick": 42,
+      "player": "Donnie Boyce",
+      "team": "ATL"
+    },
+    {
+      "pick": 43,
+      "player": "Eric Snow",
+      "team": "MIL"
+    },
+    {
+      "pick": 44,
+      "player": "Anthony Pelle",
+      "team": "DEN"
+    },
+    {
+      "pick": 45,
+      "player": "Troy Brown",
+      "team": "ATL"
+    },
+    {
+      "pick": 46,
+      "player": "George Banks",
+      "team": "MIA"
+    },
+    {
+      "pick": 47,
+      "player": "Tyus Edney",
+      "team": "SAC"
+    },
+    {
+      "pick": 48,
+      "player": "Mark Davis",
+      "team": "MIN"
+    },
+    {
+      "pick": 49,
+      "player": "Jerome Allen",
+      "team": "MIN"
+    },
+    {
+      "pick": 50,
+      "player": "Martin Lewis",
+      "team": "GSW"
+    },
+    {
+      "pick": 51,
+      "player": "Dejan Bodiroga",
+      "team": "SAC"
+    },
+    {
+      "pick": 52,
+      "player": "Fred Hoiberg",
+      "team": "IND"
+    },
+    {
+      "pick": 53,
+      "player": "Constantin Popa",
+      "team": "LAC"
+    },
+    {
+      "pick": 54,
+      "player": "Eurelijus Žukauskas",
+      "team": "SEA"
+    },
+    {
+      "pick": 55,
+      "player": "Michael McDonald",
+      "team": "GSW"
+    },
+    {
+      "pick": 56,
+      "player": "Chris Carr",
+      "team": "PHO"
+    },
+    {
+      "pick": 57,
+      "player": "Cuonzo Martin",
+      "team": "ATL"
+    },
+    {
+      "pick": 58,
+      "player": "Don Reid",
+      "team": "DET"
+    }
+  ],
+  "1996": [
+    {
+      "pick": 1,
+      "player": "Allen Iverson",
+      "team": "PHI"
+    },
+    {
+      "pick": 2,
+      "player": "Marcus Camby",
+      "team": "TOR"
+    },
+    {
+      "pick": 3,
+      "player": "Shareef Abdur-Rahim",
+      "team": "VAN"
+    },
+    {
+      "pick": 4,
+      "player": "Stephon Marbury",
+      "team": "MIL"
+    },
+    {
+      "pick": 5,
+      "player": "Ray Allen",
+      "team": "MIN"
+    },
+    {
+      "pick": 6,
+      "player": "Antoine Walker",
+      "team": "BOS"
+    },
+    {
+      "pick": 7,
+      "player": "Lorenzen Wright",
+      "team": "LAC"
+    },
+    {
+      "pick": 8,
+      "player": "Kerry Kittles",
+      "team": "NJN"
+    },
+    {
+      "pick": 9,
+      "player": "Samaki Walker",
+      "team": "DAL"
+    },
+    {
+      "pick": 10,
+      "player": "Erick Dampier",
+      "team": "IND"
+    },
+    {
+      "pick": 11,
+      "player": "Todd Fuller",
+      "team": "GSW"
+    },
+    {
+      "pick": 12,
+      "player": "Vitaly Potapenko",
+      "team": "CLE"
+    },
+    {
+      "pick": 13,
+      "player": "Kobe Bryant",
+      "team": "CHH"
+    },
+    {
+      "pick": 14,
+      "player": "Peja Stojaković",
+      "team": "SAC"
+    },
+    {
+      "pick": 15,
+      "player": "Steve Nash",
+      "team": "PHO"
+    },
+    {
+      "pick": 16,
+      "player": "Tony Delk",
+      "team": "CHH"
+    },
+    {
+      "pick": 17,
+      "player": "Jermaine O'Neal",
+      "team": "POR"
+    },
+    {
+      "pick": 18,
+      "player": "John Wallace",
+      "team": "NYK"
+    },
+    {
+      "pick": 19,
+      "player": "Walter McCarty",
+      "team": "NYK"
+    },
+    {
+      "pick": 20,
+      "player": "Zydrunas Ilgauskas",
+      "team": "CLE"
+    },
+    {
+      "pick": 21,
+      "player": "Dontae' Jones",
+      "team": "NYK"
+    },
+    {
+      "pick": 22,
+      "player": "Roy Rogers",
+      "team": "VAN"
+    },
+    {
+      "pick": 23,
+      "player": "Efthimios Rentzias",
+      "team": "DEN"
+    },
+    {
+      "pick": 24,
+      "player": "Derek Fisher",
+      "team": "LAL"
+    },
+    {
+      "pick": 25,
+      "player": "Martin Müürsepp",
+      "team": "UTA"
+    },
+    {
+      "pick": 26,
+      "player": "Jerome Williams",
+      "team": "DET"
+    },
+    {
+      "pick": 27,
+      "player": "Brian Evans",
+      "team": "ORL"
+    },
+    {
+      "pick": 28,
+      "player": "Priest Lauderdale",
+      "team": "ATL"
+    },
+    {
+      "pick": 29,
+      "player": "Travis Knight",
+      "team": "CHI"
+    },
+    {
+      "pick": 30,
+      "player": "Othella Harrington",
+      "team": "HOU"
+    },
+    {
+      "pick": 31,
+      "player": "Mark Hendrickson",
+      "team": "PHI"
+    },
+    {
+      "pick": 32,
+      "player": "Ryan Minor",
+      "team": "PHI"
+    },
+    {
+      "pick": 33,
+      "player": "Moochie Norris",
+      "team": "MIL"
+    },
+    {
+      "pick": 34,
+      "player": "Shawn Harvey",
+      "team": "DAL"
+    },
+    {
+      "pick": 35,
+      "player": "Joseph Blair",
+      "team": "SEA"
+    },
+    {
+      "pick": 36,
+      "player": "Doron Sheffer",
+      "team": "LAC"
+    },
+    {
+      "pick": 37,
+      "player": "Jeff McInnis",
+      "team": "DEN"
+    },
+    {
+      "pick": 38,
+      "player": "Steve Hamer",
+      "team": "BOS"
+    },
+    {
+      "pick": 39,
+      "player": "Russ Millard",
+      "team": "PHO"
+    },
+    {
+      "pick": 40,
+      "player": "Marcus Mann",
+      "team": "GSW"
+    },
+    {
+      "pick": 41,
+      "player": "Jason Sasser",
+      "team": "SAC"
+    },
+    {
+      "pick": 42,
+      "player": "Randy Livingston",
+      "team": "HOU"
+    },
+    {
+      "pick": 43,
+      "player": "Ben Davis",
+      "team": "PHO"
+    },
+    {
+      "pick": 44,
+      "player": "Malik Rose",
+      "team": "CHH"
+    },
+    {
+      "pick": 45,
+      "player": "Joe Vogel",
+      "team": "SEA"
+    },
+    {
+      "pick": 46,
+      "player": "Marcus Brown",
+      "team": "POR"
+    },
+    {
+      "pick": 47,
+      "player": "Ron Riley",
+      "team": "SEA"
+    },
+    {
+      "pick": 48,
+      "player": "Jamie Feick",
+      "team": "PHI"
+    },
+    {
+      "pick": 49,
+      "player": "Amal McCaskill",
+      "team": "ORL"
+    },
+    {
+      "pick": 50,
+      "player": "Terrell Bell",
+      "team": "HOU"
+    },
+    {
+      "pick": 51,
+      "player": "Chris Robinson",
+      "team": "VAN"
+    },
+    {
+      "pick": 52,
+      "player": "Mark Pope",
+      "team": "IND"
+    },
+    {
+      "pick": 53,
+      "player": "Jeff Nordgaard",
+      "team": "MIL"
+    },
+    {
+      "pick": 54,
+      "player": "Shandon Anderson",
+      "team": "UTA"
+    },
+    {
+      "pick": 55,
+      "player": "Ronnie Henderson",
+      "team": "WSB"
+    },
+    {
+      "pick": 56,
+      "player": "Reggie Geary",
+      "team": "CLE"
+    },
+    {
+      "pick": 57,
+      "player": "Drew Barry",
+      "team": "SEA"
+    },
+    {
+      "pick": 58,
+      "player": "Darnell Robinson",
+      "team": "DAL"
+    }
+  ],
+  "1997": [
+    {
+      "pick": 1,
+      "player": "Tim Duncan",
+      "team": "SAS"
+    },
+    {
+      "pick": 2,
+      "player": "Keith Van Horn",
+      "team": "PHI"
+    },
+    {
+      "pick": 3,
+      "player": "Chauncey Billups",
+      "team": "BOS"
+    },
+    {
+      "pick": 4,
+      "player": "Antonio Daniels",
+      "team": "VAN"
+    },
+    {
+      "pick": 5,
+      "player": "Tony Battie",
+      "team": "DEN"
+    },
+    {
+      "pick": 6,
+      "player": "Ron Mercer",
+      "team": "BOS"
+    },
+    {
+      "pick": 7,
+      "player": "Tim Thomas",
+      "team": "NJN"
+    },
+    {
+      "pick": 8,
+      "player": "Adonal Foyle",
+      "team": "GSW"
+    },
+    {
+      "pick": 9,
+      "player": "Tracy McGrady",
+      "team": "TOR"
+    },
+    {
+      "pick": 10,
+      "player": "Danny Fortson",
+      "team": "MIL"
+    },
+    {
+      "pick": 11,
+      "player": "Tariq Abdul-Wahad",
+      "team": "SAC"
+    },
+    {
+      "pick": 12,
+      "player": "Austin Croshere",
+      "team": "IND"
+    },
+    {
+      "pick": 13,
+      "player": "Derek Anderson",
+      "team": "CLE"
+    },
+    {
+      "pick": 14,
+      "player": "Maurice Taylor",
+      "team": "LAC"
+    },
+    {
+      "pick": 15,
+      "player": "Kelvin Cato",
+      "team": "DAL"
+    },
+    {
+      "pick": 16,
+      "player": "Brevin Knight",
+      "team": "CLE"
+    },
+    {
+      "pick": 17,
+      "player": "Johnny Taylor",
+      "team": "ORL"
+    },
+    {
+      "pick": 18,
+      "player": "Chris Anstey",
+      "team": "POR"
+    },
+    {
+      "pick": 19,
+      "player": "Scot Pollard",
+      "team": "DET"
+    },
+    {
+      "pick": 20,
+      "player": "Paul Grant",
+      "team": "MIN"
+    },
+    {
+      "pick": 21,
+      "player": "Anthony Parker",
+      "team": "NJN"
+    },
+    {
+      "pick": 22,
+      "player": "Ed Gray",
+      "team": "ATL"
+    },
+    {
+      "pick": 23,
+      "player": "Bobby Jackson",
+      "team": "SEA"
+    },
+    {
+      "pick": 24,
+      "player": "Rodrick Rhodes",
+      "team": "HOU"
+    },
+    {
+      "pick": 25,
+      "player": "John Thomas",
+      "team": "NYK"
+    },
+    {
+      "pick": 26,
+      "player": "Charles Smith",
+      "team": "MIA"
+    },
+    {
+      "pick": 27,
+      "player": "Jacque Vaughn",
+      "team": "UTA"
+    },
+    {
+      "pick": 28,
+      "player": "Keith Booth",
+      "team": "CHI"
+    },
+    {
+      "pick": 30,
+      "player": "Serge Zwikker",
+      "team": "HOU"
+    },
+    {
+      "pick": 31,
+      "player": "Mark Sanford",
+      "team": "MIA"
+    },
+    {
+      "pick": 32,
+      "player": "Charles O'Bannon",
+      "team": "DET"
+    },
+    {
+      "pick": 33,
+      "player": "James Cotton",
+      "team": "DEN"
+    },
+    {
+      "pick": 34,
+      "player": "Marko Milič",
+      "team": "PHI"
+    },
+    {
+      "pick": 35,
+      "player": "Bubba Wells",
+      "team": "DAL"
+    },
+    {
+      "pick": 36,
+      "player": "Kebu Stewart",
+      "team": "PHI"
+    },
+    {
+      "pick": 37,
+      "player": "James Collins",
+      "team": "PHI"
+    },
+    {
+      "pick": 38,
+      "player": "Marc Jackson",
+      "team": "GSW"
+    },
+    {
+      "pick": 39,
+      "player": "Jerald Honeycutt",
+      "team": "MIL"
+    },
+    {
+      "pick": 40,
+      "player": "Anthony Johnson",
+      "team": "SAC"
+    },
+    {
+      "pick": 41,
+      "player": "Eddie Elisma",
+      "team": "SEA"
+    },
+    {
+      "pick": 42,
+      "player": "Jason Lawson",
+      "team": "DEN"
+    },
+    {
+      "pick": 43,
+      "player": "Stephen Jackson",
+      "team": "PHO"
+    },
+    {
+      "pick": 44,
+      "player": "Gordon Malone",
+      "team": "MIN"
+    },
+    {
+      "pick": 45,
+      "player": "Cedric Henderson",
+      "team": "CLE"
+    },
+    {
+      "pick": 46,
+      "player": "God Shammgod",
+      "team": "WAS"
+    },
+    {
+      "pick": 47,
+      "player": "Eric Washington",
+      "team": "ORL"
+    },
+    {
+      "pick": 48,
+      "player": "Alvin Williams",
+      "team": "POR"
+    },
+    {
+      "pick": 49,
+      "player": "Predrag Drobnjak",
+      "team": "WAS"
+    },
+    {
+      "pick": 50,
+      "player": "Alain Digbeu",
+      "team": "ATL"
+    },
+    {
+      "pick": 51,
+      "player": "Chris Crawford",
+      "team": "ATL"
+    },
+    {
+      "pick": 52,
+      "player": "DeJuan Wheat",
+      "team": "LAL"
+    },
+    {
+      "pick": 53,
+      "player": "C.J. Bruton",
+      "team": "VAN"
+    },
+    {
+      "pick": 54,
+      "player": "Paul Rogers",
+      "team": "LAL"
+    },
+    {
+      "pick": 55,
+      "player": "Mark Blount",
+      "team": "SEA"
+    },
+    {
+      "pick": 56,
+      "player": "Ben Pepper",
+      "team": "BOS"
+    },
+    {
+      "pick": 57,
+      "player": "Nate Erdmann",
+      "team": "UTA"
+    },
+    {
+      "pick": 58,
+      "player": "Roberto Duenas",
+      "team": "CHI"
+    }
+  ],
+  "1998": [
+    {
+      "pick": 1,
+      "player": "Michael Olowokandi",
+      "team": "LAC"
+    },
+    {
+      "pick": 2,
+      "player": "Mike Bibby",
+      "team": "VAN"
+    },
+    {
+      "pick": 3,
+      "player": "Raef LaFrentz",
+      "team": "DEN"
+    },
+    {
+      "pick": 4,
+      "player": "Antawn Jamison",
+      "team": "TOR"
+    },
+    {
+      "pick": 5,
+      "player": "Vince Carter",
+      "team": "GSW"
+    },
+    {
+      "pick": 6,
+      "player": "Robert Traylor",
+      "team": "DAL"
+    },
+    {
+      "pick": 7,
+      "player": "Jason Williams",
+      "team": "SAC"
+    },
+    {
+      "pick": 8,
+      "player": "Larry Hughes",
+      "team": "PHI"
+    },
+    {
+      "pick": 9,
+      "player": "Dirk Nowitzki",
+      "team": "MIL"
+    },
+    {
+      "pick": 10,
+      "player": "Paul Pierce",
+      "team": "BOS"
+    },
+    {
+      "pick": 11,
+      "player": "Bonzi Wells",
+      "team": "DET"
+    },
+    {
+      "pick": 12,
+      "player": "Michael Doleac",
+      "team": "ORL"
+    },
+    {
+      "pick": 13,
+      "player": "Keon Clark",
+      "team": "ORL"
+    },
+    {
+      "pick": 14,
+      "player": "Michael Dickerson",
+      "team": "HOU"
+    },
+    {
+      "pick": 15,
+      "player": "Matt Harpring",
+      "team": "ORL"
+    },
+    {
+      "pick": 16,
+      "player": "Bryce Drew",
+      "team": "HOU"
+    },
+    {
+      "pick": 17,
+      "player": "Rasho Nesterović",
+      "team": "MIN"
+    },
+    {
+      "pick": 18,
+      "player": "Mirsad Türkcan",
+      "team": "HOU"
+    },
+    {
+      "pick": 19,
+      "player": "Pat Garrity",
+      "team": "MIL"
+    },
+    {
+      "pick": 20,
+      "player": "Roshown McLeod",
+      "team": "ATL"
+    },
+    {
+      "pick": 21,
+      "player": "Ricky Davis",
+      "team": "CHH"
+    },
+    {
+      "pick": 22,
+      "player": "Brian Skinner",
+      "team": "LAC"
+    },
+    {
+      "pick": 23,
+      "player": "Tyronn Lue",
+      "team": "DEN"
+    },
+    {
+      "pick": 24,
+      "player": "Felipe López",
+      "team": "SAS"
+    },
+    {
+      "pick": 25,
+      "player": "Al Harrington",
+      "team": "IND"
+    },
+    {
+      "pick": 26,
+      "player": "Sam Jacobson",
+      "team": "LAL"
+    },
+    {
+      "pick": 27,
+      "player": "Vladimir Stepania",
+      "team": "SEA"
+    },
+    {
+      "pick": 28,
+      "player": "Corey Benjamin",
+      "team": "CHI"
+    },
+    {
+      "pick": 29,
+      "player": "Nazr Mohammed",
+      "team": "UTA"
+    },
+    {
+      "pick": 30,
+      "player": "Ansu Sesay",
+      "team": "DAL"
+    },
+    {
+      "pick": 31,
+      "player": "Ruben Patterson",
+      "team": "LAL"
+    },
+    {
+      "pick": 32,
+      "player": "Rashard Lewis",
+      "team": "SEA"
+    },
+    {
+      "pick": 33,
+      "player": "Jelani McCoy",
+      "team": "SEA"
+    },
+    {
+      "pick": 34,
+      "player": "Shammond Williams",
+      "team": "CHI"
+    },
+    {
+      "pick": 35,
+      "player": "Bruno Šundov",
+      "team": "DAL"
+    },
+    {
+      "pick": 36,
+      "player": "Jerome James",
+      "team": "SAC"
+    },
+    {
+      "pick": 37,
+      "player": "Casey Shaw",
+      "team": "PHI"
+    },
+    {
+      "pick": 38,
+      "player": "DeMarco Johnson",
+      "team": "NYK"
+    },
+    {
+      "pick": 39,
+      "player": "Rafer Alston",
+      "team": "MIL"
+    },
+    {
+      "pick": 40,
+      "player": "Korleone Young",
+      "team": "DET"
+    },
+    {
+      "pick": 41,
+      "player": "Cuttino Mobley",
+      "team": "HOU"
+    },
+    {
+      "pick": 42,
+      "player": "Miles Simon",
+      "team": "ORL"
+    },
+    {
+      "pick": 43,
+      "player": "Jahidi White",
+      "team": "WAS"
+    },
+    {
+      "pick": 44,
+      "player": "Sean Marks",
+      "team": "NYK"
+    },
+    {
+      "pick": 45,
+      "player": "Toby Bailey",
+      "team": "LAL"
+    },
+    {
+      "pick": 46,
+      "player": "Andrae Patterson",
+      "team": "MIN"
+    },
+    {
+      "pick": 47,
+      "player": "Tyson Wheeler",
+      "team": "TOR"
+    },
+    {
+      "pick": 48,
+      "player": "Ryan Stack",
+      "team": "CLE"
+    },
+    {
+      "pick": 49,
+      "player": "Cory Carr",
+      "team": "ATL"
+    },
+    {
+      "pick": 50,
+      "player": "Andrew Betts",
+      "team": "CHH"
+    },
+    {
+      "pick": 51,
+      "player": "Corey Brewer",
+      "team": "MIA"
+    },
+    {
+      "pick": 52,
+      "player": "Derrick Dial",
+      "team": "SAS"
+    },
+    {
+      "pick": 53,
+      "player": "Greg Buckner",
+      "team": "DAL"
+    },
+    {
+      "pick": 54,
+      "player": "Tremaine Fowlkes",
+      "team": "DEN"
+    },
+    {
+      "pick": 55,
+      "player": "Ryan Bowen",
+      "team": "DEN"
+    },
+    {
+      "pick": 56,
+      "player": "J.R. Henderson",
+      "team": "VAN"
+    },
+    {
+      "pick": 57,
+      "player": "Torraye Braggs",
+      "team": "UTA"
+    },
+    {
+      "pick": 58,
+      "player": "Maceo Baston",
+      "team": "CHI"
+    }
+  ],
+  "1999": [
+    {
+      "pick": 1,
+      "player": "Elton Brand",
+      "team": "CHI"
+    },
+    {
+      "pick": 2,
+      "player": "Steve Francis",
+      "team": "VAN"
+    },
+    {
+      "pick": 3,
+      "player": "Baron Davis",
+      "team": "CHH"
+    },
+    {
+      "pick": 4,
+      "player": "Lamar Odom",
+      "team": "LAC"
+    },
+    {
+      "pick": 5,
+      "player": "Jonathan Bender",
+      "team": "TOR"
+    },
+    {
+      "pick": 6,
+      "player": "Wally Szczerbiak",
+      "team": "MIN"
+    },
+    {
+      "pick": 7,
+      "player": "Richard Hamilton",
+      "team": "WAS"
+    },
+    {
+      "pick": 8,
+      "player": "Andre Miller",
+      "team": "CLE"
+    },
+    {
+      "pick": 9,
+      "player": "Shawn Marion",
+      "team": "PHO"
+    },
+    {
+      "pick": 10,
+      "player": "Jason Terry",
+      "team": "ATL"
+    },
+    {
+      "pick": 11,
+      "player": "Trajan Langdon",
+      "team": "CLE"
+    },
+    {
+      "pick": 12,
+      "player": "Aleksandar Radojević",
+      "team": "TOR"
+    },
+    {
+      "pick": 13,
+      "player": "Corey Maggette",
+      "team": "SEA"
+    },
+    {
+      "pick": 14,
+      "player": "William Avery",
+      "team": "MIN"
+    },
+    {
+      "pick": 15,
+      "player": "Frédéric Weis",
+      "team": "NYK"
+    },
+    {
+      "pick": 16,
+      "player": "Metta World Peace",
+      "team": "CHI"
+    },
+    {
+      "pick": 17,
+      "player": "Cal Bowdler",
+      "team": "ATL"
+    },
+    {
+      "pick": 18,
+      "player": "James Posey",
+      "team": "DEN"
+    },
+    {
+      "pick": 19,
+      "player": "Quincy Lewis",
+      "team": "UTA"
+    },
+    {
+      "pick": 20,
+      "player": "Dion Glover",
+      "team": "ATL"
+    },
+    {
+      "pick": 21,
+      "player": "Jeff Foster",
+      "team": "GSW"
+    },
+    {
+      "pick": 22,
+      "player": "Kenny Thomas",
+      "team": "HOU"
+    },
+    {
+      "pick": 23,
+      "player": "Devean George",
+      "team": "LAL"
+    },
+    {
+      "pick": 24,
+      "player": "Andrei Kirilenko",
+      "team": "UTA"
+    },
+    {
+      "pick": 25,
+      "player": "Tim James",
+      "team": "MIA"
+    },
+    {
+      "pick": 26,
+      "player": "Vonteego Cummings",
+      "team": "IND"
+    },
+    {
+      "pick": 27,
+      "player": "Jumaine Jones",
+      "team": "ATL"
+    },
+    {
+      "pick": 28,
+      "player": "Scott Padgett",
+      "team": "UTA"
+    },
+    {
+      "pick": 29,
+      "player": "Leon Smith",
+      "team": "SAS"
+    },
+    {
+      "pick": 30,
+      "player": "John Celestand",
+      "team": "LAL"
+    },
+    {
+      "pick": 31,
+      "player": "Rico Hill",
+      "team": "LAC"
+    },
+    {
+      "pick": 32,
+      "player": "Michael Ruffin",
+      "team": "CHI"
+    },
+    {
+      "pick": 33,
+      "player": "Chris Herren",
+      "team": "DEN"
+    },
+    {
+      "pick": 34,
+      "player": "Evan Eschmeyer",
+      "team": "NJN"
+    },
+    {
+      "pick": 35,
+      "player": "Calvin Booth",
+      "team": "WAS"
+    },
+    {
+      "pick": 36,
+      "player": "Wang Zhizhi",
+      "team": "DAL"
+    },
+    {
+      "pick": 37,
+      "player": "Obinna Ekezie",
+      "team": "VAN"
+    },
+    {
+      "pick": 38,
+      "player": "Laron Profit",
+      "team": "ORL"
+    },
+    {
+      "pick": 39,
+      "player": "A.J. Bramlett",
+      "team": "CLE"
+    },
+    {
+      "pick": 40,
+      "player": "Gordan Giriček",
+      "team": "DAL"
+    },
+    {
+      "pick": 41,
+      "player": "Francisco Elson",
+      "team": "DEN"
+    },
+    {
+      "pick": 42,
+      "player": "Louis Bullock",
+      "team": "MIN"
+    },
+    {
+      "pick": 43,
+      "player": "Lee Nailon",
+      "team": "CHH"
+    },
+    {
+      "pick": 44,
+      "player": "Tyrone Washington",
+      "team": "HOU"
+    },
+    {
+      "pick": 45,
+      "player": "Ryan Robertson",
+      "team": "SAC"
+    },
+    {
+      "pick": 46,
+      "player": "J.R. Koch",
+      "team": "NYK"
+    },
+    {
+      "pick": 47,
+      "player": "Todd MacCulloch",
+      "team": "PHI"
+    },
+    {
+      "pick": 48,
+      "player": "Galen Young",
+      "team": "MIL"
+    },
+    {
+      "pick": 49,
+      "player": "Lari Ketner",
+      "team": "CHI"
+    },
+    {
+      "pick": 50,
+      "player": "Venson Hamilton",
+      "team": "HOU"
+    },
+    {
+      "pick": 51,
+      "player": "Antwain Smith",
+      "team": "VAN"
+    },
+    {
+      "pick": 52,
+      "player": "Roberto Bergersen",
+      "team": "POR"
+    },
+    {
+      "pick": 53,
+      "player": "Rodney Buford",
+      "team": "MIA"
+    },
+    {
+      "pick": 54,
+      "player": "Melvin Levett",
+      "team": "DET"
+    },
+    {
+      "pick": 55,
+      "player": "Kris Clack",
+      "team": "BOS"
+    },
+    {
+      "pick": 56,
+      "player": "Tim Young",
+      "team": "GSW"
+    },
+    {
+      "pick": 57,
+      "player": "Manu Ginóbili",
+      "team": "SAS"
+    },
+    {
+      "pick": 58,
+      "player": "Eddie Lucas",
+      "team": "UTA"
+    }
+  ],
+  "2000": [
+    {
+      "pick": 1,
+      "player": "Kenyon Martin",
+      "team": "NJN"
+    },
+    {
+      "pick": 2,
+      "player": "Stromile Swift",
+      "team": "VAN"
+    },
+    {
+      "pick": 3,
+      "player": "Darius Miles",
+      "team": "LAC"
+    },
+    {
+      "pick": 4,
+      "player": "Marcus Fizer",
+      "team": "CHI"
+    },
+    {
+      "pick": 5,
+      "player": "Mike Miller",
+      "team": "ORL"
+    },
+    {
+      "pick": 6,
+      "player": "DerMarr Johnson",
+      "team": "ATL"
+    },
+    {
+      "pick": 7,
+      "player": "Chris Mihm",
+      "team": "CHI"
+    },
+    {
+      "pick": 8,
+      "player": "Jamal Crawford",
+      "team": "CLE"
+    },
+    {
+      "pick": 9,
+      "player": "Joel Przybilla",
+      "team": "HOU"
+    },
+    {
+      "pick": 10,
+      "player": "Keyon Dooling",
+      "team": "ORL"
+    },
+    {
+      "pick": 11,
+      "player": "Jérôme Moïso",
+      "team": "BOS"
+    },
+    {
+      "pick": 12,
+      "player": "Etan Thomas",
+      "team": "DAL"
+    },
+    {
+      "pick": 13,
+      "player": "Courtney Alexander",
+      "team": "ORL"
+    },
+    {
+      "pick": 14,
+      "player": "Mateen Cleaves",
+      "team": "DET"
+    },
+    {
+      "pick": 15,
+      "player": "Jason Collier",
+      "team": "MIL"
+    },
+    {
+      "pick": 16,
+      "player": "Hedo Türkoğlu",
+      "team": "SAC"
+    },
+    {
+      "pick": 17,
+      "player": "Desmond Mason",
+      "team": "SEA"
+    },
+    {
+      "pick": 18,
+      "player": "Quentin Richardson",
+      "team": "LAC"
+    },
+    {
+      "pick": 19,
+      "player": "Jamaal Magloire",
+      "team": "CHH"
+    },
+    {
+      "pick": 20,
+      "player": "Speedy Claxton",
+      "team": "PHI"
+    },
+    {
+      "pick": 21,
+      "player": "Morris Peterson",
+      "team": "TOR"
+    },
+    {
+      "pick": 22,
+      "player": "Donnell Harvey",
+      "team": "NYK"
+    },
+    {
+      "pick": 23,
+      "player": "DeShawn Stevenson",
+      "team": "UTA"
+    },
+    {
+      "pick": 24,
+      "player": "Dalibor Bagarić",
+      "team": "CHI"
+    },
+    {
+      "pick": 25,
+      "player": "Jake Tsakalidis",
+      "team": "PHO"
+    },
+    {
+      "pick": 26,
+      "player": "Mamadou N'Diaye",
+      "team": "DEN"
+    },
+    {
+      "pick": 27,
+      "player": "Primož Brezec",
+      "team": "IND"
+    },
+    {
+      "pick": 28,
+      "player": "Erick Barkley",
+      "team": "POR"
+    },
+    {
+      "pick": 29,
+      "player": "Mark Madsen",
+      "team": "LAL"
+    },
+    {
+      "pick": 30,
+      "player": "Marko Jarić",
+      "team": "LAC"
+    },
+    {
+      "pick": 31,
+      "player": "Dan Langhi",
+      "team": "DAL"
+    },
+    {
+      "pick": 32,
+      "player": "A.J. Guyton",
+      "team": "CHI"
+    },
+    {
+      "pick": 33,
+      "player": "Jake Voskuhl",
+      "team": "CHI"
+    },
+    {
+      "pick": 34,
+      "player": "Khalid El-Amin",
+      "team": "CHI"
+    },
+    {
+      "pick": 35,
+      "player": "Mike Smith",
+      "team": "WAS"
+    },
+    {
+      "pick": 36,
+      "player": "Soumaila Samake",
+      "team": "NJN"
+    },
+    {
+      "pick": 37,
+      "player": "Eddie House",
+      "team": "MIA"
+    },
+    {
+      "pick": 38,
+      "player": "Eduardo Nájera",
+      "team": "HOU"
+    },
+    {
+      "pick": 39,
+      "player": "Lavor Postell",
+      "team": "NYK"
+    },
+    {
+      "pick": 40,
+      "player": "Hanno Möttölä",
+      "team": "ATL"
+    },
+    {
+      "pick": 41,
+      "player": "Chris Carrawell",
+      "team": "SAS"
+    },
+    {
+      "pick": 42,
+      "player": "Olumide Oyedeji",
+      "team": "SEA"
+    },
+    {
+      "pick": 43,
+      "player": "Michael Redd",
+      "team": "MIL"
+    },
+    {
+      "pick": 44,
+      "player": "Brian Cardinal",
+      "team": "DET"
+    },
+    {
+      "pick": 45,
+      "player": "Jabari Smith",
+      "team": "SAC"
+    },
+    {
+      "pick": 46,
+      "player": "DeeAndre Hulett",
+      "team": "TOR"
+    },
+    {
+      "pick": 47,
+      "player": "Josip Sesar",
+      "team": "SEA"
+    },
+    {
+      "pick": 48,
+      "player": "Mark Karcher",
+      "team": "PHI"
+    },
+    {
+      "pick": 49,
+      "player": "Jason Hart",
+      "team": "MIL"
+    },
+    {
+      "pick": 50,
+      "player": "Kaniel Dickens",
+      "team": "UTA"
+    },
+    {
+      "pick": 51,
+      "player": "Igor Rakočević",
+      "team": "MIN"
+    },
+    {
+      "pick": 52,
+      "player": "Ernest Brown",
+      "team": "MIA"
+    },
+    {
+      "pick": 53,
+      "player": "Dan McClintock",
+      "team": "DEN"
+    },
+    {
+      "pick": 54,
+      "player": "Cory Hightower",
+      "team": "SAS"
+    },
+    {
+      "pick": 55,
+      "player": "Chris Porter",
+      "team": "GSW"
+    },
+    {
+      "pick": 56,
+      "player": "Jaquay Walls",
+      "team": "IND"
+    },
+    {
+      "pick": 57,
+      "player": "Scoonie Penn",
+      "team": "ATL"
+    },
+    {
+      "pick": 58,
+      "player": "Pete Mickeal",
+      "team": "DAL"
+    }
+  ],
+  "2001": [
+    {
+      "pick": 1,
+      "player": "Kwame Brown",
+      "team": "WAS"
+    },
+    {
+      "pick": 2,
+      "player": "Tyson Chandler",
+      "team": "LAC"
+    },
+    {
+      "pick": 3,
+      "player": "Pau Gasol",
+      "team": "ATL"
+    },
+    {
+      "pick": 4,
+      "player": "Eddy Curry",
+      "team": "CHI"
+    },
+    {
+      "pick": 5,
+      "player": "Jason Richardson",
+      "team": "GSW"
+    },
+    {
+      "pick": 6,
+      "player": "Shane Battier",
+      "team": "MEM"
+    },
+    {
+      "pick": 7,
+      "player": "Eddie Griffin",
+      "team": "NJN"
+    },
+    {
+      "pick": 8,
+      "player": "DeSagana Diop",
+      "team": "CLE"
+    },
+    {
+      "pick": 9,
+      "player": "Rodney White",
+      "team": "DET"
+    },
+    {
+      "pick": 10,
+      "player": "Joe Johnson",
+      "team": "BOS"
+    },
+    {
+      "pick": 11,
+      "player": "Kedrick Brown",
+      "team": "BOS"
+    },
+    {
+      "pick": 12,
+      "player": "Vladimir Radmanović",
+      "team": "SEA"
+    },
+    {
+      "pick": 13,
+      "player": "Richard Jefferson",
+      "team": "HOU"
+    },
+    {
+      "pick": 14,
+      "player": "Troy Murphy",
+      "team": "GSW"
+    },
+    {
+      "pick": 15,
+      "player": "Steven Hunter",
+      "team": "ORL"
+    },
+    {
+      "pick": 16,
+      "player": "Kirk Haston",
+      "team": "CHH"
+    },
+    {
+      "pick": 17,
+      "player": "Michael Bradley",
+      "team": "TOR"
+    },
+    {
+      "pick": 18,
+      "player": "Jason Collins",
+      "team": "HOU"
+    },
+    {
+      "pick": 19,
+      "player": "Zach Randolph",
+      "team": "POR"
+    },
+    {
+      "pick": 20,
+      "player": "Brendan Haywood",
+      "team": "CLE"
+    },
+    {
+      "pick": 21,
+      "player": "Joseph Forte",
+      "team": "BOS"
+    },
+    {
+      "pick": 22,
+      "player": "Jeryl Sasser",
+      "team": "ORL"
+    },
+    {
+      "pick": 23,
+      "player": "Brandon Armstrong",
+      "team": "HOU"
+    },
+    {
+      "pick": 24,
+      "player": "Raül López",
+      "team": "UTA"
+    },
+    {
+      "pick": 25,
+      "player": "Gerald Wallace",
+      "team": "SAC"
+    },
+    {
+      "pick": 26,
+      "player": "Samuel Dalembert",
+      "team": "PHI"
+    },
+    {
+      "pick": 27,
+      "player": "Jamaal Tinsley",
+      "team": "MEM"
+    },
+    {
+      "pick": 28,
+      "player": "Tony Parker",
+      "team": "SAS"
+    },
+    {
+      "pick": 30,
+      "player": "Trenton Hassell",
+      "team": "CHI"
+    },
+    {
+      "pick": 31,
+      "player": "Gilbert Arenas",
+      "team": "GSW"
+    },
+    {
+      "pick": 32,
+      "player": "Omar Cook",
+      "team": "ORL"
+    },
+    {
+      "pick": 33,
+      "player": "Will Solomon",
+      "team": "MEM"
+    },
+    {
+      "pick": 34,
+      "player": "Terence Morris",
+      "team": "ATL"
+    },
+    {
+      "pick": 35,
+      "player": "Brian Scalabrine",
+      "team": "NJN"
+    },
+    {
+      "pick": 36,
+      "player": "Jeff Trepagnier",
+      "team": "CLE"
+    },
+    {
+      "pick": 37,
+      "player": "Damone Brown",
+      "team": "PHI"
+    },
+    {
+      "pick": 38,
+      "player": "Mehmet Okur",
+      "team": "DET"
+    },
+    {
+      "pick": 39,
+      "player": "Michael Wright",
+      "team": "NYK"
+    },
+    {
+      "pick": 40,
+      "player": "Earl Watson",
+      "team": "SEA"
+    },
+    {
+      "pick": 41,
+      "player": "Jamison Brewer",
+      "team": "IND"
+    },
+    {
+      "pick": 42,
+      "player": "Bobby Simmons",
+      "team": "SEA"
+    },
+    {
+      "pick": 43,
+      "player": "Eric Chenowith",
+      "team": "NYK"
+    },
+    {
+      "pick": 44,
+      "player": "Kyle Hill",
+      "team": "DAL"
+    },
+    {
+      "pick": 45,
+      "player": "Sean Lampley",
+      "team": "CHI"
+    },
+    {
+      "pick": 46,
+      "player": "Loren Woods",
+      "team": "MIN"
+    },
+    {
+      "pick": 47,
+      "player": "Ousmane Cisse",
+      "team": "DEN"
+    },
+    {
+      "pick": 48,
+      "player": "Antonis Fotsis",
+      "team": "MEM"
+    },
+    {
+      "pick": 49,
+      "player": "Ken Johnson",
+      "team": "MIA"
+    },
+    {
+      "pick": 50,
+      "player": "Ruben Boumtje-Boumtje",
+      "team": "POR"
+    },
+    {
+      "pick": 51,
+      "player": "Alton Ford",
+      "team": "PHO"
+    },
+    {
+      "pick": 52,
+      "player": "Andre Hutson",
+      "team": "MIL"
+    },
+    {
+      "pick": 53,
+      "player": "Jarron Collins",
+      "team": "UTA"
+    },
+    {
+      "pick": 54,
+      "player": "Kenny Satterfield",
+      "team": "DAL"
+    },
+    {
+      "pick": 55,
+      "player": "Maurice Jeffers",
+      "team": "SAC"
+    },
+    {
+      "pick": 56,
+      "player": "Robertas Javtokas",
+      "team": "SAS"
+    },
+    {
+      "pick": 57,
+      "player": "Alvin Jones",
+      "team": "PHI"
+    },
+    {
+      "pick": 58,
+      "player": "Bryan Bracey",
+      "team": "SAS"
+    }
+  ],
+  "2002": [
+    {
+      "pick": 1,
+      "player": "Yao Ming",
+      "team": "HOU"
+    },
+    {
+      "pick": 2,
+      "player": "Jay Williams",
+      "team": "CHI"
+    },
+    {
+      "pick": 3,
+      "player": "Mike Dunleavy",
+      "team": "GSW"
+    },
+    {
+      "pick": 4,
+      "player": "Drew Gooden",
+      "team": "MEM"
+    },
+    {
+      "pick": 5,
+      "player": "Nikoloz Tskitishvili",
+      "team": "DEN"
+    },
+    {
+      "pick": 6,
+      "player": "Dajuan Wagner",
+      "team": "CLE"
+    },
+    {
+      "pick": 7,
+      "player": "Nenê",
+      "team": "NYK"
+    },
+    {
+      "pick": 8,
+      "player": "Chris Wilcox",
+      "team": "LAC"
+    },
+    {
+      "pick": 9,
+      "player": "Amar'e Stoudemire",
+      "team": "PHO"
+    },
+    {
+      "pick": 10,
+      "player": "Caron Butler",
+      "team": "MIA"
+    },
+    {
+      "pick": 11,
+      "player": "Jared Jeffries",
+      "team": "WAS"
+    },
+    {
+      "pick": 12,
+      "player": "Melvin Ely",
+      "team": "LAC"
+    },
+    {
+      "pick": 13,
+      "player": "Marcus Haislip",
+      "team": "MIL"
+    },
+    {
+      "pick": 14,
+      "player": "Fred Jones",
+      "team": "IND"
+    },
+    {
+      "pick": 15,
+      "player": "Boštjan Nachbar",
+      "team": "HOU"
+    },
+    {
+      "pick": 16,
+      "player": "Jiří Welsch",
+      "team": "PHI"
+    },
+    {
+      "pick": 17,
+      "player": "Juan Dixon",
+      "team": "WAS"
+    },
+    {
+      "pick": 18,
+      "player": "Curtis Borchardt",
+      "team": "ORL"
+    },
+    {
+      "pick": 19,
+      "player": "Ryan Humphrey",
+      "team": "UTA"
+    },
+    {
+      "pick": 20,
+      "player": "Kareem Rush",
+      "team": "TOR"
+    },
+    {
+      "pick": 21,
+      "player": "Qyntel Woods",
+      "team": "POR"
+    },
+    {
+      "pick": 22,
+      "player": "Casey Jacobsen",
+      "team": "PHO"
+    },
+    {
+      "pick": 23,
+      "player": "Tayshaun Prince",
+      "team": "DET"
+    },
+    {
+      "pick": 24,
+      "player": "Nenad Krstić",
+      "team": "NJN"
+    },
+    {
+      "pick": 25,
+      "player": "Frank Williams",
+      "team": "DEN"
+    },
+    {
+      "pick": 26,
+      "player": "John Salmons",
+      "team": "SAS"
+    },
+    {
+      "pick": 27,
+      "player": "Chris Jefferies",
+      "team": "LAL"
+    },
+    {
+      "pick": 28,
+      "player": "Dan Dickau",
+      "team": "SAC"
+    },
+    {
+      "pick": 30,
+      "player": "Steve Logan",
+      "team": "GSW"
+    },
+    {
+      "pick": 31,
+      "player": "Roger Mason",
+      "team": "CHI"
+    },
+    {
+      "pick": 32,
+      "player": "Robert Archibald",
+      "team": "MEM"
+    },
+    {
+      "pick": 33,
+      "player": "Vincent Yarbrough",
+      "team": "DEN"
+    },
+    {
+      "pick": 34,
+      "player": "Dan Gadzuric",
+      "team": "MIL"
+    },
+    {
+      "pick": 35,
+      "player": "Carlos Boozer",
+      "team": "CLE"
+    },
+    {
+      "pick": 36,
+      "player": "Milos Vujanic",
+      "team": "NYK"
+    },
+    {
+      "pick": 37,
+      "player": "David Andersen",
+      "team": "ATL"
+    },
+    {
+      "pick": 38,
+      "player": "Tito Maddox",
+      "team": "HOU"
+    },
+    {
+      "pick": 39,
+      "player": "Rod Grizzard",
+      "team": "WAS"
+    },
+    {
+      "pick": 40,
+      "player": "Juan Carlos Navarro",
+      "team": "WAS"
+    },
+    {
+      "pick": 41,
+      "player": "Mario Kasun",
+      "team": "LAC"
+    },
+    {
+      "pick": 42,
+      "player": "Ronald Murray",
+      "team": "MIL"
+    },
+    {
+      "pick": 43,
+      "player": "Jason Jennings",
+      "team": "POR"
+    },
+    {
+      "pick": 44,
+      "player": "Lonny Baxter",
+      "team": "CHI"
+    },
+    {
+      "pick": 45,
+      "player": "Sam Clancy",
+      "team": "PHI"
+    },
+    {
+      "pick": 46,
+      "player": "Matt Barnes",
+      "team": "MEM"
+    },
+    {
+      "pick": 47,
+      "player": "Jamal Sampson",
+      "team": "UTA"
+    },
+    {
+      "pick": 48,
+      "player": "Chris Owens",
+      "team": "MIL"
+    },
+    {
+      "pick": 49,
+      "player": "Peter Fehse",
+      "team": "SEA"
+    },
+    {
+      "pick": 50,
+      "player": "Darius Songaila",
+      "team": "BOS"
+    },
+    {
+      "pick": 51,
+      "player": "Federico Kammerichs",
+      "team": "POR"
+    },
+    {
+      "pick": 52,
+      "player": "Marcus Taylor",
+      "team": "MIN"
+    },
+    {
+      "pick": 53,
+      "player": "Rasual Butler",
+      "team": "MIA"
+    },
+    {
+      "pick": 54,
+      "player": "Tamar Slay",
+      "team": "NJN"
+    },
+    {
+      "pick": 55,
+      "player": "Mladen Sekularac",
+      "team": "DAL"
+    },
+    {
+      "pick": 56,
+      "player": "Luis Scola",
+      "team": "SAS"
+    },
+    {
+      "pick": 57,
+      "player": "Randy Holcomb",
+      "team": "SAS"
+    },
+    {
+      "pick": 58,
+      "player": "Corsley Edwards",
+      "team": "SAC"
+    }
+  ],
+  "2003": [
+    {
+      "pick": 1,
+      "player": "LeBron James",
+      "team": "CLE"
+    },
+    {
+      "pick": 2,
+      "player": "Darko Miličić",
+      "team": "DET"
+    },
+    {
+      "pick": 3,
+      "player": "Carmelo Anthony",
+      "team": "DEN"
+    },
+    {
+      "pick": 4,
+      "player": "Chris Bosh",
+      "team": "TOR"
+    },
+    {
+      "pick": 5,
+      "player": "Dwyane Wade",
+      "team": "MIA"
+    },
+    {
+      "pick": 6,
+      "player": "Chris Kaman",
+      "team": "LAC"
+    },
+    {
+      "pick": 7,
+      "player": "Kirk Hinrich",
+      "team": "CHI"
+    },
+    {
+      "pick": 8,
+      "player": "T.J. Ford",
+      "team": "MIL"
+    },
+    {
+      "pick": 9,
+      "player": "Mike Sweetney",
+      "team": "NYK"
+    },
+    {
+      "pick": 10,
+      "player": "Jarvis Hayes",
+      "team": "WAS"
+    },
+    {
+      "pick": 11,
+      "player": "Mickaël Piétrus",
+      "team": "GSW"
+    },
+    {
+      "pick": 12,
+      "player": "Nick Collison",
+      "team": "SEA"
+    },
+    {
+      "pick": 13,
+      "player": "Marcus Banks",
+      "team": "MEM"
+    },
+    {
+      "pick": 14,
+      "player": "Luke Ridnour",
+      "team": "SEA"
+    },
+    {
+      "pick": 15,
+      "player": "Reece Gaines",
+      "team": "ORL"
+    },
+    {
+      "pick": 16,
+      "player": "Troy Bell",
+      "team": "BOS"
+    },
+    {
+      "pick": 17,
+      "player": "Žarko Čabarkapa",
+      "team": "PHO"
+    },
+    {
+      "pick": 18,
+      "player": "David West",
+      "team": "NOH"
+    },
+    {
+      "pick": 19,
+      "player": "Sasha Pavlović",
+      "team": "UTA"
+    },
+    {
+      "pick": 20,
+      "player": "Dahntay Jones",
+      "team": "BOS"
+    },
+    {
+      "pick": 21,
+      "player": "Boris Diaw",
+      "team": "ATL"
+    },
+    {
+      "pick": 22,
+      "player": "Zoran Planinić",
+      "team": "NJN"
+    },
+    {
+      "pick": 23,
+      "player": "Travis Outlaw",
+      "team": "POR"
+    },
+    {
+      "pick": 24,
+      "player": "Brian Cook",
+      "team": "LAL"
+    },
+    {
+      "pick": 25,
+      "player": "Carlos Delfino",
+      "team": "DET"
+    },
+    {
+      "pick": 26,
+      "player": "Ndudi Ebi",
+      "team": "MIN"
+    },
+    {
+      "pick": 27,
+      "player": "Kendrick Perkins",
+      "team": "MEM"
+    },
+    {
+      "pick": 28,
+      "player": "Leandro Barbosa",
+      "team": "SAS"
+    },
+    {
+      "pick": 29,
+      "player": "Josh Howard",
+      "team": "DAL"
+    },
+    {
+      "pick": 30,
+      "player": "Maciej Lampe",
+      "team": "NYK"
+    },
+    {
+      "pick": 31,
+      "player": "Jason Kapono",
+      "team": "CLE"
+    },
+    {
+      "pick": 32,
+      "player": "Luke Walton",
+      "team": "LAL"
+    },
+    {
+      "pick": 33,
+      "player": "Jerome Beasley",
+      "team": "MIA"
+    },
+    {
+      "pick": 34,
+      "player": "Sofoklis Schortsanitis",
+      "team": "LAC"
+    },
+    {
+      "pick": 35,
+      "player": "Szymon Szewczyk",
+      "team": "MIL"
+    },
+    {
+      "pick": 36,
+      "player": "Mario Austin",
+      "team": "CHI"
+    },
+    {
+      "pick": 37,
+      "player": "Travis Hansen",
+      "team": "ATL"
+    },
+    {
+      "pick": 38,
+      "player": "Steve Blake",
+      "team": "WAS"
+    },
+    {
+      "pick": 39,
+      "player": "Slavko Vraneš",
+      "team": "NYK"
+    },
+    {
+      "pick": 40,
+      "player": "Derrick Zimmerman",
+      "team": "GSW"
+    },
+    {
+      "pick": 41,
+      "player": "Willie Green",
+      "team": "SEA"
+    },
+    {
+      "pick": 42,
+      "player": "Zaza Pachulia",
+      "team": "ORL"
+    },
+    {
+      "pick": 43,
+      "player": "Keith Bogans",
+      "team": "MIL"
+    },
+    {
+      "pick": 44,
+      "player": "Malick Badiane",
+      "team": "HOU"
+    },
+    {
+      "pick": 45,
+      "player": "Matt Bonner",
+      "team": "CHI"
+    },
+    {
+      "pick": 46,
+      "player": "Sani Bečirovič",
+      "team": "DEN"
+    },
+    {
+      "pick": 47,
+      "player": "Mo Williams",
+      "team": "UTA"
+    },
+    {
+      "pick": 48,
+      "player": "James Lang",
+      "team": "NOH"
+    },
+    {
+      "pick": 49,
+      "player": "James Jones",
+      "team": "IND"
+    },
+    {
+      "pick": 50,
+      "player": "Paccelis Morlende",
+      "team": "PHI"
+    },
+    {
+      "pick": 51,
+      "player": "Kyle Korver",
+      "team": "NJN"
+    },
+    {
+      "pick": 52,
+      "player": "Remon van de Hare",
+      "team": "TOR"
+    },
+    {
+      "pick": 53,
+      "player": "Tommy Smith",
+      "team": "CHI"
+    },
+    {
+      "pick": 54,
+      "player": "Nedžad Sinanović",
+      "team": "POR"
+    },
+    {
+      "pick": 55,
+      "player": "Rick Rickert",
+      "team": "MIN"
+    },
+    {
+      "pick": 56,
+      "player": "Brandon Hunter",
+      "team": "BOS"
+    },
+    {
+      "pick": 57,
+      "player": "Xue Yuyang",
+      "team": "DAL"
+    },
+    {
+      "pick": 58,
+      "player": "Andreas Glyniadakis",
+      "team": "DET"
+    }
+  ],
+  "2004": [
+    {
+      "pick": 1,
+      "player": "Dwight Howard",
+      "team": "ORL"
+    },
+    {
+      "pick": 2,
+      "player": "Emeka Okafor",
+      "team": "CHA"
+    },
+    {
+      "pick": 3,
+      "player": "Ben Gordon",
+      "team": "CHI"
+    },
+    {
+      "pick": 4,
+      "player": "Shaun Livingston",
+      "team": "LAC"
+    },
+    {
+      "pick": 5,
+      "player": "Devin Harris",
+      "team": "WAS"
+    },
+    {
+      "pick": 6,
+      "player": "Josh Childress",
+      "team": "ATL"
+    },
+    {
+      "pick": 7,
+      "player": "Luol Deng",
+      "team": "PHO"
+    },
+    {
+      "pick": 8,
+      "player": "Rafael Araújo",
+      "team": "TOR"
+    },
+    {
+      "pick": 9,
+      "player": "Andre Iguodala",
+      "team": "PHI"
+    },
+    {
+      "pick": 10,
+      "player": "Luke Jackson",
+      "team": "CLE"
+    },
+    {
+      "pick": 11,
+      "player": "Andris Biedriņš",
+      "team": "GSW"
+    },
+    {
+      "pick": 12,
+      "player": "Robert Swift",
+      "team": "SEA"
+    },
+    {
+      "pick": 13,
+      "player": "Sebastian Telfair",
+      "team": "POR"
+    },
+    {
+      "pick": 14,
+      "player": "Kris Humphries",
+      "team": "UTA"
+    },
+    {
+      "pick": 15,
+      "player": "Al Jefferson",
+      "team": "BOS"
+    },
+    {
+      "pick": 16,
+      "player": "Kirk Snyder",
+      "team": "UTA"
+    },
+    {
+      "pick": 17,
+      "player": "Josh Smith",
+      "team": "ATL"
+    },
+    {
+      "pick": 18,
+      "player": "J.R. Smith",
+      "team": "NOH"
+    },
+    {
+      "pick": 19,
+      "player": "Dorell Wright",
+      "team": "MIA"
+    },
+    {
+      "pick": 20,
+      "player": "Jameer Nelson",
+      "team": "DEN"
+    },
+    {
+      "pick": 21,
+      "player": "Pavel Podkolzin",
+      "team": "UTA"
+    },
+    {
+      "pick": 22,
+      "player": "Viktor Khryapa",
+      "team": "NJN"
+    },
+    {
+      "pick": 23,
+      "player": "Sergei Monia",
+      "team": "POR"
+    },
+    {
+      "pick": 24,
+      "player": "Delonte West",
+      "team": "BOS"
+    },
+    {
+      "pick": 25,
+      "player": "Tony Allen",
+      "team": "BOS"
+    },
+    {
+      "pick": 26,
+      "player": "Kevin Martin",
+      "team": "SAC"
+    },
+    {
+      "pick": 27,
+      "player": "Sasha Vujačić",
+      "team": "LAL"
+    },
+    {
+      "pick": 28,
+      "player": "Beno Udrih",
+      "team": "SAS"
+    },
+    {
+      "pick": 29,
+      "player": "David Harrison",
+      "team": "IND"
+    },
+    {
+      "pick": 30,
+      "player": "Anderson Varejão",
+      "team": "ORL"
+    },
+    {
+      "pick": 31,
+      "player": "Jackson Vroman",
+      "team": "CHI"
+    },
+    {
+      "pick": 32,
+      "player": "Peter John Ramos",
+      "team": "WAS"
+    },
+    {
+      "pick": 33,
+      "player": "Lionel Chalmers",
+      "team": "LAC"
+    },
+    {
+      "pick": 34,
+      "player": "Donta Smith",
+      "team": "ATL"
+    },
+    {
+      "pick": 35,
+      "player": "Andre Emmett",
+      "team": "SEA"
+    },
+    {
+      "pick": 36,
+      "player": "Antonio Burks",
+      "team": "ORL"
+    },
+    {
+      "pick": 37,
+      "player": "Royal Ivey",
+      "team": "ATL"
+    },
+    {
+      "pick": 38,
+      "player": "Chris Duhon",
+      "team": "CHI"
+    },
+    {
+      "pick": 39,
+      "player": "Albert Miralles",
+      "team": "TOR"
+    },
+    {
+      "pick": 40,
+      "player": "Justin Reed",
+      "team": "BOS"
+    },
+    {
+      "pick": 41,
+      "player": "David Young",
+      "team": "SEA"
+    },
+    {
+      "pick": 42,
+      "player": "Viktor Sanikidze",
+      "team": "ATL"
+    },
+    {
+      "pick": 43,
+      "player": "Trevor Ariza",
+      "team": "NYK"
+    },
+    {
+      "pick": 44,
+      "player": "Tim Pickett",
+      "team": "NOH"
+    },
+    {
+      "pick": 45,
+      "player": "Bernard Robinson",
+      "team": "CHA"
+    },
+    {
+      "pick": 46,
+      "player": "Ha Seung-Jin",
+      "team": "POR"
+    },
+    {
+      "pick": 47,
+      "player": "Pape Sow",
+      "team": "MIA"
+    },
+    {
+      "pick": 48,
+      "player": "Ricky Minard",
+      "team": "SAC"
+    },
+    {
+      "pick": 49,
+      "player": "Sergei Lishouk",
+      "team": "MEM"
+    },
+    {
+      "pick": 50,
+      "player": "Vassilis Spanoulis",
+      "team": "DAL"
+    },
+    {
+      "pick": 51,
+      "player": "Christian Drejer",
+      "team": "NJN"
+    },
+    {
+      "pick": 52,
+      "player": "Romain Sato",
+      "team": "SAS"
+    },
+    {
+      "pick": 53,
+      "player": "Matt Freije",
+      "team": "MIA"
+    },
+    {
+      "pick": 54,
+      "player": "Rickey Paulding",
+      "team": "DET"
+    },
+    {
+      "pick": 55,
+      "player": "Luis Flores",
+      "team": "HOU"
+    },
+    {
+      "pick": 56,
+      "player": "Marcus Douthit",
+      "team": "LAL"
+    },
+    {
+      "pick": 57,
+      "player": "Sergei Karaulov",
+      "team": "SAS"
+    },
+    {
+      "pick": 58,
+      "player": "Blake Stepp",
+      "team": "MIN"
+    },
+    {
+      "pick": 59,
+      "player": "Rashad Wright",
+      "team": "IND"
+    }
+  ],
+  "2005": [
+    {
+      "pick": 1,
+      "player": "Andrew Bogut",
+      "team": "MIL"
+    },
+    {
+      "pick": 2,
+      "player": "Marvin Williams",
+      "team": "ATL"
+    },
+    {
+      "pick": 3,
+      "player": "Deron Williams",
+      "team": "UTA"
+    },
+    {
+      "pick": 4,
+      "player": "Chris Paul",
+      "team": "NOH"
+    },
+    {
+      "pick": 5,
+      "player": "Raymond Felton",
+      "team": "CHA"
+    },
+    {
+      "pick": 6,
+      "player": "Martell Webster",
+      "team": "POR"
+    },
+    {
+      "pick": 7,
+      "player": "Charlie Villanueva",
+      "team": "TOR"
+    },
+    {
+      "pick": 8,
+      "player": "Channing Frye",
+      "team": "NYK"
+    },
+    {
+      "pick": 9,
+      "player": "Ike Diogu",
+      "team": "GSW"
+    },
+    {
+      "pick": 10,
+      "player": "Andrew Bynum",
+      "team": "LAL"
+    },
+    {
+      "pick": 11,
+      "player": "Fran Vázquez",
+      "team": "ORL"
+    },
+    {
+      "pick": 12,
+      "player": "Yaroslav Korolev",
+      "team": "LAC"
+    },
+    {
+      "pick": 13,
+      "player": "Sean May",
+      "team": "CHA"
+    },
+    {
+      "pick": 14,
+      "player": "Rashad McCants",
+      "team": "MIN"
+    },
+    {
+      "pick": 15,
+      "player": "Antoine Wright",
+      "team": "NJN"
+    },
+    {
+      "pick": 16,
+      "player": "Joey Graham",
+      "team": "TOR"
+    },
+    {
+      "pick": 17,
+      "player": "Danny Granger",
+      "team": "IND"
+    },
+    {
+      "pick": 18,
+      "player": "Gerald Green",
+      "team": "BOS"
+    },
+    {
+      "pick": 19,
+      "player": "Hakim Warrick",
+      "team": "MEM"
+    },
+    {
+      "pick": 20,
+      "player": "Julius Hodge",
+      "team": "DEN"
+    },
+    {
+      "pick": 21,
+      "player": "Nate Robinson",
+      "team": "PHO"
+    },
+    {
+      "pick": 22,
+      "player": "Jarrett Jack",
+      "team": "DEN"
+    },
+    {
+      "pick": 23,
+      "player": "Francisco García",
+      "team": "SAC"
+    },
+    {
+      "pick": 24,
+      "player": "Luther Head",
+      "team": "HOU"
+    },
+    {
+      "pick": 25,
+      "player": "Johan Petro",
+      "team": "SEA"
+    },
+    {
+      "pick": 26,
+      "player": "Jason Maxiell",
+      "team": "DET"
+    },
+    {
+      "pick": 27,
+      "player": "Linas Kleiza",
+      "team": "POR"
+    },
+    {
+      "pick": 28,
+      "player": "Ian Mahinmi",
+      "team": "SAS"
+    },
+    {
+      "pick": 29,
+      "player": "Wayne Simien",
+      "team": "MIA"
+    },
+    {
+      "pick": 30,
+      "player": "David Lee",
+      "team": "NYK"
+    },
+    {
+      "pick": 31,
+      "player": "Salim Stoudamire",
+      "team": "ATL"
+    },
+    {
+      "pick": 32,
+      "player": "Daniel Ewing",
+      "team": "LAC"
+    },
+    {
+      "pick": 33,
+      "player": "Brandon Bass",
+      "team": "NOH"
+    },
+    {
+      "pick": 34,
+      "player": "C.J. Miles",
+      "team": "UTA"
+    },
+    {
+      "pick": 35,
+      "player": "Ricky Sánchez",
+      "team": "POR"
+    },
+    {
+      "pick": 36,
+      "player": "Ersan İlyasova",
+      "team": "MIL"
+    },
+    {
+      "pick": 37,
+      "player": "Ronny Turiaf",
+      "team": "LAL"
+    },
+    {
+      "pick": 38,
+      "player": "Travis Diener",
+      "team": "ORL"
+    },
+    {
+      "pick": 39,
+      "player": "Von Wafer",
+      "team": "LAL"
+    },
+    {
+      "pick": 40,
+      "player": "Monta Ellis",
+      "team": "GSW"
+    },
+    {
+      "pick": 41,
+      "player": "Roko Ukić",
+      "team": "TOR"
+    },
+    {
+      "pick": 42,
+      "player": "Chris Taft",
+      "team": "GSW"
+    },
+    {
+      "pick": 43,
+      "player": "Mile Ilić",
+      "team": "NJN"
+    },
+    {
+      "pick": 44,
+      "player": "Martynas Andriuškevičius",
+      "team": "ORL"
+    },
+    {
+      "pick": 45,
+      "player": "Lou Williams",
+      "team": "PHI"
+    },
+    {
+      "pick": 46,
+      "player": "Erazem Lorbek",
+      "team": "IND"
+    },
+    {
+      "pick": 47,
+      "player": "Bracey Wright",
+      "team": "MIN"
+    },
+    {
+      "pick": 48,
+      "player": "Mickaël Gelabale",
+      "team": "SEA"
+    },
+    {
+      "pick": 49,
+      "player": "Andray Blatche",
+      "team": "WAS"
+    },
+    {
+      "pick": 50,
+      "player": "Ryan Gomes",
+      "team": "BOS"
+    },
+    {
+      "pick": 51,
+      "player": "Robert Whaley",
+      "team": "UTA"
+    },
+    {
+      "pick": 52,
+      "player": "Axel Hervelle",
+      "team": "DEN"
+    },
+    {
+      "pick": 53,
+      "player": "Orien Greene",
+      "team": "BOS"
+    },
+    {
+      "pick": 54,
+      "player": "Dijon Thompson",
+      "team": "NYK"
+    },
+    {
+      "pick": 55,
+      "player": "Lawrence Roberts",
+      "team": "SEA"
+    },
+    {
+      "pick": 56,
+      "player": "Amir Johnson",
+      "team": "DET"
+    },
+    {
+      "pick": 57,
+      "player": "Marcin Gortat",
+      "team": "PHO"
+    },
+    {
+      "pick": 58,
+      "player": "Uroš Slokar",
+      "team": "TOR"
+    },
+    {
+      "pick": 59,
+      "player": "Cenk Akyol",
+      "team": "ATL"
+    },
+    {
+      "pick": 60,
+      "player": "Alex Acker",
+      "team": "DET"
+    }
+  ],
+  "2006": [
+    {
+      "pick": 1,
+      "player": "Andrea Bargnani",
+      "team": "TOR"
+    },
+    {
+      "pick": 2,
+      "player": "LaMarcus Aldridge",
+      "team": "CHI"
+    },
+    {
+      "pick": 3,
+      "player": "Adam Morrison",
+      "team": "CHA"
+    },
+    {
+      "pick": 4,
+      "player": "Tyrus Thomas",
+      "team": "POR"
+    },
+    {
+      "pick": 5,
+      "player": "Shelden Williams",
+      "team": "ATL"
+    },
+    {
+      "pick": 6,
+      "player": "Brandon Roy",
+      "team": "MIN"
+    },
+    {
+      "pick": 7,
+      "player": "Randy Foye",
+      "team": "BOS"
+    },
+    {
+      "pick": 8,
+      "player": "Rudy Gay",
+      "team": "HOU"
+    },
+    {
+      "pick": 9,
+      "player": "Patrick O'Bryant",
+      "team": "GSW"
+    },
+    {
+      "pick": 10,
+      "player": "Mouhamed Sene",
+      "team": "SEA"
+    },
+    {
+      "pick": 11,
+      "player": "JJ Redick",
+      "team": "ORL"
+    },
+    {
+      "pick": 12,
+      "player": "Hilton Armstrong",
+      "team": "NOK"
+    },
+    {
+      "pick": 13,
+      "player": "Thabo Sefolosha",
+      "team": "PHI"
+    },
+    {
+      "pick": 14,
+      "player": "Ronnie Brewer",
+      "team": "UTA"
+    },
+    {
+      "pick": 15,
+      "player": "Cedric Simmons",
+      "team": "NOK"
+    },
+    {
+      "pick": 16,
+      "player": "Rodney Carney",
+      "team": "CHI"
+    },
+    {
+      "pick": 17,
+      "player": "Shawne Williams",
+      "team": "IND"
+    },
+    {
+      "pick": 18,
+      "player": "Oleksiy Pecherov",
+      "team": "WAS"
+    },
+    {
+      "pick": 19,
+      "player": "Quincy Douby",
+      "team": "SAC"
+    },
+    {
+      "pick": 20,
+      "player": "Renaldo Balkman",
+      "team": "NYK"
+    },
+    {
+      "pick": 21,
+      "player": "Rajon Rondo",
+      "team": "PHO"
+    },
+    {
+      "pick": 22,
+      "player": "Marcus Williams",
+      "team": "NJN"
+    },
+    {
+      "pick": 23,
+      "player": "Josh Boone",
+      "team": "NJN"
+    },
+    {
+      "pick": 24,
+      "player": "Kyle Lowry",
+      "team": "MEM"
+    },
+    {
+      "pick": 25,
+      "player": "Shannon Brown",
+      "team": "CLE"
+    },
+    {
+      "pick": 26,
+      "player": "Jordan Farmar",
+      "team": "LAL"
+    },
+    {
+      "pick": 27,
+      "player": "Sergio Rodríguez",
+      "team": "PHO"
+    },
+    {
+      "pick": 28,
+      "player": "Maurice Ager",
+      "team": "DAL"
+    },
+    {
+      "pick": 29,
+      "player": "Mardy Collins",
+      "team": "NYK"
+    },
+    {
+      "pick": 30,
+      "player": "Joel Freeland",
+      "team": "POR"
+    },
+    {
+      "pick": 31,
+      "player": "James White",
+      "team": "POR"
+    },
+    {
+      "pick": 32,
+      "player": "Steve Novak",
+      "team": "HOU"
+    },
+    {
+      "pick": 33,
+      "player": "Solomon Jones",
+      "team": "ATL"
+    },
+    {
+      "pick": 34,
+      "player": "Paul Davis",
+      "team": "LAC"
+    },
+    {
+      "pick": 35,
+      "player": "P.J. Tucker",
+      "team": "TOR"
+    },
+    {
+      "pick": 36,
+      "player": "Craig Smith",
+      "team": "MIN"
+    },
+    {
+      "pick": 37,
+      "player": "Bobby Jones",
+      "team": "MIN"
+    },
+    {
+      "pick": 38,
+      "player": "Kosta Perović",
+      "team": "GSW"
+    },
+    {
+      "pick": 39,
+      "player": "David Noel",
+      "team": "MIL"
+    },
+    {
+      "pick": 40,
+      "player": "Denham Brown",
+      "team": "SEA"
+    },
+    {
+      "pick": 41,
+      "player": "James Augustine",
+      "team": "ORL"
+    },
+    {
+      "pick": 42,
+      "player": "Daniel Gibson",
+      "team": "CLE"
+    },
+    {
+      "pick": 43,
+      "player": "Marcus Vinicius",
+      "team": "NOK"
+    },
+    {
+      "pick": 44,
+      "player": "Lior Eliyahu",
+      "team": "ORL"
+    },
+    {
+      "pick": 45,
+      "player": "Alexander Johnson",
+      "team": "IND"
+    },
+    {
+      "pick": 46,
+      "player": "Dee Brown",
+      "team": "UTA"
+    },
+    {
+      "pick": 47,
+      "player": "Paul Millsap",
+      "team": "UTA"
+    },
+    {
+      "pick": 48,
+      "player": "Vladimir Veremeenko",
+      "team": "WAS"
+    },
+    {
+      "pick": 49,
+      "player": "Leon Powe",
+      "team": "DEN"
+    },
+    {
+      "pick": 50,
+      "player": "Ryan Hollins",
+      "team": "CHA"
+    },
+    {
+      "pick": 51,
+      "player": "Cheikh Samb",
+      "team": "LAL"
+    },
+    {
+      "pick": 52,
+      "player": "Guillermo Díaz",
+      "team": "LAC"
+    },
+    {
+      "pick": 53,
+      "player": "Yotam Halperin",
+      "team": "SEA"
+    },
+    {
+      "pick": 54,
+      "player": "Hassan Adams",
+      "team": "NJN"
+    },
+    {
+      "pick": 55,
+      "player": "Ejike Ugboaja",
+      "team": "CLE"
+    },
+    {
+      "pick": 56,
+      "player": "Edin Bavčić",
+      "team": "TOR"
+    },
+    {
+      "pick": 57,
+      "player": "Loukas Mavrokefalidis",
+      "team": "MIN"
+    },
+    {
+      "pick": 58,
+      "player": "J.R. Pinnock",
+      "team": "DAL"
+    },
+    {
+      "pick": 59,
+      "player": "Damir Markota",
+      "team": "SAS"
+    },
+    {
+      "pick": 60,
+      "player": "Will Blalock",
+      "team": "DET"
+    }
+  ],
+  "2007": [
+    {
+      "pick": 1,
+      "player": "Greg Oden",
+      "team": "POR"
+    },
+    {
+      "pick": 2,
+      "player": "Kevin Durant",
+      "team": "SEA"
+    },
+    {
+      "pick": 3,
+      "player": "Al Horford",
+      "team": "ATL"
+    },
+    {
+      "pick": 4,
+      "player": "Mike Conley",
+      "team": "MEM"
+    },
+    {
+      "pick": 5,
+      "player": "Jeff Green",
+      "team": "BOS"
+    },
+    {
+      "pick": 6,
+      "player": "Yi Jianlian",
+      "team": "MIL"
+    },
+    {
+      "pick": 7,
+      "player": "Corey Brewer",
+      "team": "MIN"
+    },
+    {
+      "pick": 8,
+      "player": "Brandan Wright",
+      "team": "CHA"
+    },
+    {
+      "pick": 9,
+      "player": "Joakim Noah",
+      "team": "CHI"
+    },
+    {
+      "pick": 10,
+      "player": "Spencer Hawes",
+      "team": "SAC"
+    },
+    {
+      "pick": 11,
+      "player": "Acie Law",
+      "team": "ATL"
+    },
+    {
+      "pick": 12,
+      "player": "Thaddeus Young",
+      "team": "PHI"
+    },
+    {
+      "pick": 13,
+      "player": "Julian Wright",
+      "team": "NOK"
+    },
+    {
+      "pick": 14,
+      "player": "Al Thornton",
+      "team": "LAC"
+    },
+    {
+      "pick": 15,
+      "player": "Rodney Stuckey",
+      "team": "DET"
+    },
+    {
+      "pick": 16,
+      "player": "Nick Young",
+      "team": "WAS"
+    },
+    {
+      "pick": 17,
+      "player": "Sean Williams",
+      "team": "NJN"
+    },
+    {
+      "pick": 18,
+      "player": "Marco Belinelli",
+      "team": "GSW"
+    },
+    {
+      "pick": 19,
+      "player": "Javaris Crittenton",
+      "team": "LAL"
+    },
+    {
+      "pick": 20,
+      "player": "Jason Smith",
+      "team": "MIA"
+    },
+    {
+      "pick": 21,
+      "player": "Daequan Cook",
+      "team": "PHI"
+    },
+    {
+      "pick": 22,
+      "player": "Jared Dudley",
+      "team": "CHA"
+    },
+    {
+      "pick": 23,
+      "player": "Wilson Chandler",
+      "team": "NYK"
+    },
+    {
+      "pick": 24,
+      "player": "Rudy Fernández",
+      "team": "PHO"
+    },
+    {
+      "pick": 25,
+      "player": "Morris Almond",
+      "team": "UTA"
+    },
+    {
+      "pick": 26,
+      "player": "Aaron Brooks",
+      "team": "HOU"
+    },
+    {
+      "pick": 27,
+      "player": "Arron Afflalo",
+      "team": "DET"
+    },
+    {
+      "pick": 28,
+      "player": "Tiago Splitter",
+      "team": "SAS"
+    },
+    {
+      "pick": 29,
+      "player": "Alando Tucker",
+      "team": "PHO"
+    },
+    {
+      "pick": 30,
+      "player": "Petteri Koponen",
+      "team": "PHI"
+    },
+    {
+      "pick": 31,
+      "player": "Carl Landry",
+      "team": "SEA"
+    },
+    {
+      "pick": 32,
+      "player": "Gabe Pruitt",
+      "team": "BOS"
+    },
+    {
+      "pick": 33,
+      "player": "Marcus Williams",
+      "team": "SAS"
+    },
+    {
+      "pick": 34,
+      "player": "Nick Fazekas",
+      "team": "DAL"
+    },
+    {
+      "pick": 35,
+      "player": "Glen Davis",
+      "team": "SEA"
+    },
+    {
+      "pick": 36,
+      "player": "Jermareo Davidson",
+      "team": "GSW"
+    },
+    {
+      "pick": 37,
+      "player": "Josh McRoberts",
+      "team": "POR"
+    },
+    {
+      "pick": 38,
+      "player": "Kyrylo Fesenko",
+      "team": "PHI"
+    },
+    {
+      "pick": 39,
+      "player": "Stanko Barać",
+      "team": "MIA"
+    },
+    {
+      "pick": 40,
+      "player": "Sun Yue",
+      "team": "LAL"
+    },
+    {
+      "pick": 41,
+      "player": "Chris Richard",
+      "team": "MIN"
+    },
+    {
+      "pick": 42,
+      "player": "Derrick Byars",
+      "team": "POR"
+    },
+    {
+      "pick": 43,
+      "player": "Adam Haluska",
+      "team": "NOK"
+    },
+    {
+      "pick": 44,
+      "player": "Reyshawn Terry",
+      "team": "ORL"
+    },
+    {
+      "pick": 45,
+      "player": "Jared Jordan",
+      "team": "LAC"
+    },
+    {
+      "pick": 46,
+      "player": "Stéphane Lasme",
+      "team": "GSW"
+    },
+    {
+      "pick": 47,
+      "player": "Dominic McGuire",
+      "team": "WAS"
+    },
+    {
+      "pick": 48,
+      "player": "Marc Gasol",
+      "team": "LAL"
+    },
+    {
+      "pick": 49,
+      "player": "Aaron Gray",
+      "team": "CHI"
+    },
+    {
+      "pick": 50,
+      "player": "Renaldas Seibutis",
+      "team": "DAL"
+    },
+    {
+      "pick": 51,
+      "player": "JamesOn Curry",
+      "team": "CHI"
+    },
+    {
+      "pick": 52,
+      "player": "Taurean Green",
+      "team": "POR"
+    },
+    {
+      "pick": 53,
+      "player": "Demetris Nichols",
+      "team": "POR"
+    },
+    {
+      "pick": 54,
+      "player": "Brad Newley",
+      "team": "HOU"
+    },
+    {
+      "pick": 55,
+      "player": "Herbert Hill",
+      "team": "UTA"
+    },
+    {
+      "pick": 56,
+      "player": "Ramon Sessions",
+      "team": "MIL"
+    },
+    {
+      "pick": 57,
+      "player": "Sammy Mejia",
+      "team": "DET"
+    },
+    {
+      "pick": 58,
+      "player": "Georgios Printezis",
+      "team": "SAS"
+    },
+    {
+      "pick": 59,
+      "player": "D.J. Strawberry",
+      "team": "PHO"
+    },
+    {
+      "pick": 60,
+      "player": "Milovan Raković",
+      "team": "DAL"
+    }
+  ],
+  "2008": [
+    {
+      "pick": 1,
+      "player": "Derrick Rose",
+      "team": "CHI"
+    },
+    {
+      "pick": 2,
+      "player": "Michael Beasley",
+      "team": "MIA"
+    },
+    {
+      "pick": 3,
+      "player": "O.J. Mayo",
+      "team": "MIN"
+    },
+    {
+      "pick": 4,
+      "player": "Russell Westbrook",
+      "team": "SEA"
+    },
+    {
+      "pick": 5,
+      "player": "Kevin Love",
+      "team": "MEM"
+    },
+    {
+      "pick": 6,
+      "player": "Danilo Gallinari",
+      "team": "NYK"
+    },
+    {
+      "pick": 7,
+      "player": "Eric Gordon",
+      "team": "LAC"
+    },
+    {
+      "pick": 8,
+      "player": "Joe Alexander",
+      "team": "MIL"
+    },
+    {
+      "pick": 9,
+      "player": "D.J. Augustin",
+      "team": "CHA"
+    },
+    {
+      "pick": 10,
+      "player": "Brook Lopez",
+      "team": "NJN"
+    },
+    {
+      "pick": 11,
+      "player": "Jerryd Bayless",
+      "team": "IND"
+    },
+    {
+      "pick": 12,
+      "player": "Jason Thompson",
+      "team": "SAC"
+    },
+    {
+      "pick": 13,
+      "player": "Brandon Rush",
+      "team": "POR"
+    },
+    {
+      "pick": 14,
+      "player": "Anthony Randolph",
+      "team": "GSW"
+    },
+    {
+      "pick": 15,
+      "player": "Robin Lopez",
+      "team": "PHO"
+    },
+    {
+      "pick": 16,
+      "player": "Marreese Speights",
+      "team": "PHI"
+    },
+    {
+      "pick": 17,
+      "player": "Roy Hibbert",
+      "team": "TOR"
+    },
+    {
+      "pick": 18,
+      "player": "JaVale McGee",
+      "team": "WAS"
+    },
+    {
+      "pick": 19,
+      "player": "J.J. Hickson",
+      "team": "CLE"
+    },
+    {
+      "pick": 20,
+      "player": "Alexis Ajinça",
+      "team": "CHA"
+    },
+    {
+      "pick": 21,
+      "player": "Ryan Anderson",
+      "team": "NJN"
+    },
+    {
+      "pick": 22,
+      "player": "Courtney Lee",
+      "team": "ORL"
+    },
+    {
+      "pick": 23,
+      "player": "Kosta Koufos",
+      "team": "UTA"
+    },
+    {
+      "pick": 24,
+      "player": "Serge Ibaka",
+      "team": "SEA"
+    },
+    {
+      "pick": 25,
+      "player": "Nicolas Batum",
+      "team": "HOU"
+    },
+    {
+      "pick": 26,
+      "player": "George Hill",
+      "team": "SAS"
+    },
+    {
+      "pick": 27,
+      "player": "Darrell Arthur",
+      "team": "NOH"
+    },
+    {
+      "pick": 28,
+      "player": "Donté Greene",
+      "team": "MEM"
+    },
+    {
+      "pick": 29,
+      "player": "D.J. White",
+      "team": "DET"
+    },
+    {
+      "pick": 30,
+      "player": "J.R. Giddens",
+      "team": "BOS"
+    },
+    {
+      "pick": 31,
+      "player": "Nikola Peković",
+      "team": "MIN"
+    },
+    {
+      "pick": 32,
+      "player": "Walter Sharpe",
+      "team": "SEA"
+    },
+    {
+      "pick": 33,
+      "player": "Joey Dorsey",
+      "team": "POR"
+    },
+    {
+      "pick": 34,
+      "player": "Mario Chalmers",
+      "team": "MIN"
+    },
+    {
+      "pick": 35,
+      "player": "DeAndre Jordan",
+      "team": "LAC"
+    },
+    {
+      "pick": 36,
+      "player": "Ömer Aşık",
+      "team": "POR"
+    },
+    {
+      "pick": 37,
+      "player": "Luc Mbah a Moute",
+      "team": "MIL"
+    },
+    {
+      "pick": 38,
+      "player": "Kyle Weaver",
+      "team": "CHA"
+    },
+    {
+      "pick": 39,
+      "player": "Sonny Weems",
+      "team": "CHI"
+    },
+    {
+      "pick": 40,
+      "player": "Chris Douglas-Roberts",
+      "team": "NJN"
+    },
+    {
+      "pick": 41,
+      "player": "Nathan Jawai",
+      "team": "IND"
+    },
+    {
+      "pick": 42,
+      "player": "Sean Singletary",
+      "team": "SAC"
+    },
+    {
+      "pick": 43,
+      "player": "Patrick Ewing",
+      "team": "SAC"
+    },
+    {
+      "pick": 44,
+      "player": "Ante Tomić",
+      "team": "UTA"
+    },
+    {
+      "pick": 45,
+      "player": "Goran Dragić",
+      "team": "SAS"
+    },
+    {
+      "pick": 46,
+      "player": "Trent Plaisted",
+      "team": "SEA"
+    },
+    {
+      "pick": 47,
+      "player": "Henry Walker",
+      "team": "WAS"
+    },
+    {
+      "pick": 48,
+      "player": "Malik Hairston",
+      "team": "PHO"
+    },
+    {
+      "pick": 49,
+      "player": "Richard Hendrix",
+      "team": "GSW"
+    },
+    {
+      "pick": 50,
+      "player": "DeVon Hardin",
+      "team": "SEA"
+    },
+    {
+      "pick": 51,
+      "player": "Shan Foster",
+      "team": "DAL"
+    },
+    {
+      "pick": 52,
+      "player": "Darnell Jackson",
+      "team": "MIA"
+    },
+    {
+      "pick": 53,
+      "player": "Tadija Dragićević",
+      "team": "UTA"
+    },
+    {
+      "pick": 54,
+      "player": "Maarty Leunen",
+      "team": "HOU"
+    },
+    {
+      "pick": 55,
+      "player": "Mike Taylor",
+      "team": "POR"
+    },
+    {
+      "pick": 56,
+      "player": "Sasha Kaun",
+      "team": "SEA"
+    }
+  ],
+  "2009": [
+    {
+      "pick": 1,
+      "player": "Blake Griffin",
+      "team": "LAC"
+    },
+    {
+      "pick": 2,
+      "player": "Hasheem Thabeet",
+      "team": "MEM"
+    },
+    {
+      "pick": 3,
+      "player": "James Harden",
+      "team": "OKC"
+    },
+    {
+      "pick": 4,
+      "player": "Tyreke Evans",
+      "team": "SAC"
+    },
+    {
+      "pick": 5,
+      "player": "Ricky Rubio",
+      "team": "MIN"
+    },
+    {
+      "pick": 6,
+      "player": "Jonny Flynn",
+      "team": "MIN"
+    },
+    {
+      "pick": 7,
+      "player": "Stephen Curry",
+      "team": "GSW"
+    },
+    {
+      "pick": 8,
+      "player": "Jordan Hill",
+      "team": "NYK"
+    },
+    {
+      "pick": 9,
+      "player": "DeMar DeRozan",
+      "team": "TOR"
+    },
+    {
+      "pick": 10,
+      "player": "Brandon Jennings",
+      "team": "MIL"
+    },
+    {
+      "pick": 11,
+      "player": "Terrence Williams",
+      "team": "NJN"
+    },
+    {
+      "pick": 12,
+      "player": "Gerald Henderson",
+      "team": "CHA"
+    },
+    {
+      "pick": 13,
+      "player": "Tyler Hansbrough",
+      "team": "IND"
+    },
+    {
+      "pick": 14,
+      "player": "Earl Clark",
+      "team": "PHO"
+    },
+    {
+      "pick": 15,
+      "player": "Austin Daye",
+      "team": "DET"
+    },
+    {
+      "pick": 16,
+      "player": "James Johnson",
+      "team": "CHI"
+    },
+    {
+      "pick": 17,
+      "player": "Jrue Holiday",
+      "team": "PHI"
+    },
+    {
+      "pick": 18,
+      "player": "Ty Lawson",
+      "team": "MIN"
+    },
+    {
+      "pick": 19,
+      "player": "Jeff Teague",
+      "team": "ATL"
+    },
+    {
+      "pick": 20,
+      "player": "Eric Maynor",
+      "team": "UTA"
+    },
+    {
+      "pick": 21,
+      "player": "Darren Collison",
+      "team": "NOH"
+    },
+    {
+      "pick": 22,
+      "player": "Victor Claver",
+      "team": "POR"
+    },
+    {
+      "pick": 23,
+      "player": "Omri Casspi",
+      "team": "SAC"
+    },
+    {
+      "pick": 24,
+      "player": "Byron Mullens",
+      "team": "DAL"
+    },
+    {
+      "pick": 25,
+      "player": "Rodrigue Beaubois",
+      "team": "OKC"
+    },
+    {
+      "pick": 26,
+      "player": "Taj Gibson",
+      "team": "CHI"
+    },
+    {
+      "pick": 27,
+      "player": "DeMarre Carroll",
+      "team": "MEM"
+    },
+    {
+      "pick": 28,
+      "player": "Wayne Ellington",
+      "team": "MIN"
+    },
+    {
+      "pick": 29,
+      "player": "Toney Douglas",
+      "team": "LAL"
+    },
+    {
+      "pick": 30,
+      "player": "Christian Eyenga",
+      "team": "CLE"
+    },
+    {
+      "pick": 31,
+      "player": "Jeff Ayres",
+      "team": "SAC"
+    },
+    {
+      "pick": 32,
+      "player": "Jermaine Taylor",
+      "team": "WAS"
+    },
+    {
+      "pick": 33,
+      "player": "Dante Cunningham",
+      "team": "POR"
+    },
+    {
+      "pick": 34,
+      "player": "Sergio Llull",
+      "team": "DEN"
+    },
+    {
+      "pick": 35,
+      "player": "DaJuan Summers",
+      "team": "DET"
+    },
+    {
+      "pick": 36,
+      "player": "Sam Young",
+      "team": "MEM"
+    },
+    {
+      "pick": 37,
+      "player": "DeJuan Blair",
+      "team": "SAS"
+    },
+    {
+      "pick": 38,
+      "player": "Jon Brockman",
+      "team": "POR"
+    },
+    {
+      "pick": 39,
+      "player": "Jonas Jerebko",
+      "team": "DET"
+    },
+    {
+      "pick": 40,
+      "player": "Derrick Brown",
+      "team": "CHA"
+    },
+    {
+      "pick": 41,
+      "player": "Jodie Meeks",
+      "team": "MIL"
+    },
+    {
+      "pick": 42,
+      "player": "Patrick Beverley",
+      "team": "LAL"
+    },
+    {
+      "pick": 43,
+      "player": "Marcus Thornton",
+      "team": "MIA"
+    },
+    {
+      "pick": 44,
+      "player": "Chase Budinger",
+      "team": "DET"
+    },
+    {
+      "pick": 45,
+      "player": "Nick Calathes",
+      "team": "MIN"
+    },
+    {
+      "pick": 46,
+      "player": "Danny Green",
+      "team": "CLE"
+    },
+    {
+      "pick": 47,
+      "player": "Henk Norel",
+      "team": "MIN"
+    },
+    {
+      "pick": 48,
+      "player": "Taylor Griffin",
+      "team": "PHO"
+    },
+    {
+      "pick": 49,
+      "player": "Sergiy Gladyr",
+      "team": "ATL"
+    },
+    {
+      "pick": 50,
+      "player": "Goran Suton",
+      "team": "UTA"
+    },
+    {
+      "pick": 51,
+      "player": "Jack McClinton",
+      "team": "SAS"
+    },
+    {
+      "pick": 52,
+      "player": "A.J. Price",
+      "team": "IND"
+    },
+    {
+      "pick": 53,
+      "player": "Nando De Colo",
+      "team": "SAS"
+    },
+    {
+      "pick": 54,
+      "player": "Robert Vaden",
+      "team": "CHA"
+    },
+    {
+      "pick": 55,
+      "player": "Patty Mills",
+      "team": "POR"
+    },
+    {
+      "pick": 56,
+      "player": "Ahmad Nivins",
+      "team": "DAL"
+    },
+    {
+      "pick": 57,
+      "player": "Emir Preldžić",
+      "team": "PHO"
+    },
+    {
+      "pick": 58,
+      "player": "Lester Hudson",
+      "team": "BOS"
+    },
+    {
+      "pick": 59,
+      "player": "Chinemelu Elonu",
+      "team": "LAL"
+    },
+    {
+      "pick": 60,
+      "player": "Robert Dozier",
+      "team": "MIA"
+    }
+  ],
+  "2010": [
+    {
+      "pick": 1,
+      "player": "John Wall",
+      "team": "WAS"
+    },
+    {
+      "pick": 2,
+      "player": "Evan Turner",
+      "team": "PHI"
+    },
+    {
+      "pick": 3,
+      "player": "Derrick Favors",
+      "team": "NJN"
+    },
+    {
+      "pick": 4,
+      "player": "Wesley Johnson",
+      "team": "MIN"
+    },
+    {
+      "pick": 5,
+      "player": "DeMarcus Cousins",
+      "team": "SAC"
+    },
+    {
+      "pick": 6,
+      "player": "Ekpe Udoh",
+      "team": "GSW"
+    },
+    {
+      "pick": 7,
+      "player": "Greg Monroe",
+      "team": "DET"
+    },
+    {
+      "pick": 8,
+      "player": "Al-Farouq Aminu",
+      "team": "LAC"
+    },
+    {
+      "pick": 9,
+      "player": "Gordon Hayward",
+      "team": "UTA"
+    },
+    {
+      "pick": 10,
+      "player": "Paul George",
+      "team": "IND"
+    },
+    {
+      "pick": 11,
+      "player": "Cole Aldrich",
+      "team": "NOH"
+    },
+    {
+      "pick": 12,
+      "player": "Xavier Henry",
+      "team": "MEM"
+    },
+    {
+      "pick": 13,
+      "player": "Ed Davis",
+      "team": "TOR"
+    },
+    {
+      "pick": 14,
+      "player": "Patrick Patterson",
+      "team": "HOU"
+    },
+    {
+      "pick": 15,
+      "player": "Larry Sanders",
+      "team": "MIL"
+    },
+    {
+      "pick": 16,
+      "player": "Luke Babbitt",
+      "team": "MIN"
+    },
+    {
+      "pick": 17,
+      "player": "Kevin Séraphin",
+      "team": "CHI"
+    },
+    {
+      "pick": 18,
+      "player": "Eric Bledsoe",
+      "team": "OKC"
+    },
+    {
+      "pick": 19,
+      "player": "Avery Bradley",
+      "team": "BOS"
+    },
+    {
+      "pick": 20,
+      "player": "James Anderson",
+      "team": "SAS"
+    },
+    {
+      "pick": 21,
+      "player": "Craig Brackins",
+      "team": "OKC"
+    },
+    {
+      "pick": 22,
+      "player": "Elliot Williams",
+      "team": "POR"
+    },
+    {
+      "pick": 23,
+      "player": "Trevor Booker",
+      "team": "MIN"
+    },
+    {
+      "pick": 24,
+      "player": "Damion James",
+      "team": "ATL"
+    },
+    {
+      "pick": 25,
+      "player": "Dominique Jones",
+      "team": "MEM"
+    },
+    {
+      "pick": 26,
+      "player": "Quincy Pondexter",
+      "team": "OKC"
+    },
+    {
+      "pick": 27,
+      "player": "Jordan Crawford",
+      "team": "NJN"
+    },
+    {
+      "pick": 28,
+      "player": "Greivis Vásquez",
+      "team": "MEM"
+    },
+    {
+      "pick": 29,
+      "player": "Daniel Orton",
+      "team": "ORL"
+    },
+    {
+      "pick": 30,
+      "player": "Lazar Hayward",
+      "team": "WAS"
+    },
+    {
+      "pick": 31,
+      "player": "Tibor Pleiß",
+      "team": "NJN"
+    },
+    {
+      "pick": 32,
+      "player": "Dexter Pittman",
+      "team": "MIA"
+    },
+    {
+      "pick": 33,
+      "player": "Hassan Whiteside",
+      "team": "SAC"
+    },
+    {
+      "pick": 34,
+      "player": "Armon Johnson",
+      "team": "POR"
+    },
+    {
+      "pick": 35,
+      "player": "Nemanja Bjelica",
+      "team": "WAS"
+    },
+    {
+      "pick": 36,
+      "player": "Terrico White",
+      "team": "DET"
+    },
+    {
+      "pick": 37,
+      "player": "Darington Hobson",
+      "team": "MIL"
+    },
+    {
+      "pick": 38,
+      "player": "Andy Rautins",
+      "team": "NYK"
+    },
+    {
+      "pick": 39,
+      "player": "Landry Fields",
+      "team": "NYK"
+    },
+    {
+      "pick": 40,
+      "player": "Lance Stephenson",
+      "team": "IND"
+    },
+    {
+      "pick": 41,
+      "player": "Jarvis Varnado",
+      "team": "MIA"
+    },
+    {
+      "pick": 42,
+      "player": "Da'Sean Butler",
+      "team": "MIA"
+    },
+    {
+      "pick": 43,
+      "player": "Devin Ebanks",
+      "team": "LAL"
+    },
+    {
+      "pick": 44,
+      "player": "Jerome Jordan",
+      "team": "MIL"
+    },
+    {
+      "pick": 45,
+      "player": "Paulão Prestes",
+      "team": "MIN"
+    },
+    {
+      "pick": 46,
+      "player": "Gani Lawal",
+      "team": "PHO"
+    },
+    {
+      "pick": 47,
+      "player": "Tiny Gallon",
+      "team": "MIL"
+    },
+    {
+      "pick": 48,
+      "player": "Latavious Williams",
+      "team": "MIA"
+    },
+    {
+      "pick": 49,
+      "player": "Ryan Richards",
+      "team": "SAS"
+    },
+    {
+      "pick": 50,
+      "player": "Solomon Alabi",
+      "team": "DAL"
+    },
+    {
+      "pick": 51,
+      "player": "Magnum Rolle",
+      "team": "OKC"
+    },
+    {
+      "pick": 52,
+      "player": "Luke Harangody",
+      "team": "BOS"
+    },
+    {
+      "pick": 53,
+      "player": "Pape Sy",
+      "team": "ATL"
+    },
+    {
+      "pick": 54,
+      "player": "Willie Warren",
+      "team": "LAC"
+    },
+    {
+      "pick": 55,
+      "player": "Jeremy Evans",
+      "team": "UTA"
+    },
+    {
+      "pick": 56,
+      "player": "Hamady N'Diaye",
+      "team": "MIN"
+    },
+    {
+      "pick": 57,
+      "player": "Ryan Reid",
+      "team": "IND"
+    },
+    {
+      "pick": 58,
+      "player": "Derrick Caracter",
+      "team": "LAL"
+    },
+    {
+      "pick": 59,
+      "player": "Stanley Robinson",
+      "team": "ORL"
+    },
+    {
+      "pick": 60,
+      "player": "Dwayne Collins",
+      "team": "PHO"
+    }
+  ],
+  "2011": [
+    {
+      "pick": 1,
+      "player": "Kyrie Irving",
+      "team": "CLE"
+    },
+    {
+      "pick": 2,
+      "player": "Derrick Williams",
+      "team": "MIN"
+    },
+    {
+      "pick": 3,
+      "player": "Enes Freedom",
+      "team": "UTA"
+    },
+    {
+      "pick": 4,
+      "player": "Tristan Thompson",
+      "team": "CLE"
+    },
+    {
+      "pick": 5,
+      "player": "Jonas Valančiūnas",
+      "team": "TOR"
+    },
+    {
+      "pick": 6,
+      "player": "Jan Veselý",
+      "team": "WAS"
+    },
+    {
+      "pick": 7,
+      "player": "Bismack Biyombo",
+      "team": "SAC"
+    },
+    {
+      "pick": 8,
+      "player": "Brandon Knight",
+      "team": "DET"
+    },
+    {
+      "pick": 9,
+      "player": "Kemba Walker",
+      "team": "CHA"
+    },
+    {
+      "pick": 10,
+      "player": "Jimmer Fredette",
+      "team": "MIL"
+    },
+    {
+      "pick": 11,
+      "player": "Klay Thompson",
+      "team": "GSW"
+    },
+    {
+      "pick": 12,
+      "player": "Alec Burks",
+      "team": "UTA"
+    },
+    {
+      "pick": 13,
+      "player": "Markieff Morris",
+      "team": "PHO"
+    },
+    {
+      "pick": 14,
+      "player": "Marcus Morris",
+      "team": "HOU"
+    },
+    {
+      "pick": 15,
+      "player": "Kawhi Leonard",
+      "team": "IND"
+    },
+    {
+      "pick": 16,
+      "player": "Nikola Vučević",
+      "team": "PHI"
+    },
+    {
+      "pick": 17,
+      "player": "Iman Shumpert",
+      "team": "NYK"
+    },
+    {
+      "pick": 18,
+      "player": "Chris Singleton",
+      "team": "WAS"
+    },
+    {
+      "pick": 19,
+      "player": "Tobias Harris",
+      "team": "CHA"
+    },
+    {
+      "pick": 20,
+      "player": "Donatas Motiejūnas",
+      "team": "MIN"
+    },
+    {
+      "pick": 21,
+      "player": "Nolan Smith",
+      "team": "POR"
+    },
+    {
+      "pick": 22,
+      "player": "Kenneth Faried",
+      "team": "DEN"
+    },
+    {
+      "pick": 23,
+      "player": "Nikola Mirotić",
+      "team": "HOU"
+    },
+    {
+      "pick": 24,
+      "player": "Reggie Jackson",
+      "team": "OKC"
+    },
+    {
+      "pick": 25,
+      "player": "MarShon Brooks",
+      "team": "BOS"
+    },
+    {
+      "pick": 26,
+      "player": "Jordan Hamilton",
+      "team": "DAL"
+    },
+    {
+      "pick": 27,
+      "player": "JaJuan Johnson",
+      "team": "NJN"
+    },
+    {
+      "pick": 28,
+      "player": "Norris Cole",
+      "team": "CHI"
+    },
+    {
+      "pick": 29,
+      "player": "Cory Joseph",
+      "team": "SAS"
+    },
+    {
+      "pick": 30,
+      "player": "Jimmy Butler",
+      "team": "CHI"
+    },
+    {
+      "pick": 31,
+      "player": "Bojan Bogdanović",
+      "team": "MIA"
+    },
+    {
+      "pick": 32,
+      "player": "Justin Harper",
+      "team": "CLE"
+    },
+    {
+      "pick": 33,
+      "player": "Kyle Singler",
+      "team": "DET"
+    },
+    {
+      "pick": 34,
+      "player": "Shelvin Mack",
+      "team": "WAS"
+    },
+    {
+      "pick": 35,
+      "player": "Tyler Honeycutt",
+      "team": "SAC"
+    },
+    {
+      "pick": 36,
+      "player": "Jordan Williams",
+      "team": "NJN"
+    },
+    {
+      "pick": 37,
+      "player": "Trey Thompkins",
+      "team": "LAC"
+    },
+    {
+      "pick": 38,
+      "player": "Chandler Parsons",
+      "team": "HOU"
+    },
+    {
+      "pick": 39,
+      "player": "Jeremy Tyler",
+      "team": "CHA"
+    },
+    {
+      "pick": 40,
+      "player": "Jon Leuer",
+      "team": "MIL"
+    },
+    {
+      "pick": 41,
+      "player": "Darius Morris",
+      "team": "LAL"
+    },
+    {
+      "pick": 42,
+      "player": "Dāvis Bertāns",
+      "team": "IND"
+    },
+    {
+      "pick": 43,
+      "player": "Malcolm Lee",
+      "team": "CHI"
+    },
+    {
+      "pick": 44,
+      "player": "Charles Jenkins",
+      "team": "GSW"
+    },
+    {
+      "pick": 45,
+      "player": "Josh Harrellson",
+      "team": "NOH"
+    },
+    {
+      "pick": 46,
+      "player": "Andrew Goudelock",
+      "team": "LAL"
+    },
+    {
+      "pick": 47,
+      "player": "Travis Leslie",
+      "team": "LAC"
+    },
+    {
+      "pick": 48,
+      "player": "Keith Benson",
+      "team": "ATL"
+    },
+    {
+      "pick": 49,
+      "player": "Josh Selby",
+      "team": "MEM"
+    },
+    {
+      "pick": 50,
+      "player": "Lavoy Allen",
+      "team": "PHI"
+    },
+    {
+      "pick": 51,
+      "player": "Jon Diebler",
+      "team": "POR"
+    },
+    {
+      "pick": 52,
+      "player": "Vernon Macklin",
+      "team": "DET"
+    },
+    {
+      "pick": 53,
+      "player": "DeAndre Liggins",
+      "team": "ORL"
+    },
+    {
+      "pick": 54,
+      "player": "Milan Mačvan",
+      "team": "CLE"
+    },
+    {
+      "pick": 55,
+      "player": "E'Twaun Moore",
+      "team": "BOS"
+    },
+    {
+      "pick": 56,
+      "player": "Chukwudiebere Maduabum",
+      "team": "LAL"
+    },
+    {
+      "pick": 57,
+      "player": "Tanguy Ngombo",
+      "team": "DAL"
+    },
+    {
+      "pick": 58,
+      "player": "Ater Majok",
+      "team": "LAL"
+    },
+    {
+      "pick": 59,
+      "player": "Ádám Hanga",
+      "team": "SAS"
+    },
+    {
+      "pick": 60,
+      "player": "Isaiah Thomas",
+      "team": "SAC"
+    }
+  ],
+  "2012": [
+    {
+      "pick": 1,
+      "player": "Anthony Davis",
+      "team": "NOH"
+    },
+    {
+      "pick": 2,
+      "player": "Michael Kidd-Gilchrist",
+      "team": "CHA"
+    },
+    {
+      "pick": 3,
+      "player": "Bradley Beal",
+      "team": "WAS"
+    },
+    {
+      "pick": 4,
+      "player": "Dion Waiters",
+      "team": "CLE"
+    },
+    {
+      "pick": 5,
+      "player": "Thomas Robinson",
+      "team": "SAC"
+    },
+    {
+      "pick": 6,
+      "player": "Damian Lillard",
+      "team": "POR"
+    },
+    {
+      "pick": 7,
+      "player": "Harrison Barnes",
+      "team": "GSW"
+    },
+    {
+      "pick": 8,
+      "player": "Terrence Ross",
+      "team": "TOR"
+    },
+    {
+      "pick": 9,
+      "player": "Andre Drummond",
+      "team": "DET"
+    },
+    {
+      "pick": 10,
+      "player": "Austin Rivers",
+      "team": "NOH"
+    },
+    {
+      "pick": 11,
+      "player": "Meyers Leonard",
+      "team": "POR"
+    },
+    {
+      "pick": 12,
+      "player": "Jeremy Lamb",
+      "team": "HOU"
+    },
+    {
+      "pick": 13,
+      "player": "Kendall Marshall",
+      "team": "PHO"
+    },
+    {
+      "pick": 14,
+      "player": "John Henson",
+      "team": "MIL"
+    },
+    {
+      "pick": 15,
+      "player": "Maurice Harkless",
+      "team": "PHI"
+    },
+    {
+      "pick": 16,
+      "player": "Royce White",
+      "team": "HOU"
+    },
+    {
+      "pick": 17,
+      "player": "Tyler Zeller",
+      "team": "DAL"
+    },
+    {
+      "pick": 18,
+      "player": "Terrence Jones",
+      "team": "HOU"
+    },
+    {
+      "pick": 19,
+      "player": "Andrew Nicholson",
+      "team": "ORL"
+    },
+    {
+      "pick": 20,
+      "player": "Evan Fournier",
+      "team": "DEN"
+    },
+    {
+      "pick": 21,
+      "player": "Jared Sullinger",
+      "team": "BOS"
+    },
+    {
+      "pick": 22,
+      "player": "Fab Melo",
+      "team": "BOS"
+    },
+    {
+      "pick": 23,
+      "player": "John Jenkins",
+      "team": "ATL"
+    },
+    {
+      "pick": 24,
+      "player": "Jared Cunningham",
+      "team": "CLE"
+    },
+    {
+      "pick": 25,
+      "player": "Tony Wroten",
+      "team": "MEM"
+    },
+    {
+      "pick": 26,
+      "player": "Miles Plumlee",
+      "team": "IND"
+    },
+    {
+      "pick": 27,
+      "player": "Arnett Moultrie",
+      "team": "MIA"
+    },
+    {
+      "pick": 28,
+      "player": "Perry Jones",
+      "team": "OKC"
+    },
+    {
+      "pick": 29,
+      "player": "Marquis Teague",
+      "team": "CHI"
+    },
+    {
+      "pick": 30,
+      "player": "Festus Ezeli",
+      "team": "GSW"
+    },
+    {
+      "pick": 31,
+      "player": "Jeff Taylor",
+      "team": "CHA"
+    },
+    {
+      "pick": 32,
+      "player": "Tomáš Satoranský",
+      "team": "WAS"
+    },
+    {
+      "pick": 33,
+      "player": "Bernard James",
+      "team": "CLE"
+    },
+    {
+      "pick": 34,
+      "player": "Jae Crowder",
+      "team": "CLE"
+    },
+    {
+      "pick": 35,
+      "player": "Draymond Green",
+      "team": "GSW"
+    },
+    {
+      "pick": 36,
+      "player": "Orlando Johnson",
+      "team": "SAC"
+    },
+    {
+      "pick": 37,
+      "player": "Quincy Acy",
+      "team": "TOR"
+    },
+    {
+      "pick": 38,
+      "player": "Quincy Miller",
+      "team": "DEN"
+    },
+    {
+      "pick": 39,
+      "player": "Khris Middleton",
+      "team": "DET"
+    },
+    {
+      "pick": 40,
+      "player": "Will Barton",
+      "team": "POR"
+    },
+    {
+      "pick": 41,
+      "player": "Tyshawn Taylor",
+      "team": "POR"
+    },
+    {
+      "pick": 42,
+      "player": "Doron Lamb",
+      "team": "MIL"
+    },
+    {
+      "pick": 43,
+      "player": "Mike Scott",
+      "team": "ATL"
+    },
+    {
+      "pick": 44,
+      "player": "Kim English",
+      "team": "DET"
+    },
+    {
+      "pick": 45,
+      "player": "Justin Hamilton",
+      "team": "PHI"
+    },
+    {
+      "pick": 46,
+      "player": "Darius Miller",
+      "team": "NOH"
+    },
+    {
+      "pick": 47,
+      "player": "Kevin Murphy",
+      "team": "UTA"
+    },
+    {
+      "pick": 48,
+      "player": "Kostas Papanikolaou",
+      "team": "NYK"
+    },
+    {
+      "pick": 49,
+      "player": "Kyle O'Quinn",
+      "team": "ORL"
+    },
+    {
+      "pick": 50,
+      "player": "İzzet Türkyılmaz",
+      "team": "DEN"
+    },
+    {
+      "pick": 51,
+      "player": "Kris Joseph",
+      "team": "BOS"
+    },
+    {
+      "pick": 52,
+      "player": "Ognjen Kuzmić",
+      "team": "GSW"
+    },
+    {
+      "pick": 53,
+      "player": "Furkan Aldemir",
+      "team": "LAC"
+    },
+    {
+      "pick": 54,
+      "player": "Tornike Shengelia",
+      "team": "PHI"
+    },
+    {
+      "pick": 55,
+      "player": "Darius Johnson-Odom",
+      "team": "DAL"
+    },
+    {
+      "pick": 56,
+      "player": "Tomislav Zubčić",
+      "team": "TOR"
+    },
+    {
+      "pick": 57,
+      "player": "İlkan Karaman",
+      "team": "NJN"
+    },
+    {
+      "pick": 58,
+      "player": "Robbie Hummel",
+      "team": "MIN"
+    },
+    {
+      "pick": 59,
+      "player": "Marcus Denmon",
+      "team": "SAS"
+    },
+    {
+      "pick": 60,
+      "player": "Robert Sacre",
+      "team": "LAL"
+    }
+  ],
+  "2013": [
+    {
+      "pick": 1,
+      "player": "Anthony Bennett",
+      "team": "CLE"
+    },
+    {
+      "pick": 2,
+      "player": "Victor Oladipo",
+      "team": "ORL"
+    },
+    {
+      "pick": 3,
+      "player": "Otto Porter Jr.",
+      "team": "WAS"
+    },
+    {
+      "pick": 4,
+      "player": "Cody Zeller",
+      "team": "CHA"
+    },
+    {
+      "pick": 5,
+      "player": "Alex Len",
+      "team": "PHO"
+    },
+    {
+      "pick": 6,
+      "player": "Nerlens Noel",
+      "team": "NOH"
+    },
+    {
+      "pick": 7,
+      "player": "Ben McLemore",
+      "team": "SAC"
+    },
+    {
+      "pick": 8,
+      "player": "Kentavious Caldwell-Pope",
+      "team": "DET"
+    },
+    {
+      "pick": 9,
+      "player": "Trey Burke",
+      "team": "MIN"
+    },
+    {
+      "pick": 10,
+      "player": "CJ McCollum",
+      "team": "POR"
+    },
+    {
+      "pick": 11,
+      "player": "Michael Carter-Williams",
+      "team": "PHI"
+    },
+    {
+      "pick": 12,
+      "player": "Steven Adams",
+      "team": "OKC"
+    },
+    {
+      "pick": 13,
+      "player": "Kelly Olynyk",
+      "team": "DAL"
+    },
+    {
+      "pick": 14,
+      "player": "Shabazz Muhammad",
+      "team": "UTA"
+    },
+    {
+      "pick": 15,
+      "player": "Giannis Antetokounmpo",
+      "team": "MIL"
+    },
+    {
+      "pick": 16,
+      "player": "Lucas Nogueira",
+      "team": "BOS"
+    },
+    {
+      "pick": 17,
+      "player": "Dennis Schröder",
+      "team": "ATL"
+    },
+    {
+      "pick": 18,
+      "player": "Shane Larkin",
+      "team": "ATL"
+    },
+    {
+      "pick": 19,
+      "player": "Sergey Karasev",
+      "team": "CLE"
+    },
+    {
+      "pick": 20,
+      "player": "Tony Snell",
+      "team": "CHI"
+    },
+    {
+      "pick": 21,
+      "player": "Gorgui Dieng",
+      "team": "UTA"
+    },
+    {
+      "pick": 22,
+      "player": "Mason Plumlee",
+      "team": "BRK"
+    },
+    {
+      "pick": 23,
+      "player": "Solomon Hill",
+      "team": "IND"
+    },
+    {
+      "pick": 24,
+      "player": "Tim Hardaway Jr.",
+      "team": "NYK"
+    },
+    {
+      "pick": 25,
+      "player": "Reggie Bullock",
+      "team": "LAC"
+    },
+    {
+      "pick": 26,
+      "player": "Andre Roberson",
+      "team": "MIN"
+    },
+    {
+      "pick": 27,
+      "player": "Rudy Gobert",
+      "team": "DEN"
+    },
+    {
+      "pick": 28,
+      "player": "Livio Jean-Charles",
+      "team": "SAS"
+    },
+    {
+      "pick": 29,
+      "player": "Archie Goodwin",
+      "team": "OKC"
+    },
+    {
+      "pick": 30,
+      "player": "Nemanja Nedović",
+      "team": "PHO"
+    },
+    {
+      "pick": 31,
+      "player": "Allen Crabbe",
+      "team": "CLE"
+    },
+    {
+      "pick": 32,
+      "player": "Álex Abrines",
+      "team": "OKC"
+    },
+    {
+      "pick": 33,
+      "player": "Carrick Felix",
+      "team": "CLE"
+    },
+    {
+      "pick": 34,
+      "player": "Isaiah Canaan",
+      "team": "HOU"
+    },
+    {
+      "pick": 35,
+      "player": "Glen Rice Jr.",
+      "team": "PHI"
+    },
+    {
+      "pick": 36,
+      "player": "Ray McCallum",
+      "team": "SAC"
+    },
+    {
+      "pick": 37,
+      "player": "Tony Mitchell",
+      "team": "DET"
+    },
+    {
+      "pick": 38,
+      "player": "Nate Wolters",
+      "team": "WAS"
+    },
+    {
+      "pick": 39,
+      "player": "Jeff Withey",
+      "team": "POR"
+    },
+    {
+      "pick": 40,
+      "player": "Grant Jerrett",
+      "team": "POR"
+    },
+    {
+      "pick": 41,
+      "player": "Jamaal Franklin",
+      "team": "MEM"
+    },
+    {
+      "pick": 42,
+      "player": "Pierre Jackson",
+      "team": "PHI"
+    },
+    {
+      "pick": 43,
+      "player": "Ricky Ledo",
+      "team": "MIL"
+    },
+    {
+      "pick": 44,
+      "player": "Mike Muscala",
+      "team": "DAL"
+    },
+    {
+      "pick": 45,
+      "player": "Marko Todorović",
+      "team": "POR"
+    },
+    {
+      "pick": 46,
+      "player": "Erick Green",
+      "team": "UTA"
+    },
+    {
+      "pick": 47,
+      "player": "Raul Neto",
+      "team": "ATL"
+    },
+    {
+      "pick": 48,
+      "player": "Ryan Kelly",
+      "team": "LAL"
+    },
+    {
+      "pick": 49,
+      "player": "Erik Murphy",
+      "team": "CHI"
+    },
+    {
+      "pick": 50,
+      "player": "James Ennis III",
+      "team": "ATL"
+    },
+    {
+      "pick": 51,
+      "player": "Romero Osby",
+      "team": "ORL"
+    },
+    {
+      "pick": 52,
+      "player": "Lorenzo Brown",
+      "team": "MIN"
+    },
+    {
+      "pick": 53,
+      "player": "Colton Iverson",
+      "team": "IND"
+    },
+    {
+      "pick": 54,
+      "player": "Arsalan Kazemi",
+      "team": "WAS"
+    },
+    {
+      "pick": 55,
+      "player": "Joffrey Lauvergne",
+      "team": "MEM"
+    },
+    {
+      "pick": 56,
+      "player": "Peyton Siva",
+      "team": "DET"
+    },
+    {
+      "pick": 57,
+      "player": "Alex Oriakhi",
+      "team": "PHO"
+    },
+    {
+      "pick": 58,
+      "player": "Deshaun Thomas",
+      "team": "SAS"
+    },
+    {
+      "pick": 59,
+      "player": "Bojan Dubljević",
+      "team": "MIN"
+    },
+    {
+      "pick": 60,
+      "player": "Jānis Timma",
+      "team": "MEM"
+    }
+  ],
+  "2014": [
+    {
+      "pick": 1,
+      "player": "Andrew Wiggins",
+      "team": "CLE"
+    },
+    {
+      "pick": 2,
+      "player": "Jabari Parker",
+      "team": "MIL"
+    },
+    {
+      "pick": 3,
+      "player": "Joel Embiid",
+      "team": "PHI"
+    },
+    {
+      "pick": 4,
+      "player": "Aaron Gordon",
+      "team": "ORL"
+    },
+    {
+      "pick": 5,
+      "player": "Dante Exum",
+      "team": "UTA"
+    },
+    {
+      "pick": 6,
+      "player": "Marcus Smart",
+      "team": "BOS"
+    },
+    {
+      "pick": 7,
+      "player": "Julius Randle",
+      "team": "LAL"
+    },
+    {
+      "pick": 8,
+      "player": "Nik Stauskas",
+      "team": "SAC"
+    },
+    {
+      "pick": 9,
+      "player": "Noah Vonleh",
+      "team": "CHO"
+    },
+    {
+      "pick": 10,
+      "player": "Elfrid Payton",
+      "team": "PHI"
+    },
+    {
+      "pick": 11,
+      "player": "Doug McDermott",
+      "team": "DEN"
+    },
+    {
+      "pick": 12,
+      "player": "Dario Šarić",
+      "team": "ORL"
+    },
+    {
+      "pick": 13,
+      "player": "Zach LaVine",
+      "team": "MIN"
+    },
+    {
+      "pick": 14,
+      "player": "T.J. Warren",
+      "team": "PHO"
+    },
+    {
+      "pick": 15,
+      "player": "Adreian Payne",
+      "team": "ATL"
+    },
+    {
+      "pick": 16,
+      "player": "Jusuf Nurkić",
+      "team": "CHI"
+    },
+    {
+      "pick": 17,
+      "player": "James Young",
+      "team": "BOS"
+    },
+    {
+      "pick": 18,
+      "player": "Tyler Ennis",
+      "team": "PHO"
+    },
+    {
+      "pick": 19,
+      "player": "Gary Harris",
+      "team": "CHI"
+    },
+    {
+      "pick": 20,
+      "player": "Bruno Caboclo",
+      "team": "TOR"
+    },
+    {
+      "pick": 21,
+      "player": "Mitch McGary",
+      "team": "OKC"
+    },
+    {
+      "pick": 22,
+      "player": "Jordan Adams",
+      "team": "MEM"
+    },
+    {
+      "pick": 23,
+      "player": "Rodney Hood",
+      "team": "UTA"
+    },
+    {
+      "pick": 24,
+      "player": "Shabazz Napier",
+      "team": "CHO"
+    },
+    {
+      "pick": 25,
+      "player": "Clint Capela",
+      "team": "HOU"
+    },
+    {
+      "pick": 26,
+      "player": "P.J. Hairston",
+      "team": "MIA"
+    },
+    {
+      "pick": 27,
+      "player": "Bogdan Bogdanović",
+      "team": "PHO"
+    },
+    {
+      "pick": 28,
+      "player": "C.J. Wilcox",
+      "team": "LAC"
+    },
+    {
+      "pick": 29,
+      "player": "Josh Huestis",
+      "team": "OKC"
+    },
+    {
+      "pick": 30,
+      "player": "Kyle Anderson",
+      "team": "SAS"
+    },
+    {
+      "pick": 31,
+      "player": "Damien Inglis",
+      "team": "MIL"
+    },
+    {
+      "pick": 32,
+      "player": "K.J. McDaniels",
+      "team": "PHI"
+    },
+    {
+      "pick": 33,
+      "player": "Joe Harris",
+      "team": "CLE"
+    },
+    {
+      "pick": 34,
+      "player": "Cleanthony Early",
+      "team": "NYK"
+    },
+    {
+      "pick": 35,
+      "player": "Jarnell Stokes",
+      "team": "UTA"
+    },
+    {
+      "pick": 36,
+      "player": "Johnny O'Bryant",
+      "team": "MIL"
+    },
+    {
+      "pick": 37,
+      "player": "DeAndre Daniels",
+      "team": "TOR"
+    },
+    {
+      "pick": 38,
+      "player": "Spencer Dinwiddie",
+      "team": "DET"
+    },
+    {
+      "pick": 39,
+      "player": "Jerami Grant",
+      "team": "PHI"
+    },
+    {
+      "pick": 40,
+      "player": "Glenn Robinson III",
+      "team": "MIN"
+    },
+    {
+      "pick": 41,
+      "player": "Nikola Jokić",
+      "team": "DEN"
+    },
+    {
+      "pick": 42,
+      "player": "Nick Johnson",
+      "team": "HOU"
+    },
+    {
+      "pick": 43,
+      "player": "Edy Tavares",
+      "team": "ATL"
+    },
+    {
+      "pick": 44,
+      "player": "Markel Brown",
+      "team": "MIN"
+    },
+    {
+      "pick": 45,
+      "player": "Dwight Powell",
+      "team": "CHO"
+    },
+    {
+      "pick": 46,
+      "player": "Jordan Clarkson",
+      "team": "WAS"
+    },
+    {
+      "pick": 47,
+      "player": "Russ Smith",
+      "team": "PHI"
+    },
+    {
+      "pick": 48,
+      "player": "Lamar Patterson",
+      "team": "MIL"
+    },
+    {
+      "pick": 49,
+      "player": "Cameron Bairstow",
+      "team": "CHI"
+    },
+    {
+      "pick": 50,
+      "player": "Alec Brown",
+      "team": "PHO"
+    },
+    {
+      "pick": 51,
+      "player": "Thanasis Antetokounmpo",
+      "team": "NYK"
+    },
+    {
+      "pick": 52,
+      "player": "Vasilije Micić",
+      "team": "PHI"
+    },
+    {
+      "pick": 53,
+      "player": "Alessandro Gentile",
+      "team": "MIN"
+    },
+    {
+      "pick": 54,
+      "player": "Nemanja Dangubić",
+      "team": "PHI"
+    },
+    {
+      "pick": 55,
+      "player": "Semaj Christon",
+      "team": "MIA"
+    },
+    {
+      "pick": 56,
+      "player": "Devyn Marble",
+      "team": "DEN"
+    },
+    {
+      "pick": 57,
+      "player": "Louis Labeyrie",
+      "team": "IND"
+    },
+    {
+      "pick": 58,
+      "player": "Jordan McRae",
+      "team": "SAS"
+    },
+    {
+      "pick": 59,
+      "player": "Xavier Thames",
+      "team": "TOR"
+    },
+    {
+      "pick": 60,
+      "player": "Cory Jefferson",
+      "team": "SAS"
+    }
+  ],
+  "2015": [
+    {
+      "pick": 1,
+      "player": "Karl-Anthony Towns",
+      "team": "MIN"
+    },
+    {
+      "pick": 2,
+      "player": "D'Angelo Russell",
+      "team": "LAL"
+    },
+    {
+      "pick": 3,
+      "player": "Jahlil Okafor",
+      "team": "PHI"
+    },
+    {
+      "pick": 4,
+      "player": "Kristaps Porziņģis",
+      "team": "NYK"
+    },
+    {
+      "pick": 5,
+      "player": "Mario Hezonja",
+      "team": "ORL"
+    },
+    {
+      "pick": 6,
+      "player": "Willie Cauley-Stein",
+      "team": "SAC"
+    },
+    {
+      "pick": 7,
+      "player": "Emmanuel Mudiay",
+      "team": "DEN"
+    },
+    {
+      "pick": 8,
+      "player": "Stanley Johnson",
+      "team": "DET"
+    },
+    {
+      "pick": 9,
+      "player": "Frank Kaminsky",
+      "team": "CHO"
+    },
+    {
+      "pick": 10,
+      "player": "Justise Winslow",
+      "team": "MIA"
+    },
+    {
+      "pick": 11,
+      "player": "Myles Turner",
+      "team": "IND"
+    },
+    {
+      "pick": 12,
+      "player": "Trey Lyles",
+      "team": "UTA"
+    },
+    {
+      "pick": 13,
+      "player": "Devin Booker",
+      "team": "PHO"
+    },
+    {
+      "pick": 14,
+      "player": "Cameron Payne",
+      "team": "OKC"
+    },
+    {
+      "pick": 15,
+      "player": "Kelly Oubre Jr.",
+      "team": "ATL"
+    },
+    {
+      "pick": 16,
+      "player": "Terry Rozier",
+      "team": "BOS"
+    },
+    {
+      "pick": 17,
+      "player": "Rashad Vaughn",
+      "team": "MIL"
+    },
+    {
+      "pick": 18,
+      "player": "Sam Dekker",
+      "team": "HOU"
+    },
+    {
+      "pick": 19,
+      "player": "Jerian Grant",
+      "team": "WAS"
+    },
+    {
+      "pick": 20,
+      "player": "Delon Wright",
+      "team": "TOR"
+    },
+    {
+      "pick": 21,
+      "player": "Justin Anderson",
+      "team": "DAL"
+    },
+    {
+      "pick": 22,
+      "player": "Bobby Portis",
+      "team": "CHI"
+    },
+    {
+      "pick": 23,
+      "player": "Rondae Hollis-Jefferson",
+      "team": "POR"
+    },
+    {
+      "pick": 24,
+      "player": "Tyus Jones",
+      "team": "CLE"
+    },
+    {
+      "pick": 25,
+      "player": "Jarell Martin",
+      "team": "MEM"
+    },
+    {
+      "pick": 26,
+      "player": "Nikola Milutinov",
+      "team": "SAS"
+    },
+    {
+      "pick": 27,
+      "player": "Larry Nance Jr.",
+      "team": "LAL"
+    },
+    {
+      "pick": 28,
+      "player": "R.J. Hunter",
+      "team": "BOS"
+    },
+    {
+      "pick": 29,
+      "player": "Chris McCullough",
+      "team": "BRK"
+    },
+    {
+      "pick": 30,
+      "player": "Kevon Looney",
+      "team": "GSW"
+    },
+    {
+      "pick": 31,
+      "player": "Cedi Osman",
+      "team": "MIN"
+    },
+    {
+      "pick": 32,
+      "player": "Montrezl Harrell",
+      "team": "HOU"
+    },
+    {
+      "pick": 33,
+      "player": "Jordan Mickey",
+      "team": "BOS"
+    },
+    {
+      "pick": 34,
+      "player": "Anthony Brown",
+      "team": "LAL"
+    },
+    {
+      "pick": 35,
+      "player": "Willy Hernangómez",
+      "team": "PHI"
+    },
+    {
+      "pick": 36,
+      "player": "Rakeem Christmas",
+      "team": "MIN"
+    },
+    {
+      "pick": 37,
+      "player": "Richaun Holmes",
+      "team": "PHI"
+    },
+    {
+      "pick": 38,
+      "player": "Darrun Hilliard",
+      "team": "DET"
+    },
+    {
+      "pick": 39,
+      "player": "Juan Pablo Vaulet",
+      "team": "CHO"
+    },
+    {
+      "pick": 40,
+      "player": "Josh Richardson",
+      "team": "MIA"
+    },
+    {
+      "pick": 41,
+      "player": "Pat Connaughton",
+      "team": "BRK"
+    },
+    {
+      "pick": 42,
+      "player": "Olivier Hanlan",
+      "team": "UTA"
+    },
+    {
+      "pick": 43,
+      "player": "Joe Young",
+      "team": "IND"
+    },
+    {
+      "pick": 44,
+      "player": "Andrew Harrison",
+      "team": "PHO"
+    },
+    {
+      "pick": 45,
+      "player": "Marcus Thornton",
+      "team": "BOS"
+    },
+    {
+      "pick": 46,
+      "player": "Norman Powell",
+      "team": "MIL"
+    },
+    {
+      "pick": 47,
+      "player": "Artūras Gudaitis",
+      "team": "PHI"
+    },
+    {
+      "pick": 48,
+      "player": "Dakari Johnson",
+      "team": "OKC"
+    },
+    {
+      "pick": 49,
+      "player": "Aaron White",
+      "team": "WAS"
+    },
+    {
+      "pick": 50,
+      "player": "Marcus Eriksson",
+      "team": "ATL"
+    },
+    {
+      "pick": 51,
+      "player": "Tyler Harvey",
+      "team": "ORL"
+    },
+    {
+      "pick": 52,
+      "player": "Satnam Singh",
+      "team": "DAL"
+    },
+    {
+      "pick": 53,
+      "player": "Sir'Dominic Pointer",
+      "team": "CLE"
+    },
+    {
+      "pick": 54,
+      "player": "Dani Díez",
+      "team": "UTA"
+    },
+    {
+      "pick": 55,
+      "player": "Cady Lalanne",
+      "team": "SAS"
+    },
+    {
+      "pick": 56,
+      "player": "Branden Dawson",
+      "team": "NOP"
+    },
+    {
+      "pick": 57,
+      "player": "Nikola Radičević",
+      "team": "DEN"
+    },
+    {
+      "pick": 58,
+      "player": "J.P. Tokoto",
+      "team": "PHI"
+    },
+    {
+      "pick": 59,
+      "player": "Dimitrios Agravanis",
+      "team": "ATL"
+    },
+    {
+      "pick": 60,
+      "player": "Luka Mitrović",
+      "team": "PHI"
+    }
+  ],
+  "2016": [
+    {
+      "pick": 1,
+      "player": "Ben Simmons",
+      "team": "PHI"
+    },
+    {
+      "pick": 2,
+      "player": "Brandon Ingram",
+      "team": "LAL"
+    },
+    {
+      "pick": 3,
+      "player": "Jaylen Brown",
+      "team": "BOS"
+    },
+    {
+      "pick": 4,
+      "player": "Dragan Bender",
+      "team": "PHO"
+    },
+    {
+      "pick": 5,
+      "player": "Kris Dunn",
+      "team": "MIN"
+    },
+    {
+      "pick": 6,
+      "player": "Buddy Hield",
+      "team": "NOP"
+    },
+    {
+      "pick": 7,
+      "player": "Jamal Murray",
+      "team": "DEN"
+    },
+    {
+      "pick": 8,
+      "player": "Marquese Chriss",
+      "team": "SAC"
+    },
+    {
+      "pick": 9,
+      "player": "Jakob Poeltl",
+      "team": "TOR"
+    },
+    {
+      "pick": 10,
+      "player": "Thon Maker",
+      "team": "MIL"
+    },
+    {
+      "pick": 11,
+      "player": "Domantas Sabonis",
+      "team": "ORL"
+    },
+    {
+      "pick": 12,
+      "player": "Taurean Prince",
+      "team": "UTA"
+    },
+    {
+      "pick": 13,
+      "player": "Georgios Papagiannis",
+      "team": "PHO"
+    },
+    {
+      "pick": 14,
+      "player": "Denzel Valentine",
+      "team": "CHI"
+    },
+    {
+      "pick": 15,
+      "player": "Juancho Hernangómez",
+      "team": "DEN"
+    },
+    {
+      "pick": 16,
+      "player": "Guerschon Yabusele",
+      "team": "BOS"
+    },
+    {
+      "pick": 17,
+      "player": "Wade Baldwin",
+      "team": "MEM"
+    },
+    {
+      "pick": 18,
+      "player": "Henry Ellenson",
+      "team": "DET"
+    },
+    {
+      "pick": 19,
+      "player": "Malik Beasley",
+      "team": "DEN"
+    },
+    {
+      "pick": 20,
+      "player": "Caris LeVert",
+      "team": "IND"
+    },
+    {
+      "pick": 21,
+      "player": "DeAndre' Bembry",
+      "team": "ATL"
+    },
+    {
+      "pick": 22,
+      "player": "Malachi Richardson",
+      "team": "CHO"
+    },
+    {
+      "pick": 23,
+      "player": "Ante Žižić",
+      "team": "BOS"
+    },
+    {
+      "pick": 24,
+      "player": "Timothé Luwawu-Cabarrot",
+      "team": "PHI"
+    },
+    {
+      "pick": 25,
+      "player": "Brice Johnson",
+      "team": "LAC"
+    },
+    {
+      "pick": 26,
+      "player": "Furkan Korkmaz",
+      "team": "PHI"
+    },
+    {
+      "pick": 27,
+      "player": "Pascal Siakam",
+      "team": "TOR"
+    },
+    {
+      "pick": 28,
+      "player": "Skal Labissière",
+      "team": "PHO"
+    },
+    {
+      "pick": 29,
+      "player": "Dejounte Murray",
+      "team": "SAS"
+    },
+    {
+      "pick": 30,
+      "player": "Damian Jones",
+      "team": "GSW"
+    },
+    {
+      "pick": 31,
+      "player": "Deyonta Davis",
+      "team": "BOS"
+    },
+    {
+      "pick": 32,
+      "player": "Ivica Zubac",
+      "team": "LAL"
+    },
+    {
+      "pick": 33,
+      "player": "Cheick Diallo",
+      "team": "LAC"
+    },
+    {
+      "pick": 34,
+      "player": "Tyler Ulis",
+      "team": "PHO"
+    },
+    {
+      "pick": 35,
+      "player": "Rade Zagorac",
+      "team": "BOS"
+    },
+    {
+      "pick": 36,
+      "player": "Malcolm Brogdon",
+      "team": "MIL"
+    },
+    {
+      "pick": 37,
+      "player": "Chinanu Onuaku",
+      "team": "HOU"
+    },
+    {
+      "pick": 38,
+      "player": "Patrick McCaw",
+      "team": "MIL"
+    },
+    {
+      "pick": 39,
+      "player": "David Michineau",
+      "team": "NOP"
+    },
+    {
+      "pick": 40,
+      "player": "Diamond Stone",
+      "team": "NOP"
+    },
+    {
+      "pick": 41,
+      "player": "Stephen Zimmerman",
+      "team": "ORL"
+    },
+    {
+      "pick": 42,
+      "player": "Isaiah Whitehead",
+      "team": "UTA"
+    },
+    {
+      "pick": 43,
+      "player": "Zhou Qi",
+      "team": "HOU"
+    },
+    {
+      "pick": 44,
+      "player": "Isaïa Cordinier",
+      "team": "ATL"
+    },
+    {
+      "pick": 45,
+      "player": "Demetrius Jackson",
+      "team": "BOS"
+    },
+    {
+      "pick": 46,
+      "player": "A.J. Hammons",
+      "team": "DAL"
+    },
+    {
+      "pick": 47,
+      "player": "Jake Layman",
+      "team": "ORL"
+    },
+    {
+      "pick": 48,
+      "player": "Paul Zipser",
+      "team": "CHI"
+    },
+    {
+      "pick": 49,
+      "player": "Michael Gbinije",
+      "team": "DET"
+    },
+    {
+      "pick": 50,
+      "player": "Georges Niang",
+      "team": "IND"
+    },
+    {
+      "pick": 51,
+      "player": "Ben Bentil",
+      "team": "BOS"
+    },
+    {
+      "pick": 52,
+      "player": "Joel Bolomboy",
+      "team": "UTA"
+    },
+    {
+      "pick": 53,
+      "player": "Petr Cornelie",
+      "team": "DEN"
+    },
+    {
+      "pick": 54,
+      "player": "Kay Felder",
+      "team": "ATL"
+    },
+    {
+      "pick": 55,
+      "player": "Marcus Paige",
+      "team": "BRK"
+    },
+    {
+      "pick": 56,
+      "player": "Daniel Hamilton",
+      "team": "DEN"
+    },
+    {
+      "pick": 57,
+      "player": "Wang Zhelin",
+      "team": "MEM"
+    },
+    {
+      "pick": 58,
+      "player": "Abdel Nader",
+      "team": "BOS"
+    },
+    {
+      "pick": 59,
+      "player": "Isaiah Cousins",
+      "team": "SAC"
+    },
+    {
+      "pick": 60,
+      "player": "Tyrone Wallace",
+      "team": "UTA"
+    }
+  ],
+  "2017": [
+    {
+      "pick": 1,
+      "player": "Markelle Fultz",
+      "team": "PHI"
+    },
+    {
+      "pick": 2,
+      "player": "Lonzo Ball",
+      "team": "LAL"
+    },
+    {
+      "pick": 3,
+      "player": "Jayson Tatum",
+      "team": "BOS"
+    },
+    {
+      "pick": 4,
+      "player": "Josh Jackson",
+      "team": "PHO"
+    },
+    {
+      "pick": 5,
+      "player": "De'Aaron Fox",
+      "team": "SAC"
+    },
+    {
+      "pick": 6,
+      "player": "Jonathan Isaac",
+      "team": "ORL"
+    },
+    {
+      "pick": 7,
+      "player": "Lauri Markkanen",
+      "team": "MIN"
+    },
+    {
+      "pick": 8,
+      "player": "Frank Ntilikina",
+      "team": "NYK"
+    },
+    {
+      "pick": 9,
+      "player": "Dennis Smith Jr.",
+      "team": "DAL"
+    },
+    {
+      "pick": 10,
+      "player": "Zach Collins",
+      "team": "SAC"
+    },
+    {
+      "pick": 11,
+      "player": "Malik Monk",
+      "team": "CHO"
+    },
+    {
+      "pick": 12,
+      "player": "Luke Kennard",
+      "team": "DET"
+    },
+    {
+      "pick": 13,
+      "player": "Donovan Mitchell",
+      "team": "DEN"
+    },
+    {
+      "pick": 14,
+      "player": "Bam Adebayo",
+      "team": "MIA"
+    },
+    {
+      "pick": 15,
+      "player": "Justin Jackson",
+      "team": "POR"
+    },
+    {
+      "pick": 16,
+      "player": "Justin Patton",
+      "team": "CHI"
+    },
+    {
+      "pick": 17,
+      "player": "D.J. Wilson",
+      "team": "MIL"
+    },
+    {
+      "pick": 18,
+      "player": "T.J. Leaf",
+      "team": "IND"
+    },
+    {
+      "pick": 19,
+      "player": "John Collins",
+      "team": "ATL"
+    },
+    {
+      "pick": 20,
+      "player": "Harry Giles",
+      "team": "POR"
+    },
+    {
+      "pick": 21,
+      "player": "Terrance Ferguson",
+      "team": "OKC"
+    },
+    {
+      "pick": 22,
+      "player": "Jarrett Allen",
+      "team": "BRK"
+    },
+    {
+      "pick": 23,
+      "player": "OG Anunoby",
+      "team": "TOR"
+    },
+    {
+      "pick": 24,
+      "player": "Tyler Lydon",
+      "team": "UTA"
+    },
+    {
+      "pick": 25,
+      "player": "Anžejs Pasečņiks",
+      "team": "ORL"
+    },
+    {
+      "pick": 26,
+      "player": "Caleb Swanigan",
+      "team": "POR"
+    },
+    {
+      "pick": 27,
+      "player": "Kyle Kuzma",
+      "team": "BRK"
+    },
+    {
+      "pick": 28,
+      "player": "Tony Bradley",
+      "team": "LAL"
+    },
+    {
+      "pick": 29,
+      "player": "Derrick White",
+      "team": "SAS"
+    },
+    {
+      "pick": 30,
+      "player": "Josh Hart",
+      "team": "UTA"
+    },
+    {
+      "pick": 31,
+      "player": "Frank Jackson",
+      "team": "CHO"
+    },
+    {
+      "pick": 32,
+      "player": "Davon Reed",
+      "team": "PHO"
+    },
+    {
+      "pick": 33,
+      "player": "Wes Iwundu",
+      "team": "ORL"
+    },
+    {
+      "pick": 34,
+      "player": "Frank Mason III",
+      "team": "SAC"
+    },
+    {
+      "pick": 35,
+      "player": "Ivan Rabb",
+      "team": "ORL"
+    },
+    {
+      "pick": 36,
+      "player": "Jonah Bolden",
+      "team": "PHI"
+    },
+    {
+      "pick": 37,
+      "player": "Semi Ojeleye",
+      "team": "BOS"
+    },
+    {
+      "pick": 38,
+      "player": "Jordan Bell",
+      "team": "CHI"
+    },
+    {
+      "pick": 39,
+      "player": "Jawun Evans",
+      "team": "PHI"
+    },
+    {
+      "pick": 40,
+      "player": "Dwayne Bacon",
+      "team": "NOP"
+    },
+    {
+      "pick": 41,
+      "player": "Tyler Dorsey",
+      "team": "ATL"
+    },
+    {
+      "pick": 42,
+      "player": "Thomas Bryant",
+      "team": "UTA"
+    },
+    {
+      "pick": 43,
+      "player": "Isaiah Hartenstein",
+      "team": "HOU"
+    },
+    {
+      "pick": 44,
+      "player": "Damyean Dotson",
+      "team": "NYK"
+    },
+    {
+      "pick": 45,
+      "player": "Dillon Brooks",
+      "team": "HOU"
+    },
+    {
+      "pick": 46,
+      "player": "Sterling Brown",
+      "team": "PHI"
+    },
+    {
+      "pick": 47,
+      "player": "Ike Anigbogu",
+      "team": "IND"
+    },
+    {
+      "pick": 48,
+      "player": "Sindarius Thornwell",
+      "team": "MIL"
+    },
+    {
+      "pick": 49,
+      "player": "Vlatko Čančar",
+      "team": "DEN"
+    },
+    {
+      "pick": 50,
+      "player": "Mathias Lessort",
+      "team": "PHI"
+    },
+    {
+      "pick": 51,
+      "player": "Monte Morris",
+      "team": "DEN"
+    },
+    {
+      "pick": 52,
+      "player": "Edmond Sumner",
+      "team": "NOP"
+    },
+    {
+      "pick": 53,
+      "player": "Kadeem Allen",
+      "team": "BOS"
+    },
+    {
+      "pick": 54,
+      "player": "Alec Peters",
+      "team": "PHO"
+    },
+    {
+      "pick": 55,
+      "player": "Nigel Williams-Goss",
+      "team": "UTA"
+    },
+    {
+      "pick": 56,
+      "player": "Jabari Bird",
+      "team": "BOS"
+    },
+    {
+      "pick": 57,
+      "player": "Sasha Vezenkov",
+      "team": "BRK"
+    },
+    {
+      "pick": 58,
+      "player": "Ognjen Jaramaz",
+      "team": "NYK"
+    },
+    {
+      "pick": 59,
+      "player": "Jaron Blossomgame",
+      "team": "SAS"
+    },
+    {
+      "pick": 60,
+      "player": "Alpha Kaba",
+      "team": "ATL"
+    }
+  ],
+  "2018": [
+    {
+      "pick": 1,
+      "player": "Deandre Ayton",
+      "team": "PHO"
+    },
+    {
+      "pick": 2,
+      "player": "Marvin Bagley III",
+      "team": "SAC"
+    },
+    {
+      "pick": 3,
+      "player": "Luka Dončić",
+      "team": "ATL"
+    },
+    {
+      "pick": 4,
+      "player": "Jaren Jackson Jr.",
+      "team": "MEM"
+    },
+    {
+      "pick": 5,
+      "player": "Trae Young",
+      "team": "DAL"
+    },
+    {
+      "pick": 6,
+      "player": "Mo Bamba",
+      "team": "ORL"
+    },
+    {
+      "pick": 7,
+      "player": "Wendell Carter Jr.",
+      "team": "CHI"
+    },
+    {
+      "pick": 8,
+      "player": "Collin Sexton",
+      "team": "CLE"
+    },
+    {
+      "pick": 9,
+      "player": "Kevin Knox",
+      "team": "NYK"
+    },
+    {
+      "pick": 10,
+      "player": "Mikal Bridges",
+      "team": "PHI"
+    },
+    {
+      "pick": 11,
+      "player": "Shai Gilgeous-Alexander",
+      "team": "CHO"
+    },
+    {
+      "pick": 12,
+      "player": "Miles Bridges",
+      "team": "LAC"
+    },
+    {
+      "pick": 13,
+      "player": "Jerome Robinson",
+      "team": "LAC"
+    },
+    {
+      "pick": 14,
+      "player": "Michael Porter Jr.",
+      "team": "DEN"
+    },
+    {
+      "pick": 15,
+      "player": "Troy Brown Jr.",
+      "team": "WAS"
+    },
+    {
+      "pick": 16,
+      "player": "Zhaire Smith",
+      "team": "PHO"
+    },
+    {
+      "pick": 17,
+      "player": "Donte DiVincenzo",
+      "team": "MIL"
+    },
+    {
+      "pick": 18,
+      "player": "Lonnie Walker IV",
+      "team": "SAS"
+    },
+    {
+      "pick": 19,
+      "player": "Kevin Huerter",
+      "team": "ATL"
+    },
+    {
+      "pick": 20,
+      "player": "Josh Okogie",
+      "team": "MIN"
+    },
+    {
+      "pick": 21,
+      "player": "Grayson Allen",
+      "team": "UTA"
+    },
+    {
+      "pick": 22,
+      "player": "Chandler Hutchison",
+      "team": "CHI"
+    },
+    {
+      "pick": 23,
+      "player": "Aaron Holiday",
+      "team": "IND"
+    },
+    {
+      "pick": 24,
+      "player": "Anfernee Simons",
+      "team": "POR"
+    },
+    {
+      "pick": 25,
+      "player": "Moritz Wagner",
+      "team": "LAL"
+    },
+    {
+      "pick": 26,
+      "player": "Landry Shamet",
+      "team": "PHI"
+    },
+    {
+      "pick": 27,
+      "player": "Robert Williams",
+      "team": "BOS"
+    },
+    {
+      "pick": 28,
+      "player": "Jacob Evans",
+      "team": "GSW"
+    },
+    {
+      "pick": 29,
+      "player": "Džanan Musa",
+      "team": "BRK"
+    },
+    {
+      "pick": 30,
+      "player": "Omari Spellman",
+      "team": "ATL"
+    },
+    {
+      "pick": 31,
+      "player": "Elie Okobo",
+      "team": "PHO"
+    },
+    {
+      "pick": 32,
+      "player": "Jevon Carter",
+      "team": "MEM"
+    },
+    {
+      "pick": 33,
+      "player": "Jalen Brunson",
+      "team": "DAL"
+    },
+    {
+      "pick": 34,
+      "player": "Devonte' Graham",
+      "team": "ATL"
+    },
+    {
+      "pick": 35,
+      "player": "Melvin Frazier",
+      "team": "ORL"
+    },
+    {
+      "pick": 36,
+      "player": "Mitchell Robinson",
+      "team": "NYK"
+    },
+    {
+      "pick": 37,
+      "player": "Gary Trent Jr.",
+      "team": "SAC"
+    },
+    {
+      "pick": 38,
+      "player": "Khyri Thomas",
+      "team": "PHI"
+    },
+    {
+      "pick": 39,
+      "player": "Isaac Bonga",
+      "team": "PHI"
+    },
+    {
+      "pick": 40,
+      "player": "Rodions Kurucs",
+      "team": "BRK"
+    },
+    {
+      "pick": 41,
+      "player": "Jarred Vanderbilt",
+      "team": "ORL"
+    },
+    {
+      "pick": 42,
+      "player": "Bruce Brown",
+      "team": "DET"
+    },
+    {
+      "pick": 43,
+      "player": "Justin Jackson",
+      "team": "DEN"
+    },
+    {
+      "pick": 44,
+      "player": "Issuf Sanon",
+      "team": "WAS"
+    },
+    {
+      "pick": 45,
+      "player": "Hamidou Diallo",
+      "team": "BRK"
+    },
+    {
+      "pick": 46,
+      "player": "De'Anthony Melton",
+      "team": "HOU"
+    },
+    {
+      "pick": 47,
+      "player": "Svi Mykhailiuk",
+      "team": "LAL"
+    },
+    {
+      "pick": 48,
+      "player": "Keita Bates-Diop",
+      "team": "MIN"
+    },
+    {
+      "pick": 49,
+      "player": "Chimezie Metu",
+      "team": "SAS"
+    },
+    {
+      "pick": 50,
+      "player": "Alize Johnson",
+      "team": "IND"
+    },
+    {
+      "pick": 51,
+      "player": "Tony Carr",
+      "team": "NOP"
+    },
+    {
+      "pick": 52,
+      "player": "Vince Edwards",
+      "team": "UTA"
+    },
+    {
+      "pick": 53,
+      "player": "Devon Hall",
+      "team": "OKC"
+    },
+    {
+      "pick": 54,
+      "player": "Shake Milton",
+      "team": "DAL"
+    },
+    {
+      "pick": 55,
+      "player": "Arnoldas Kulboka",
+      "team": "CHO"
+    },
+    {
+      "pick": 56,
+      "player": "Ray Spalding",
+      "team": "PHI"
+    },
+    {
+      "pick": 57,
+      "player": "Kevin Hervey",
+      "team": "OKC"
+    },
+    {
+      "pick": 58,
+      "player": "Thomas Welsh",
+      "team": "DEN"
+    },
+    {
+      "pick": 59,
+      "player": "George King",
+      "team": "PHO"
+    },
+    {
+      "pick": 60,
+      "player": "Kostas Antetokounmpo",
+      "team": "PHI"
+    }
+  ],
+  "2019": [
+    {
+      "pick": 1,
+      "player": "Zion Williamson",
+      "team": "NOP"
+    },
+    {
+      "pick": 2,
+      "player": "Ja Morant",
+      "team": "MEM"
+    },
+    {
+      "pick": 3,
+      "player": "RJ Barrett",
+      "team": "NYK"
+    },
+    {
+      "pick": 4,
+      "player": "De'Andre Hunter",
+      "team": "LAL"
+    },
+    {
+      "pick": 5,
+      "player": "Darius Garland",
+      "team": "CLE"
+    },
+    {
+      "pick": 6,
+      "player": "Jarrett Culver",
+      "team": "PHO"
+    },
+    {
+      "pick": 7,
+      "player": "Coby White",
+      "team": "CHI"
+    },
+    {
+      "pick": 8,
+      "player": "Jaxson Hayes",
+      "team": "ATL"
+    },
+    {
+      "pick": 9,
+      "player": "Rui Hachimura",
+      "team": "WAS"
+    },
+    {
+      "pick": 10,
+      "player": "Cam Reddish",
+      "team": "ATL"
+    },
+    {
+      "pick": 11,
+      "player": "Cameron Johnson",
+      "team": "MIN"
+    },
+    {
+      "pick": 12,
+      "player": "P.J. Washington",
+      "team": "CHO"
+    },
+    {
+      "pick": 13,
+      "player": "Tyler Herro",
+      "team": "MIA"
+    },
+    {
+      "pick": 14,
+      "player": "Romeo Langford",
+      "team": "BOS"
+    },
+    {
+      "pick": 15,
+      "player": "Sekou Doumbouya",
+      "team": "DET"
+    },
+    {
+      "pick": 16,
+      "player": "Chuma Okeke",
+      "team": "ORL"
+    },
+    {
+      "pick": 17,
+      "player": "Nickeil Alexander-Walker",
+      "team": "BRK"
+    },
+    {
+      "pick": 18,
+      "player": "Goga Bitadze",
+      "team": "IND"
+    },
+    {
+      "pick": 19,
+      "player": "Luka Šamanić",
+      "team": "SAS"
+    },
+    {
+      "pick": 20,
+      "player": "Matisse Thybulle",
+      "team": "BOS"
+    },
+    {
+      "pick": 21,
+      "player": "Brandon Clarke",
+      "team": "OKC"
+    },
+    {
+      "pick": 22,
+      "player": "Grant Williams",
+      "team": "BOS"
+    },
+    {
+      "pick": 23,
+      "player": "Darius Bazley",
+      "team": "UTA"
+    },
+    {
+      "pick": 24,
+      "player": "Ty Jerome",
+      "team": "PHI"
+    },
+    {
+      "pick": 25,
+      "player": "Nassir Little",
+      "team": "POR"
+    },
+    {
+      "pick": 26,
+      "player": "Dylan Windler",
+      "team": "CLE"
+    },
+    {
+      "pick": 27,
+      "player": "Mfiondu Kabengele",
+      "team": "BRK"
+    },
+    {
+      "pick": 28,
+      "player": "Jordan Poole",
+      "team": "GSW"
+    },
+    {
+      "pick": 29,
+      "player": "Keldon Johnson",
+      "team": "SAS"
+    },
+    {
+      "pick": 30,
+      "player": "Kevin Porter Jr.",
+      "team": "MIL"
+    },
+    {
+      "pick": 31,
+      "player": "Nic Claxton",
+      "team": "BRK"
+    },
+    {
+      "pick": 32,
+      "player": "KZ Okpala",
+      "team": "PHO"
+    },
+    {
+      "pick": 33,
+      "player": "Carsen Edwards",
+      "team": "PHI"
+    },
+    {
+      "pick": 34,
+      "player": "Bruno Fernando",
+      "team": "PHI"
+    },
+    {
+      "pick": 35,
+      "player": "Didi Louzada",
+      "team": "ATL"
+    },
+    {
+      "pick": 36,
+      "player": "Cody Martin",
+      "team": "CHO"
+    },
+    {
+      "pick": 37,
+      "player": "Deividas Sirvydis",
+      "team": "DAL"
+    },
+    {
+      "pick": 38,
+      "player": "Daniel Gafford",
+      "team": "CHI"
+    },
+    {
+      "pick": 39,
+      "player": "Alen Smailagić",
+      "team": "NOP"
+    },
+    {
+      "pick": 40,
+      "player": "Justin James",
+      "team": "SAC"
+    },
+    {
+      "pick": 41,
+      "player": "Eric Paschall",
+      "team": "GSW"
+    },
+    {
+      "pick": 42,
+      "player": "Admiral Schofield",
+      "team": "PHI"
+    },
+    {
+      "pick": 43,
+      "player": "Jaylen Nowell",
+      "team": "MIN"
+    },
+    {
+      "pick": 44,
+      "player": "Bol Bol",
+      "team": "MIA"
+    },
+    {
+      "pick": 45,
+      "player": "Isaiah Roby",
+      "team": "DET"
+    },
+    {
+      "pick": 46,
+      "player": "Talen Horton-Tucker",
+      "team": "ORL"
+    },
+    {
+      "pick": 47,
+      "player": "Ignas Brazdeikis",
+      "team": "SAC"
+    },
+    {
+      "pick": 48,
+      "player": "Terance Mann",
+      "team": "LAC"
+    },
+    {
+      "pick": 49,
+      "player": "Quinndary Weatherspoon",
+      "team": "SAS"
+    },
+    {
+      "pick": 50,
+      "player": "Jarrell Brantley",
+      "team": "IND"
+    },
+    {
+      "pick": 51,
+      "player": "Tremont Waters",
+      "team": "BOS"
+    },
+    {
+      "pick": 52,
+      "player": "Jalen McDaniels",
+      "team": "CHO"
+    },
+    {
+      "pick": 53,
+      "player": "Justin Wright-Foreman",
+      "team": "UTA"
+    },
+    {
+      "pick": 54,
+      "player": "Marial Shayok",
+      "team": "PHI"
+    },
+    {
+      "pick": 55,
+      "player": "Kyle Guy",
+      "team": "NYK"
+    },
+    {
+      "pick": 56,
+      "player": "Jaylen Hands",
+      "team": "LAC"
+    },
+    {
+      "pick": 57,
+      "player": "Jordan Bone",
+      "team": "NOP"
+    },
+    {
+      "pick": 58,
+      "player": "Miye Oni",
+      "team": "GSW"
+    },
+    {
+      "pick": 59,
+      "player": "Dewan Hernandez",
+      "team": "TOR"
+    },
+    {
+      "pick": 60,
+      "player": "Vanja Marinković",
+      "team": "SAC"
+    }
+  ],
+  "2020": [
+    {
+      "pick": 1,
+      "player": "Anthony Edwards",
+      "team": "MIN"
+    },
+    {
+      "pick": 2,
+      "player": "James Wiseman",
+      "team": "GSW"
+    },
+    {
+      "pick": 3,
+      "player": "LaMelo Ball",
+      "team": "CHO"
+    },
+    {
+      "pick": 4,
+      "player": "Patrick Williams",
+      "team": "CHI"
+    },
+    {
+      "pick": 5,
+      "player": "Isaac Okoro",
+      "team": "CLE"
+    },
+    {
+      "pick": 6,
+      "player": "Onyeka Okongwu",
+      "team": "ATL"
+    },
+    {
+      "pick": 7,
+      "player": "Killian Hayes",
+      "team": "DET"
+    },
+    {
+      "pick": 8,
+      "player": "Obi Toppin",
+      "team": "NYK"
+    },
+    {
+      "pick": 9,
+      "player": "Deni Avdija",
+      "team": "WAS"
+    },
+    {
+      "pick": 10,
+      "player": "Jalen Smith",
+      "team": "PHO"
+    },
+    {
+      "pick": 11,
+      "player": "Devin Vassell",
+      "team": "SAS"
+    },
+    {
+      "pick": 12,
+      "player": "Tyrese Haliburton",
+      "team": "SAC"
+    },
+    {
+      "pick": 13,
+      "player": "Kira Lewis Jr.",
+      "team": "NOP"
+    },
+    {
+      "pick": 14,
+      "player": "Aaron Nesmith",
+      "team": "BOS"
+    },
+    {
+      "pick": 15,
+      "player": "Cole Anthony",
+      "team": "ORL"
+    },
+    {
+      "pick": 16,
+      "player": "Isaiah Stewart",
+      "team": "POR"
+    },
+    {
+      "pick": 17,
+      "player": "Aleksej Pokusevski",
+      "team": "MIN"
+    },
+    {
+      "pick": 18,
+      "player": "Josh Green",
+      "team": "DAL"
+    },
+    {
+      "pick": 19,
+      "player": "Saddiq Bey",
+      "team": "BRK"
+    },
+    {
+      "pick": 20,
+      "player": "Precious Achiuwa",
+      "team": "MIA"
+    },
+    {
+      "pick": 21,
+      "player": "Tyrese Maxey",
+      "team": "PHI"
+    },
+    {
+      "pick": 22,
+      "player": "Zeke Nnaji",
+      "team": "DEN"
+    },
+    {
+      "pick": 23,
+      "player": "Leandro Bolmaro",
+      "team": "NYK"
+    },
+    {
+      "pick": 24,
+      "player": "R.J. Hampton",
+      "team": "MIL"
+    },
+    {
+      "pick": 25,
+      "player": "Immanuel Quickley",
+      "team": "OKC"
+    },
+    {
+      "pick": 26,
+      "player": "Payton Pritchard",
+      "team": "BOS"
+    },
+    {
+      "pick": 27,
+      "player": "Udoka Azubuike",
+      "team": "UTA"
+    },
+    {
+      "pick": 28,
+      "player": "Jaden McDaniels",
+      "team": "LAL"
+    },
+    {
+      "pick": 29,
+      "player": "Malachi Flynn",
+      "team": "TOR"
+    },
+    {
+      "pick": 30,
+      "player": "Desmond Bane",
+      "team": "BOS"
+    },
+    {
+      "pick": 31,
+      "player": "Tyrell Terry",
+      "team": "DAL"
+    },
+    {
+      "pick": 32,
+      "player": "Vernon Carey Jr.",
+      "team": "CHO"
+    },
+    {
+      "pick": 33,
+      "player": "Daniel Oturu",
+      "team": "MIN"
+    },
+    {
+      "pick": 34,
+      "player": "Théo Maledon",
+      "team": "PHI"
+    },
+    {
+      "pick": 35,
+      "player": "Xavier Tillman Sr.",
+      "team": "SAC"
+    },
+    {
+      "pick": 36,
+      "player": "Tyler Bey",
+      "team": "PHI"
+    },
+    {
+      "pick": 37,
+      "player": "Vit Krejci",
+      "team": "WAS"
+    },
+    {
+      "pick": 38,
+      "player": "Saben Lee",
+      "team": "UTA"
+    },
+    {
+      "pick": 39,
+      "player": "Elijah Hughes",
+      "team": "NOP"
+    },
+    {
+      "pick": 40,
+      "player": "Robert Woodard II",
+      "team": "MEM"
+    },
+    {
+      "pick": 41,
+      "player": "Tre Jones",
+      "team": "SAS"
+    },
+    {
+      "pick": 42,
+      "player": "Nick Richards",
+      "team": "NOP"
+    },
+    {
+      "pick": 43,
+      "player": "Jahmi'us Ramsey",
+      "team": "SAC"
+    },
+    {
+      "pick": 44,
+      "player": "Marko Simonovic",
+      "team": "CHI"
+    },
+    {
+      "pick": 45,
+      "player": "Jordan Nwora",
+      "team": "MIL"
+    },
+    {
+      "pick": 46,
+      "player": "CJ Elleby",
+      "team": "POR"
+    },
+    {
+      "pick": 47,
+      "player": "Yam Madar",
+      "team": "BOS"
+    },
+    {
+      "pick": 48,
+      "player": "Nico Mannion",
+      "team": "GSW"
+    },
+    {
+      "pick": 49,
+      "player": "Isaiah Joe",
+      "team": "PHI"
+    },
+    {
+      "pick": 50,
+      "player": "Skylar Mays",
+      "team": "ATL"
+    },
+    {
+      "pick": 51,
+      "player": "Justinian Jessup",
+      "team": "GSW"
+    },
+    {
+      "pick": 52,
+      "player": "KJ Martin",
+      "team": "SAC"
+    },
+    {
+      "pick": 53,
+      "player": "Cassius Winston",
+      "team": "OKC"
+    },
+    {
+      "pick": 54,
+      "player": "Cassius Stanley",
+      "team": "IND"
+    },
+    {
+      "pick": 55,
+      "player": "Jay Scrubb",
+      "team": "BRK"
+    },
+    {
+      "pick": 56,
+      "player": "Grant Riller",
+      "team": "CHO"
+    },
+    {
+      "pick": 57,
+      "player": "Reggie Perry",
+      "team": "LAC"
+    },
+    {
+      "pick": 58,
+      "player": "Paul Reed",
+      "team": "PHI"
+    },
+    {
+      "pick": 59,
+      "player": "Jalen Harris",
+      "team": "TOR"
+    },
+    {
+      "pick": 60,
+      "player": "Sam Merrill",
+      "team": "NOP"
+    }
+  ],
+  "2021": [
+    {
+      "pick": 1,
+      "player": "Cade Cunningham",
+      "team": "DET"
+    },
+    {
+      "pick": 2,
+      "player": "Jalen Green",
+      "team": "HOU"
+    },
+    {
+      "pick": 3,
+      "player": "Evan Mobley",
+      "team": "CLE"
+    },
+    {
+      "pick": 4,
+      "player": "Scottie Barnes",
+      "team": "TOR"
+    },
+    {
+      "pick": 5,
+      "player": "Jalen Suggs",
+      "team": "ORL"
+    },
+    {
+      "pick": 6,
+      "player": "Josh Giddey",
+      "team": "OKC"
+    },
+    {
+      "pick": 7,
+      "player": "Jonathan Kuminga",
+      "team": "GSW"
+    },
+    {
+      "pick": 8,
+      "player": "Franz Wagner",
+      "team": "ORL"
+    },
+    {
+      "pick": 9,
+      "player": "Davion Mitchell",
+      "team": "SAC"
+    },
+    {
+      "pick": 10,
+      "player": "Ziaire Williams",
+      "team": "NOP"
+    },
+    {
+      "pick": 11,
+      "player": "James Bouknight",
+      "team": "CHO"
+    },
+    {
+      "pick": 12,
+      "player": "Joshua Primo",
+      "team": "SAS"
+    },
+    {
+      "pick": 13,
+      "player": "Chris Duarte",
+      "team": "IND"
+    },
+    {
+      "pick": 14,
+      "player": "Moses Moody",
+      "team": "GSW"
+    },
+    {
+      "pick": 15,
+      "player": "Corey Kispert",
+      "team": "WAS"
+    },
+    {
+      "pick": 16,
+      "player": "Alperen Şengün",
+      "team": "OKC"
+    },
+    {
+      "pick": 17,
+      "player": "Trey Murphy III",
+      "team": "MEM"
+    },
+    {
+      "pick": 18,
+      "player": "Tre Mann",
+      "team": "OKC"
+    },
+    {
+      "pick": 19,
+      "player": "Kai Jones",
+      "team": "NYK"
+    },
+    {
+      "pick": 20,
+      "player": "Jalen Johnson",
+      "team": "ATL"
+    },
+    {
+      "pick": 21,
+      "player": "Keon Johnson",
+      "team": "NYK"
+    },
+    {
+      "pick": 22,
+      "player": "Isaiah Jackson",
+      "team": "LAL"
+    },
+    {
+      "pick": 23,
+      "player": "Usman Garuba",
+      "team": "HOU"
+    },
+    {
+      "pick": 24,
+      "player": "Josh Christopher",
+      "team": "HOU"
+    },
+    {
+      "pick": 25,
+      "player": "Quentin Grimes",
+      "team": "LAC"
+    },
+    {
+      "pick": 26,
+      "player": "Bones Hyland",
+      "team": "DEN"
+    },
+    {
+      "pick": 27,
+      "player": "Cam Thomas",
+      "team": "BRK"
+    },
+    {
+      "pick": 28,
+      "player": "Jaden Springer",
+      "team": "PHI"
+    },
+    {
+      "pick": 29,
+      "player": "Day'Ron Sharpe",
+      "team": "PHO"
+    },
+    {
+      "pick": 30,
+      "player": "Santi Aldama",
+      "team": "UTA"
+    },
+    {
+      "pick": 31,
+      "player": "Isaiah Todd",
+      "team": "MIL"
+    },
+    {
+      "pick": 32,
+      "player": "Jeremiah Robinson-Earl",
+      "team": "NYK"
+    },
+    {
+      "pick": 33,
+      "player": "Jason Preston",
+      "team": "ORL"
+    },
+    {
+      "pick": 34,
+      "player": "Rokas Jokubaitis",
+      "team": "OKC"
+    },
+    {
+      "pick": 35,
+      "player": "Herbert Jones",
+      "team": "NOP"
+    },
+    {
+      "pick": 36,
+      "player": "Miles McBride",
+      "team": "OKC"
+    },
+    {
+      "pick": 37,
+      "player": "JT Thor",
+      "team": "DET"
+    },
+    {
+      "pick": 38,
+      "player": "Ayo Dosunmu",
+      "team": "CHI"
+    },
+    {
+      "pick": 39,
+      "player": "Neemias Queta",
+      "team": "SAC"
+    },
+    {
+      "pick": 40,
+      "player": "Jared Butler",
+      "team": "NOP"
+    },
+    {
+      "pick": 41,
+      "player": "Joe Wieskamp",
+      "team": "SAS"
+    },
+    {
+      "pick": 42,
+      "player": "Isaiah Livers",
+      "team": "DET"
+    },
+    {
+      "pick": 43,
+      "player": "Greg Brown III",
+      "team": "NOP"
+    },
+    {
+      "pick": 44,
+      "player": "Kessler Edwards",
+      "team": "BRK"
+    },
+    {
+      "pick": 45,
+      "player": "Juhann Begarin",
+      "team": "BOS"
+    },
+    {
+      "pick": 46,
+      "player": "Dalano Banton",
+      "team": "TOR"
+    },
+    {
+      "pick": 47,
+      "player": "David Johnson",
+      "team": "TOR"
+    },
+    {
+      "pick": 48,
+      "player": "Sharife Cooper",
+      "team": "ATL"
+    },
+    {
+      "pick": 49,
+      "player": "Marcus Zegarowski",
+      "team": "BRK"
+    },
+    {
+      "pick": 50,
+      "player": "Filip Petrušev",
+      "team": "PHI"
+    },
+    {
+      "pick": 51,
+      "player": "Brandon Boston Jr.",
+      "team": "MEM"
+    },
+    {
+      "pick": 52,
+      "player": "Luka Garza",
+      "team": "DET"
+    },
+    {
+      "pick": 53,
+      "player": "Charles Bassey",
+      "team": "PHI"
+    },
+    {
+      "pick": 54,
+      "player": "Sandro Mamukelashvili",
+      "team": "IND"
+    },
+    {
+      "pick": 55,
+      "player": "Aaron Wiggins",
+      "team": "OKC"
+    },
+    {
+      "pick": 56,
+      "player": "Scottie Lewis",
+      "team": "CHO"
+    },
+    {
+      "pick": 57,
+      "player": "Balša Koprivica",
+      "team": "CHO"
+    },
+    {
+      "pick": 58,
+      "player": "Jericho Sims",
+      "team": "NYK"
+    },
+    {
+      "pick": 59,
+      "player": "RaiQuan Gray",
+      "team": "BRK"
+    },
+    {
+      "pick": 60,
+      "player": "Georgios Kalaitzakis",
+      "team": "IND"
+    }
+  ],
+  "2022": [
+    {
+      "pick": 1,
+      "player": "Paolo Banchero",
+      "team": "ORL"
+    },
+    {
+      "pick": 2,
+      "player": "Chet Holmgren",
+      "team": "OKC"
+    },
+    {
+      "pick": 3,
+      "player": "Jabari Smith Jr.",
+      "team": "HOU"
+    },
+    {
+      "pick": 4,
+      "player": "Keegan Murray",
+      "team": "SAC"
+    },
+    {
+      "pick": 5,
+      "player": "Jaden Ivey",
+      "team": "DET"
+    },
+    {
+      "pick": 6,
+      "player": "Bennedict Mathurin",
+      "team": "IND"
+    },
+    {
+      "pick": 7,
+      "player": "Shaedon Sharpe",
+      "team": "POR"
+    },
+    {
+      "pick": 8,
+      "player": "Dyson Daniels",
+      "team": "NOP"
+    },
+    {
+      "pick": 9,
+      "player": "Jeremy Sochan",
+      "team": "SAS"
+    },
+    {
+      "pick": 10,
+      "player": "Johnny Davis",
+      "team": "WAS"
+    },
+    {
+      "pick": 11,
+      "player": "Ousmane Dieng",
+      "team": "NYK"
+    },
+    {
+      "pick": 12,
+      "player": "Jalen Williams",
+      "team": "OKC"
+    },
+    {
+      "pick": 13,
+      "player": "Jalen Duren",
+      "team": "CHO"
+    },
+    {
+      "pick": 14,
+      "player": "Ochai Agbaji",
+      "team": "CLE"
+    },
+    {
+      "pick": 15,
+      "player": "Mark Williams",
+      "team": "CHO"
+    },
+    {
+      "pick": 16,
+      "player": "AJ Griffin",
+      "team": "ATL"
+    },
+    {
+      "pick": 17,
+      "player": "Tari Eason",
+      "team": "HOU"
+    },
+    {
+      "pick": 18,
+      "player": "Dalen Terry",
+      "team": "CHI"
+    },
+    {
+      "pick": 19,
+      "player": "Jake LaRavia",
+      "team": "MIN"
+    },
+    {
+      "pick": 20,
+      "player": "Malaki Branham",
+      "team": "SAS"
+    },
+    {
+      "pick": 21,
+      "player": "Christian Braun",
+      "team": "DEN"
+    },
+    {
+      "pick": 22,
+      "player": "Walker Kessler",
+      "team": "MEM"
+    },
+    {
+      "pick": 23,
+      "player": "David Roddy",
+      "team": "PHI"
+    },
+    {
+      "pick": 24,
+      "player": "MarJon Beauchamp",
+      "team": "MIL"
+    },
+    {
+      "pick": 25,
+      "player": "Blake Wesley",
+      "team": "SAS"
+    },
+    {
+      "pick": 26,
+      "player": "Wendell Moore Jr.",
+      "team": "DAL"
+    },
+    {
+      "pick": 27,
+      "player": "Nikola Jović",
+      "team": "MIA"
+    },
+    {
+      "pick": 28,
+      "player": "Patrick Baldwin Jr.",
+      "team": "GSW"
+    },
+    {
+      "pick": 29,
+      "player": "TyTy Washington Jr.",
+      "team": "MEM"
+    },
+    {
+      "pick": 30,
+      "player": "Peyton Watson",
+      "team": "OKC"
+    },
+    {
+      "pick": 31,
+      "player": "Andrew Nembhard",
+      "team": "IND"
+    },
+    {
+      "pick": 32,
+      "player": "Caleb Houstan",
+      "team": "ORL"
+    },
+    {
+      "pick": 33,
+      "player": "Christian Koloko",
+      "team": "TOR"
+    },
+    {
+      "pick": 34,
+      "player": "Jaylin Williams",
+      "team": "OKC"
+    },
+    {
+      "pick": 35,
+      "player": "Max Christie",
+      "team": "LAL"
+    },
+    {
+      "pick": 36,
+      "player": "Gabriele Procida",
+      "team": "POR"
+    },
+    {
+      "pick": 37,
+      "player": "Jaden Hardy",
+      "team": "SAC"
+    },
+    {
+      "pick": 38,
+      "player": "Kennedy Chandler",
+      "team": "SAS"
+    },
+    {
+      "pick": 39,
+      "player": "Khalifa Diop",
+      "team": "CLE"
+    },
+    {
+      "pick": 40,
+      "player": "Bryce McGowens",
+      "team": "MIN"
+    },
+    {
+      "pick": 41,
+      "player": "E.J. Liddell",
+      "team": "NOP"
+    },
+    {
+      "pick": 42,
+      "player": "Trevor Keels",
+      "team": "NYK"
+    },
+    {
+      "pick": 43,
+      "player": "Moussa Diabaté",
+      "team": "LAC"
+    },
+    {
+      "pick": 44,
+      "player": "Ryan Rollins",
+      "team": "ATL"
+    },
+    {
+      "pick": 45,
+      "player": "Josh Minott",
+      "team": "CHO"
+    },
+    {
+      "pick": 46,
+      "player": "Ismael Kamagate",
+      "team": "DET"
+    },
+    {
+      "pick": 47,
+      "player": "Vince Williams Jr.",
+      "team": "MEM"
+    },
+    {
+      "pick": 48,
+      "player": "Kendall Brown",
+      "team": "MIN"
+    },
+    {
+      "pick": 49,
+      "player": "Isaiah Mobley",
+      "team": "CLE"
+    },
+    {
+      "pick": 50,
+      "player": "Matteo Spagnolo",
+      "team": "MIN"
+    },
+    {
+      "pick": 51,
+      "player": "Tyrese Martin",
+      "team": "GSW"
+    },
+    {
+      "pick": 52,
+      "player": "Karlo Matković",
+      "team": "NOP"
+    },
+    {
+      "pick": 53,
+      "player": "JD Davison",
+      "team": "BOS"
+    },
+    {
+      "pick": 54,
+      "player": "Yannick Nzosa",
+      "team": "WAS"
+    },
+    {
+      "pick": 55,
+      "player": "Gui Santos",
+      "team": "GSW"
+    },
+    {
+      "pick": 56,
+      "player": "Luke Travers",
+      "team": "CLE"
+    },
+    {
+      "pick": 57,
+      "player": "Jabari Walker",
+      "team": "POR"
+    },
+    {
+      "pick": 58,
+      "player": "Hugo Besson",
+      "team": "IND"
+    }
+  ],
+  "2023": [
+    {
+      "pick": 1,
+      "player": "Victor Wembanyama",
+      "team": "SAS"
+    },
+    {
+      "pick": 2,
+      "player": "Brandon Miller",
+      "team": "CHO"
+    },
+    {
+      "pick": 3,
+      "player": "Scoot Henderson",
+      "team": "POR"
+    },
+    {
+      "pick": 4,
+      "player": "Amen Thompson",
+      "team": "HOU"
+    },
+    {
+      "pick": 5,
+      "player": "Ausar Thompson",
+      "team": "DET"
+    },
+    {
+      "pick": 6,
+      "player": "Anthony Black",
+      "team": "ORL"
+    },
+    {
+      "pick": 7,
+      "player": "Bilal Coulibaly",
+      "team": "IND"
+    },
+    {
+      "pick": 8,
+      "player": "Jarace Walker",
+      "team": "WAS"
+    },
+    {
+      "pick": 9,
+      "player": "Taylor Hendricks",
+      "team": "UTA"
+    },
+    {
+      "pick": 10,
+      "player": "Cason Wallace",
+      "team": "DAL"
+    },
+    {
+      "pick": 11,
+      "player": "Jett Howard",
+      "team": "ORL"
+    },
+    {
+      "pick": 12,
+      "player": "Dereck Lively II",
+      "team": "OKC"
+    },
+    {
+      "pick": 13,
+      "player": "Gradey Dick",
+      "team": "TOR"
+    },
+    {
+      "pick": 14,
+      "player": "Jordan Hawkins",
+      "team": "NOP"
+    },
+    {
+      "pick": 15,
+      "player": "Kobe Bufkin",
+      "team": "ATL"
+    },
+    {
+      "pick": 16,
+      "player": "Keyonte George",
+      "team": "UTA"
+    },
+    {
+      "pick": 17,
+      "player": "Jalen Hood-Schifino",
+      "team": "LAL"
+    },
+    {
+      "pick": 18,
+      "player": "Jaime Jaquez Jr.",
+      "team": "MIA"
+    },
+    {
+      "pick": 19,
+      "player": "Brandin Podziemski",
+      "team": "GSW"
+    },
+    {
+      "pick": 20,
+      "player": "Cam Whitmore",
+      "team": "HOU"
+    },
+    {
+      "pick": 21,
+      "player": "Noah Clowney",
+      "team": "BRK"
+    },
+    {
+      "pick": 22,
+      "player": "Dariq Whitehead",
+      "team": "BRK"
+    },
+    {
+      "pick": 23,
+      "player": "Kris Murray",
+      "team": "POR"
+    },
+    {
+      "pick": 24,
+      "player": "Olivier-Maxence Prosper",
+      "team": "SAC"
+    },
+    {
+      "pick": 25,
+      "player": "Marcus Sasser",
+      "team": "MEM"
+    },
+    {
+      "pick": 26,
+      "player": "Ben Sheppard",
+      "team": "IND"
+    },
+    {
+      "pick": 27,
+      "player": "Nick Smith Jr.",
+      "team": "CHO"
+    },
+    {
+      "pick": 28,
+      "player": "Brice Sensabaugh",
+      "team": "UTA"
+    },
+    {
+      "pick": 29,
+      "player": "Julian Strawther",
+      "team": "IND"
+    },
+    {
+      "pick": 30,
+      "player": "Kobe Brown",
+      "team": "LAC"
+    },
+    {
+      "pick": 31,
+      "player": "James Nnaji",
+      "team": "DET"
+    },
+    {
+      "pick": 32,
+      "player": "Jalen Pickett",
+      "team": "IND"
+    },
+    {
+      "pick": 33,
+      "player": "Leonard Miller",
+      "team": "SAS"
+    },
+    {
+      "pick": 34,
+      "player": "Colby Jones",
+      "team": "CHO"
+    },
+    {
+      "pick": 35,
+      "player": "Julian Phillips",
+      "team": "BOS"
+    },
+    {
+      "pick": 36,
+      "player": "Andre Jackson Jr.",
+      "team": "ORL"
+    },
+    {
+      "pick": 37,
+      "player": "Hunter Tyson",
+      "team": "OKC"
+    },
+    {
+      "pick": 38,
+      "player": "Jordan Walsh",
+      "team": "SAC"
+    },
+    {
+      "pick": 39,
+      "player": "Mouhamed Gueye",
+      "team": "CHO"
+    },
+    {
+      "pick": 40,
+      "player": "Maxwell Lewis",
+      "team": "DEN"
+    },
+    {
+      "pick": 41,
+      "player": "Amari Bailey",
+      "team": "CHO"
+    },
+    {
+      "pick": 42,
+      "player": "Tristan Vukcevic",
+      "team": "WAS"
+    },
+    {
+      "pick": 43,
+      "player": "Rayan Rupert",
+      "team": "POR"
+    },
+    {
+      "pick": 44,
+      "player": "Sidy Cissoko",
+      "team": "SAS"
+    },
+    {
+      "pick": 45,
+      "player": "GG Jackson II",
+      "team": "MEM"
+    },
+    {
+      "pick": 46,
+      "player": "Seth Lundy",
+      "team": "ATL"
+    },
+    {
+      "pick": 47,
+      "player": "Mojave King",
+      "team": "LAL"
+    },
+    {
+      "pick": 48,
+      "player": "Jordan Miller",
+      "team": "LAC"
+    },
+    {
+      "pick": 49,
+      "player": "Emoni Bates",
+      "team": "CLE"
+    },
+    {
+      "pick": 50,
+      "player": "Keyontae Johnson",
+      "team": "OKC"
+    },
+    {
+      "pick": 51,
+      "player": "Jalen Wilson",
+      "team": "BRK"
+    },
+    {
+      "pick": 52,
+      "player": "Toumani Camara",
+      "team": "PHO"
+    },
+    {
+      "pick": 53,
+      "player": "Jaylen Clark",
+      "team": "MIN"
+    },
+    {
+      "pick": 54,
+      "player": "Jalen Slawson",
+      "team": "SAC"
+    },
+    {
+      "pick": 55,
+      "player": "Isaiah Wong",
+      "team": "IND"
+    },
+    {
+      "pick": 56,
+      "player": "Tarik Biberovic",
+      "team": "MEM"
+    },
+    {
+      "pick": 57,
+      "player": "Trayce Jackson-Davis",
+      "team": "WAS"
+    },
+    {
+      "pick": 58,
+      "player": "Chris Livingston",
+      "team": "MIL"
+    }
+  ],
+  "2024": [
+    {
+      "pick": 1,
+      "player": "Zaccharie Risacher",
+      "team": "ATL"
+    },
+    {
+      "pick": 2,
+      "player": "Alex Sarr",
+      "team": "WAS"
+    },
+    {
+      "pick": 3,
+      "player": "Reed Sheppard",
+      "team": "HOU"
+    },
+    {
+      "pick": 4,
+      "player": "Stephon Castle",
+      "team": "SAS"
+    },
+    {
+      "pick": 5,
+      "player": "Ron Holland",
+      "team": "DET"
+    },
+    {
+      "pick": 6,
+      "player": "Tidjane Salaün",
+      "team": "CHO"
+    },
+    {
+      "pick": 7,
+      "player": "Donovan Clingan",
+      "team": "POR"
+    },
+    {
+      "pick": 8,
+      "player": "Rob Dillingham",
+      "team": "SAS"
+    },
+    {
+      "pick": 9,
+      "player": "Zach Edey",
+      "team": "MEM"
+    },
+    {
+      "pick": 10,
+      "player": "Cody Williams",
+      "team": "UTA"
+    },
+    {
+      "pick": 11,
+      "player": "Matas Buzelis",
+      "team": "CHI"
+    },
+    {
+      "pick": 12,
+      "player": "Nikola Topić",
+      "team": "OKC"
+    },
+    {
+      "pick": 13,
+      "player": "Devin Carter",
+      "team": "SAC"
+    },
+    {
+      "pick": 14,
+      "player": "Bub Carrington",
+      "team": "POR"
+    },
+    {
+      "pick": 15,
+      "player": "Kel'el Ware",
+      "team": "MIA"
+    },
+    {
+      "pick": 16,
+      "player": "Jared McCain",
+      "team": "PHI"
+    },
+    {
+      "pick": 17,
+      "player": "Dalton Knecht",
+      "team": "LAL"
+    },
+    {
+      "pick": 18,
+      "player": "Tristan Da Silva",
+      "team": "ORL"
+    },
+    {
+      "pick": 19,
+      "player": "Ja'Kobe Walter",
+      "team": "TOR"
+    },
+    {
+      "pick": 20,
+      "player": "Jaylon Tyson",
+      "team": "CLE"
+    },
+    {
+      "pick": 21,
+      "player": "Yves Missi",
+      "team": "NOP"
+    },
+    {
+      "pick": 22,
+      "player": "DaRon Holmes",
+      "team": "PHO"
+    },
+    {
+      "pick": 23,
+      "player": "AJ Johnson",
+      "team": "MIL"
+    },
+    {
+      "pick": 24,
+      "player": "Kyshawn George",
+      "team": "NYK"
+    },
+    {
+      "pick": 25,
+      "player": "Pacome Dadiet",
+      "team": "NYK"
+    },
+    {
+      "pick": 26,
+      "player": "Dillon Jones",
+      "team": "WAS"
+    },
+    {
+      "pick": 27,
+      "player": "Terrence Shannon Jr.",
+      "team": "MIN"
+    },
+    {
+      "pick": 28,
+      "player": "Ryan Dunn",
+      "team": "DEN"
+    },
+    {
+      "pick": 29,
+      "player": "Isaiah Collier",
+      "team": "UTA"
+    },
+    {
+      "pick": 30,
+      "player": "Baylor Scheierman",
+      "team": "BOS"
+    },
+    {
+      "pick": 31,
+      "player": "Jonathan Mogbo",
+      "team": "TOR"
+    },
+    {
+      "pick": 32,
+      "player": "Kyle Filipowski",
+      "team": "UTA"
+    },
+    {
+      "pick": 33,
+      "player": "Tyler Smith",
+      "team": "MIL"
+    },
+    {
+      "pick": 34,
+      "player": "Tyler Kolek",
+      "team": "POR"
+    },
+    {
+      "pick": 35,
+      "player": "Johnny Furphy",
+      "team": "SAS"
+    },
+    {
+      "pick": 36,
+      "player": "Juan Nunez",
+      "team": "IND"
+    },
+    {
+      "pick": 37,
+      "player": "Bobi Klintman",
+      "team": "MIN"
+    },
+    {
+      "pick": 38,
+      "player": "Ajay Mitchell",
+      "team": "NYK"
+    },
+    {
+      "pick": 39,
+      "player": "Jaylen Wells",
+      "team": "MEM"
+    },
+    {
+      "pick": 40,
+      "player": "Oso Ighodaro",
+      "team": "POR"
+    },
+    {
+      "pick": 41,
+      "player": "Adem Bona",
+      "team": "PHI"
+    },
+    {
+      "pick": 42,
+      "player": "KJ Simpson",
+      "team": "CHO"
+    },
+    {
+      "pick": 43,
+      "player": "Nikola Djurisic",
+      "team": "MIA"
+    },
+    {
+      "pick": 44,
+      "player": "Pelle Larsson",
+      "team": "HOU"
+    },
+    {
+      "pick": 45,
+      "player": "Jamal Shead",
+      "team": "SAC"
+    },
+    {
+      "pick": 46,
+      "player": "Cam Christie",
+      "team": "LAC"
+    },
+    {
+      "pick": 47,
+      "player": "Antonio Reeves",
+      "team": "ORL"
+    },
+    {
+      "pick": 48,
+      "player": "Harrison Ingram",
+      "team": "SAS"
+    },
+    {
+      "pick": 49,
+      "player": "Tristen Newton",
+      "team": "IND"
+    },
+    {
+      "pick": 50,
+      "player": "Enrique Freeman",
+      "team": "IND"
+    },
+    {
+      "pick": 51,
+      "player": "Melvin Ajinça",
+      "team": "NYK"
+    },
+    {
+      "pick": 52,
+      "player": "Quinten Post",
+      "team": "GSW"
+    },
+    {
+      "pick": 53,
+      "player": "Cam Spencer",
+      "team": "DET"
+    },
+    {
+      "pick": 54,
+      "player": "Anton Watson",
+      "team": "BOS"
+    },
+    {
+      "pick": 55,
+      "player": "Bronny James",
+      "team": "LAL"
+    },
+    {
+      "pick": 56,
+      "player": "Kevin McCullar Jr.",
+      "team": "PHO"
+    },
+    {
+      "pick": 57,
+      "player": "Ulrich Chomche",
+      "team": "MEM"
+    },
+    {
+      "pick": 58,
+      "player": "Ariel Hukporti",
+      "team": "DAL"
+    }
+  ],
+  "2025": [
+    {
+      "pick": 1,
+      "player": "Cooper Flagg",
+      "team": "DAL"
+    },
+    {
+      "pick": 2,
+      "player": "Dylan Harper",
+      "team": "SAS"
+    },
+    {
+      "pick": 3,
+      "player": "VJ Edgecombe",
+      "team": "PHI"
+    },
+    {
+      "pick": 4,
+      "player": "Kon Knueppel",
+      "team": "CHO"
+    },
+    {
+      "pick": 5,
+      "player": "Ace Bailey",
+      "team": "UTA"
+    },
+    {
+      "pick": 6,
+      "player": "Tre Johnson",
+      "team": "WAS"
+    },
+    {
+      "pick": 7,
+      "player": "Jeremiah Fears",
+      "team": "NOP"
+    },
+    {
+      "pick": 8,
+      "player": "Egor Demin",
+      "team": "BRK"
+    },
+    {
+      "pick": 9,
+      "player": "Collin Murray-Boyles",
+      "team": "TOR"
+    },
+    {
+      "pick": 10,
+      "player": "Khaman Maluach",
+      "team": "HOU"
+    },
+    {
+      "pick": 11,
+      "player": "Cedric Coward",
+      "team": "POR"
+    },
+    {
+      "pick": 12,
+      "player": "Noa Essengue",
+      "team": "CHI"
+    },
+    {
+      "pick": 13,
+      "player": "Derik Queen",
+      "team": "ATL"
+    },
+    {
+      "pick": 14,
+      "player": "Carter Bryant",
+      "team": "SAS"
+    },
+    {
+      "pick": 15,
+      "player": "Thomas Sorber",
+      "team": "OKC"
+    },
+    {
+      "pick": 16,
+      "player": "Yang Hansen",
+      "team": "MEM"
+    },
+    {
+      "pick": 17,
+      "player": "Joan Beringer",
+      "team": "MIN"
+    },
+    {
+      "pick": 18,
+      "player": "Walter Clayton",
+      "team": "WAS"
+    },
+    {
+      "pick": 19,
+      "player": "Nolan Traoré",
+      "team": "BRK"
+    },
+    {
+      "pick": 20,
+      "player": "Kasparas Jakucionis",
+      "team": "MIA"
+    },
+    {
+      "pick": 21,
+      "player": "Will Riley",
+      "team": "UTA"
+    },
+    {
+      "pick": 22,
+      "player": "Drake Powell",
+      "team": "ATL"
+    },
+    {
+      "pick": 23,
+      "player": "Asa Newell",
+      "team": "IND"
+    },
+    {
+      "pick": 24,
+      "player": "Nique Clifford",
+      "team": "OKC"
+    },
+    {
+      "pick": 25,
+      "player": "Jase Richardson",
+      "team": "ORL"
+    },
+    {
+      "pick": 26,
+      "player": "Ben Saraf",
+      "team": "BRK"
+    },
+    {
+      "pick": 27,
+      "player": "Danny Wolf",
+      "team": "BRK"
+    },
+    {
+      "pick": 28,
+      "player": "Hugo González",
+      "team": "BOS"
+    },
+    {
+      "pick": 29,
+      "player": "Liam McNeeley",
+      "team": "PHO"
+    },
+    {
+      "pick": 30,
+      "player": "Yanic Konan Niederhauser",
+      "team": "LAC"
+    },
+    {
+      "pick": 31,
+      "player": "Rasheer Fleming",
+      "team": "MIN"
+    },
+    {
+      "pick": 32,
+      "player": "Noah Penda",
+      "team": "BOS"
+    },
+    {
+      "pick": 33,
+      "player": "Sion James",
+      "team": "CHO"
+    },
+    {
+      "pick": 34,
+      "player": "Ryan Kalkbrenner",
+      "team": "CHO"
+    },
+    {
+      "pick": 35,
+      "player": "Johni Broome",
+      "team": "PHI"
+    },
+    {
+      "pick": 36,
+      "player": "Adou Thiero",
+      "team": "BRK"
+    },
+    {
+      "pick": 37,
+      "player": "Chaz Lanier",
+      "team": "DET"
+    },
+    {
+      "pick": 38,
+      "player": "Kam Jones",
+      "team": "SAS"
+    },
+    {
+      "pick": 39,
+      "player": "Alijah Martin",
+      "team": "TOR"
+    },
+    {
+      "pick": 40,
+      "player": "Micah Peavy",
+      "team": "WAS"
+    },
+    {
+      "pick": 41,
+      "player": "Koby Brea",
+      "team": "GSW"
+    },
+    {
+      "pick": 42,
+      "player": "Maxime Raynaud",
+      "team": "SAC"
+    },
+    {
+      "pick": 43,
+      "player": "Jamir Watkins",
+      "team": "UTA"
+    },
+    {
+      "pick": 44,
+      "player": "Brooks Barnhizer",
+      "team": "OKC"
+    },
+    {
+      "pick": 45,
+      "player": "Rocco Zikarsky",
+      "team": "CHI"
+    },
+    {
+      "pick": 46,
+      "player": "Amari Williams",
+      "team": "ORL"
+    },
+    {
+      "pick": 47,
+      "player": "Bogoljub Markovic",
+      "team": "MIL"
+    },
+    {
+      "pick": 48,
+      "player": "Javon Small",
+      "team": "MEM"
+    },
+    {
+      "pick": 49,
+      "player": "Tyrese Proctor",
+      "team": "CLE"
+    },
+    {
+      "pick": 50,
+      "player": "Kobe Sanders",
+      "team": "NYK"
+    },
+    {
+      "pick": 51,
+      "player": "Mohamed Diawara",
+      "team": "LAC"
+    },
+    {
+      "pick": 52,
+      "player": "Alex Toohey",
+      "team": "PHO"
+    },
+    {
+      "pick": 53,
+      "player": "John Tonje",
+      "team": "UTA"
+    },
+    {
+      "pick": 54,
+      "player": "Taelon Peter",
+      "team": "IND"
+    },
+    {
+      "pick": 55,
+      "player": "Lachlan Olbrich",
+      "team": "LAL"
+    },
+    {
+      "pick": 56,
+      "player": "Will Richard",
+      "team": "MEM"
+    },
+    {
+      "pick": 57,
+      "player": "Max Shulga",
+      "team": "ORL"
+    },
+    {
+      "pick": 58,
+      "player": "Saliou Niang",
+      "team": "CLE"
+    },
+    {
+      "pick": 59,
+      "player": "Jahmai Mashack",
+      "team": "HOU"
+    },
+    {
+      "pick": 60,
+      "player": "",
+      "team": "NYK"
+    }
+  ]
+}
