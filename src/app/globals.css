@@ -15,4 +15,10 @@
   .btn-gray {
     @apply px-4 py-2 bg-gray-200 text-gray-900 rounded-md cursor-pointer text-sm border-none hover:bg-gray-300;
   }
+
+  .page {
+    min-height: 100vh;
+    padding: 1.25rem;
+    background-color: var(--root-bg, var(--color-base-100));
+  }
 }

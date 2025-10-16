@@ -1,11 +1,5 @@
 /* This stylesheet was written mostly by ChatGPT */
 
-.page {
-  min-height: 100vh;
-  padding: 1.25rem;
-  background-color: var(--root-bg, var(--color-base-100));
-}
-
 .card {
   background-color: var(--color-base-300);
   padding: 1.25rem;

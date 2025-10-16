@@ -1,0 +1,10 @@
+.userProfile {
+    display: flex;
+    flex-direction: row;
+}
+
+.avatarDisplay {
+    display: flex;
+    flex-direction: column;
+    margin: 0% 2%;
+}
