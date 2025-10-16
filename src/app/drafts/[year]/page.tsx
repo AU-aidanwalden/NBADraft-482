@@ -20,7 +20,11 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
   const session = await getServerSession();
 
   //csv is fetched
+<<<<<<< HEAD
   const filePath = path.join(process.cwd(), "public", "data", `draft_${year}.csv`);
+=======
+  const filePath = path.join(process.cwd(), "src", "data", `draft_${year}.csv`);
+>>>>>>> parent of d3cbbff (Merge branch 'main' of https://github.com/AU-aidanwalden/NBADraft-482)
   let csvText = "";
   try {
     csvText = fs.readFileSync(filePath, "utf8");
