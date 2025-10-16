@@ -25,15 +25,20 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
   const draftClass: DraftPick[] = draftData[year] || [];
 
   //picks are grouped by round
-  const picksByRound = draftClass.reduce<Record<number, DraftPick[]>>(
-    (acc, selection) => {
-      const round = Math.max(1, Math.ceil(selection.pick / 30));
-      if (!acc[round]) acc[round] = [];
-      acc[round].push(selection);
-      return acc;
-    },
-    {}
-  );
+ const picksByRound = draftClass.reduce<Record<number, DraftPick[]>>(
+  (acc, selection) => {
+    //if draft is 1988 or older, picks in round are 23, not 30
+    const picksPerRound = Number(year) <= 1988 ? 23 : 30;
+
+    //calculate the round number
+    const round = Math.max(1, Math.ceil(selection.pick / picksPerRound));
+
+    if (!acc[round]) acc[round] = [];
+    acc[round].push(selection);
+    return acc;
+  },
+  {}
+);
 
   const rounds = Object.entries(picksByRound).sort(
     ([roundA], [roundB]) => Number(roundA) - Number(roundB)
