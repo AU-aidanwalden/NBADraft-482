@@ -50,6 +50,14 @@ BETTER_AUTH_SECRET="your-secure-random-secret-here"
 
 Replace `your_password` with your MySQL root password. For `BETTER_AUTH_SECRET`, generate a random string (at least 32 characters).
 
+Make sure the DATABASE_URL value in `drizzle.config.ts` is also added:
+
+```env
+dbCredentials: {
+    url: process.env.DATABASE_URL ?? "mysql://root:your_password@localhost:3306/nbadraft",
+  },
+```
+
 ### 5. Set Up Database Schema with Drizzle ORM
 
 The database schema is defined in `src/lib/db/schema.ts` for use with drizzle.
