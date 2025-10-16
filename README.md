@@ -50,7 +50,7 @@ BETTER_AUTH_SECRET="your-secure-random-secret-here"
 
 Replace `your_password` with your MySQL root password. For `BETTER_AUTH_SECRET`, generate a random string (at least 32 characters).
 
-Make sure the DATABASE_URL value in `drizzle.config.ts` is also added:
+Make sure the `DATABASE_URL` value in `drizzle.config.ts` is also added:
 
 ```env
 dbCredentials: {
