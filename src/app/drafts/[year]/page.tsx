@@ -4,7 +4,7 @@ import styles from "./page.module.css";
 import draftDataImport from "@/data/drafts.json" assert { type: "json" };
 
 interface DraftPick {
-  pick: number | null;
+  pick: number | "-" | null;
   player: string;
   team: string;
 }
@@ -23,8 +23,6 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
   const { year } = await params;
   const draftClass: DraftPick[] = draftData[year] || [];
 
-  let forfeitCounter = 0;
-
   const picksPerRoundMap: Record<number, number> = {
   1976: 18, 1977: 22, 1978: 22, 1979: 22, 1980: 23, 1981: 23, 1982: 23, 1983: 24,
   1984: 24, 1985: 24, 1986: 24, 1987: 23, 1988: 25, 1989: 27, 1990: 24, 1991: 27,
@@ -39,21 +37,22 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
     picksPerRoundMap[y] = 30; // standardized 2-round draft
   }
 
+
 const picksByRound = draftClass.reduce<Record<number, DraftPick[]>>(
   (acc, selection) => {
     const picksPerRound = picksPerRoundMap[Number(year)] || 30;
-    
+
     // Treat null or "-" as forfeited
-    const isForfeited = selection.pick === null || selection.pick === "-";
+    const isForfeited = selection.pick === "-" || selection.pick === null;
 
     if (!isForfeited) {
       // Convert pick to number safely
-      const numericPick = parseInt(selection.pick as string, 10);
+      const numericPick = selection.pick as number;
       const round = Math.ceil(numericPick / picksPerRound);
       if (!acc[round]) acc[round] = [];
       acc[round].push(selection);
     } else {
-      // Optional: put forfeits at the end of the last round
+      // put forfeits at the end of the last round
       const lastRound = Math.max(...Object.keys(acc).map(Number), 1);
       if (!acc[lastRound]) acc[lastRound] = [];
       acc[lastRound].push(selection);
