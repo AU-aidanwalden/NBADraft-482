@@ -1,9 +1,7 @@
 import { Fragment } from "react";
-import { getServerSession } from "@/app/actions";
 import Header from "@/components/ui/Header";
 import styles from "./page.module.css";
-import fs from "fs";
-import path from "path";
+import draftDataImport from "@/data/drafts.json" assert { type: "json" };
 
 interface DraftPick {
   pick: number;
@@ -11,45 +9,31 @@ interface DraftPick {
   team: string;
 }
 
+interface DraftData {
+  [year: string]: DraftPick[];
+}
+
+const draftData = draftDataImport as DraftData;
+
 interface DraftsPageProps {
   params: Promise<{ year: string }>;
 }
 
 export default async function DraftsPage({ params }: DraftsPageProps) {
   const { year } = await params;
-  const session = await getServerSession();
 
-  //csv is fetched
-<<<<<<< HEAD
-  const filePath = path.join(process.cwd(), "public", "data", `draft_${year}.csv`);
-=======
-  const filePath = path.join(process.cwd(), "src", "data", `draft_${year}.csv`);
->>>>>>> parent of d3cbbff (Merge branch 'main' of https://github.com/AU-aidanwalden/NBADraft-482)
-  let csvText = "";
-  try {
-    csvText = fs.readFileSync(filePath, "utf8");
-  } catch (err) {
-    console.error(`Failed to read CSV for year ${year}:`, err);
-  }
-
-  //csv is parsed, each pick, player, and team is retrieved
-  const lines = csvText.trim().split("\n");
-  const headers = lines[0].split(",");
-  const draftClass: DraftPick[] = lines.slice(1).map((line) => {
-    const values = line.split(",");
-    const entry: any = {};
-    headers.forEach((h, i) => (entry[h.trim()] = values[i].trim()));
-    entry.pick = Number(entry.pick);
-    return entry as DraftPick;
-  });
+  const draftClass: DraftPick[] = draftData[year] || [];
 
   //picks are grouped by round
-  const picksByRound = draftClass.reduce<Record<number, DraftPick[]>>((acc, selection) => {
-    const round = Math.max(1, Math.ceil(selection.pick / 30));
-    if (!acc[round]) acc[round] = [];
-    acc[round].push(selection);
-    return acc;
-  }, {});
+  const picksByRound = draftClass.reduce<Record<number, DraftPick[]>>(
+    (acc, selection) => {
+      const round = Math.max(1, Math.ceil(selection.pick / 30));
+      if (!acc[round]) acc[round] = [];
+      acc[round].push(selection);
+      return acc;
+    },
+    {}
+  );
 
   const rounds = Object.entries(picksByRound).sort(
     ([roundA], [roundB]) => Number(roundA) - Number(roundB)
@@ -57,7 +41,7 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
 
   return (
     <div className={styles.page}>
-      <Header session={session?.session ?? null} />
+      <Header />
       <main className={styles.card}>
         <h2 className={styles.title}>{year} NBA Draft</h2>
         <div className={styles.playerList}>
@@ -80,7 +64,9 @@ export default async function DraftsPage({ params }: DraftsPageProps) {
                 {picks.map((selection) => (
                   <div key={selection.pick} className={styles.playerRow}>
                     <span className={styles.draftPick}>#{selection.pick}</span>
-                    <span className={styles.playerName}>{selection.player}</span>
+                    <span className={styles.playerName}>
+                      {selection.player}
+                    </span>
                     <span className={styles.teamName}>{selection.team}</span>
                   </div>
                 ))}
