@@ -1,3 +1,4 @@
+pick,player,team
 1,Magic Johnson,LAL
 2,Dave Greenwood,CHI
 3,Bill Cartwright,NYK
@@ -145,6 +146,7 @@
 145,Nick Daniels,KCK
 146,Tyrone Branyan,SAS
 147,Ollie Matson Jr.,PHO
+-,Forfeited,WSB
 148,Keith McDonald,UTA
 149,Glenn Sudhop,BOS
 150,Rodney Lee,DET
@@ -164,6 +166,7 @@
 164,Tony Vann,KCK
 165,Charles Jones,PHO
 166,Jo Jo Walters,WSB
+-,Forfeited,SAS
 167,Milt Huggins,UTA
 168,Kevin Sinnett,BOS
 169,Tim Joyce,CLE

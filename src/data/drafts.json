@@ -86,6 +86,11 @@
       "team": "GSW"
     },
     {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "NYK"
+    },
+    {
       "pick": 18,
       "player": "Willie Smith",
       "team": "CHI"
@@ -171,6 +176,11 @@
       "team": "GSW"
     },
     {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "PHI"
+    },
+    {
       "pick": 35,
       "player": "Dallas Smith",
       "team": "CHI"
@@ -249,6 +259,11 @@
       "pick": 50,
       "player": "Abdul Jeelani",
       "team": "CLE"
+    },
+    {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "GSW"
     },
     {
       "pick": 51,
@@ -339,6 +354,11 @@
       "pick": 68,
       "player": "Jeff Fosnes",
       "team": "GSW"
+    },
+    {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "BUF"
     },
     {
       "pick": 69,
@@ -2732,1009 +2752,1024 @@
   ],
   "1979": [
     {
-      "1": "2",
-      "Magic Johnson": "Dave Greenwood",
-      "LAL": "CHI"
+      "pick": 1,
+      "player": "Magic Johnson",
+      "team": "LAL"
     },
     {
-      "1": "3",
-      "Magic Johnson": "Bill Cartwright",
-      "LAL": "NYK"
+      "pick": 2,
+      "player": "Dave Greenwood",
+      "team": "CHI"
     },
     {
-      "1": "4",
-      "Magic Johnson": "Greg Kelser",
-      "LAL": "DET"
+      "pick": 3,
+      "player": "Bill Cartwright",
+      "team": "NYK"
     },
     {
-      "1": "5",
-      "Magic Johnson": "Sidney Moncrief",
-      "LAL": "MIL"
+      "pick": 4,
+      "player": "Greg Kelser",
+      "team": "DET"
     },
     {
-      "1": "6",
-      "Magic Johnson": "James Bailey",
-      "LAL": "SEA"
+      "pick": 5,
+      "player": "Sidney Moncrief",
+      "team": "MIL"
     },
     {
-      "1": "7",
-      "Magic Johnson": "Vinnie Johnson",
-      "LAL": "SEA"
+      "pick": 6,
+      "player": "James Bailey",
+      "team": "SEA"
     },
     {
-      "1": "8",
-      "Magic Johnson": "Calvin Natt",
-      "LAL": "NJN"
+      "pick": 7,
+      "player": "Vinnie Johnson",
+      "team": "SEA"
     },
     {
-      "1": "9",
-      "Magic Johnson": "Larry Demic",
-      "LAL": "NYK"
+      "pick": 8,
+      "player": "Calvin Natt",
+      "team": "NJN"
     },
     {
-      "1": "10",
-      "Magic Johnson": "Roy Hamilton",
-      "LAL": "DET"
+      "pick": 9,
+      "player": "Larry Demic",
+      "team": "NYK"
     },
     {
-      "1": "11",
-      "Magic Johnson": "Cliff Robinson",
-      "LAL": "NJN"
+      "pick": 10,
+      "player": "Roy Hamilton",
+      "team": "DET"
     },
     {
-      "1": "12",
-      "Magic Johnson": "Jim Paxson",
-      "LAL": "POR"
+      "pick": 11,
+      "player": "Cliff Robinson",
+      "team": "NJN"
     },
     {
-      "1": "13",
-      "Magic Johnson": "Dudley Bradley",
-      "LAL": "IND"
+      "pick": 12,
+      "player": "Jim Paxson",
+      "team": "POR"
     },
     {
-      "1": "14",
-      "Magic Johnson": "Brad Holland",
-      "LAL": "LAL"
+      "pick": 13,
+      "player": "Dudley Bradley",
+      "team": "IND"
     },
     {
-      "1": "15",
-      "Magic Johnson": "Phil Hubbard",
-      "LAL": "DET"
+      "pick": 14,
+      "player": "Brad Holland",
+      "team": "LAL"
     },
     {
-      "1": "16",
-      "Magic Johnson": "Jim Spanarkel",
-      "LAL": "PHI"
+      "pick": 15,
+      "player": "Phil Hubbard",
+      "team": "DET"
     },
     {
-      "1": "17",
-      "Magic Johnson": "Lee Johnson",
-      "LAL": "HOU"
+      "pick": 16,
+      "player": "Jim Spanarkel",
+      "team": "PHI"
     },
     {
-      "1": "18",
-      "Magic Johnson": "Reggie King",
-      "LAL": "KCK"
+      "pick": 17,
+      "player": "Lee Johnson",
+      "team": "HOU"
     },
     {
-      "1": "19",
-      "Magic Johnson": "Wiley Peck",
-      "LAL": "SAS"
+      "pick": 18,
+      "player": "Reggie King",
+      "team": "KCK"
     },
     {
-      "1": "20",
-      "Magic Johnson": "Larry Knight",
-      "LAL": "UTA"
+      "pick": 19,
+      "player": "Wiley Peck",
+      "team": "SAS"
     },
     {
-      "1": "21",
-      "Magic Johnson": "Sly Williams",
-      "LAL": "NYK"
+      "pick": 20,
+      "player": "Larry Knight",
+      "team": "UTA"
     },
     {
-      "1": "22",
-      "Magic Johnson": "Kyle Macy",
-      "LAL": "PHO"
+      "pick": 21,
+      "player": "Sly Williams",
+      "team": "NYK"
     },
     {
-      "1": "23",
-      "Magic Johnson": "Tico Brown",
-      "LAL": "UTA"
+      "pick": 22,
+      "player": "Kyle Macy",
+      "team": "PHO"
     },
     {
-      "1": "24",
-      "Magic Johnson": "Johnny High",
-      "LAL": "PHO"
+      "pick": 23,
+      "player": "Tico Brown",
+      "team": "UTA"
     },
     {
-      "1": "25",
-      "Magic Johnson": "Ollie Mack",
-      "LAL": "LAL"
+      "pick": 24,
+      "player": "Johnny High",
+      "team": "PHO"
     },
     {
-      "1": "26",
-      "Magic Johnson": "Bruce Flowers",
-      "LAL": "CLE"
+      "pick": 25,
+      "player": "Ollie Mack",
+      "team": "LAL"
     },
     {
-      "1": "27",
-      "Magic Johnson": "Reggie Carter",
-      "LAL": "NYK"
+      "pick": 26,
+      "player": "Bruce Flowers",
+      "team": "CLE"
     },
     {
-      "1": "28",
-      "Magic Johnson": "Danny Salisbury",
-      "LAL": "GSW"
+      "pick": 27,
+      "player": "Reggie Carter",
+      "team": "NYK"
     },
     {
-      "1": "29",
-      "Magic Johnson": "Tony Price",
-      "LAL": "DET"
+      "pick": 28,
+      "player": "Danny Salisbury",
+      "team": "GSW"
     },
     {
-      "1": "30",
-      "Magic Johnson": "Gary Garland",
-      "LAL": "DEN"
+      "pick": 29,
+      "player": "Tony Price",
+      "team": "DET"
     },
     {
-      "1": "31",
-      "Magic Johnson": "Edgar Jones",
-      "LAL": "MIL"
+      "pick": 30,
+      "player": "Gary Garland",
+      "team": "DEN"
     },
     {
-      "1": "32",
-      "Magic Johnson": "Tony Zeno",
-      "LAL": "IND"
+      "pick": 31,
+      "player": "Edgar Jones",
+      "team": "MIL"
     },
     {
-      "1": "33",
-      "Magic Johnson": "Lawrence Butler",
-      "LAL": "CHI"
+      "pick": 32,
+      "player": "Tony Zeno",
+      "team": "IND"
     },
     {
-      "1": "34",
-      "Magic Johnson": "Kim Goetz",
-      "LAL": "NYK"
+      "pick": 33,
+      "player": "Lawrence Butler",
+      "team": "CHI"
     },
     {
-      "1": "35",
-      "Magic Johnson": "James Bradley",
-      "LAL": "ATL"
+      "pick": 34,
+      "player": "Kim Goetz",
+      "team": "NYK"
     },
     {
-      "1": "36",
-      "Magic Johnson": "Clint Richardson",
-      "LAL": "PHI"
+      "pick": 35,
+      "player": "James Bradley",
+      "team": "ATL"
     },
     {
-      "1": "37",
-      "Magic Johnson": "Bernard Toone",
-      "LAL": "PHI"
+      "pick": 36,
+      "player": "Clint Richardson",
+      "team": "PHI"
     },
     {
-      "1": "38",
-      "Magic Johnson": "Larry Wilson",
-      "LAL": "ATL"
+      "pick": 37,
+      "player": "Bernard Toone",
+      "team": "PHI"
     },
     {
-      "1": "39",
-      "Magic Johnson": "Victor King",
-      "LAL": "LAL"
+      "pick": 38,
+      "player": "Larry Wilson",
+      "team": "ATL"
     },
     {
-      "1": "40",
-      "Magic Johnson": "Andrew Fields",
-      "LAL": "POR"
+      "pick": 39,
+      "player": "Victor King",
+      "team": "LAL"
     },
     {
-      "1": "41",
-      "Magic Johnson": "Mark Young",
-      "LAL": "LAL"
+      "pick": 40,
+      "player": "Andrew Fields",
+      "team": "POR"
     },
     {
-      "1": "42",
-      "Magic Johnson": "Paul Mokeski",
-      "LAL": "HOU"
+      "pick": 41,
+      "player": "Mark Young",
+      "team": "LAL"
     },
     {
-      "1": "43",
-      "Magic Johnson": "Johnny Moore",
-      "LAL": "SEA"
+      "pick": 42,
+      "player": "Paul Mokeski",
+      "team": "HOU"
     },
     {
-      "1": "44",
-      "Magic Johnson": "Joe DeSantis",
-      "LAL": "WSB"
+      "pick": 43,
+      "player": "Johnny Moore",
+      "team": "SEA"
     },
     {
-      "1": "45",
-      "Magic Johnson": "Arvid Kramer",
-      "LAL": "UTA"
+      "pick": 44,
+      "player": "Joe DeSantis",
+      "team": "WSB"
     },
     {
-      "1": "46",
-      "Magic Johnson": "Andrew Parker",
-      "LAL": "WSB"
+      "pick": 45,
+      "player": "Arvid Kramer",
+      "team": "UTA"
     },
     {
-      "1": "47",
-      "Magic Johnson": "Calvin Garrett",
-      "LAL": "CHI"
+      "pick": 46,
+      "player": "Andrew Parker",
+      "team": "WSB"
     },
     {
-      "1": "48",
-      "Magic Johnson": "Terry Duerod",
-      "LAL": "DET"
+      "pick": 47,
+      "player": "Calvin Garrett",
+      "team": "CHI"
     },
     {
-      "1": "49",
-      "Magic Johnson": "Cedrick Hordges",
-      "LAL": "CHI"
+      "pick": 48,
+      "player": "Terry Duerod",
+      "team": "DET"
     },
     {
-      "1": "50",
-      "Magic Johnson": "Geoff Huston",
-      "LAL": "NYK"
+      "pick": 49,
+      "player": "Cedrick Hordges",
+      "team": "CHI"
     },
     {
-      "1": "51",
-      "Magic Johnson": "John Gerdy",
-      "LAL": "NJN"
+      "pick": 50,
+      "player": "Geoff Huston",
+      "team": "NYK"
     },
     {
-      "1": "52",
-      "Magic Johnson": "Larry Gibson",
-      "LAL": "MIL"
+      "pick": 51,
+      "player": "John Gerdy",
+      "team": "NJN"
     },
     {
-      "1": "53",
-      "Magic Johnson": "Wayne Kreklow",
-      "LAL": "BOS"
+      "pick": 52,
+      "player": "Larry Gibson",
+      "team": "MIL"
     },
     {
-      "1": "54",
-      "Magic Johnson": "Cheese Johnson",
-      "LAL": "GSW"
+      "pick": 53,
+      "player": "Wayne Kreklow",
+      "team": "BOS"
     },
     {
-      "1": "55",
-      "Magic Johnson": "Tom Channel",
-      "LAL": "SDC"
+      "pick": 54,
+      "player": "Cheese Johnson",
+      "team": "GSW"
     },
     {
-      "1": "56",
-      "Magic Johnson": "Mickey Fox",
-      "LAL": "POR"
+      "pick": 55,
+      "player": "Tom Channel",
+      "team": "SDC"
     },
     {
-      "1": "57",
-      "Magic Johnson": "Don Marsh",
-      "LAL": "ATL"
+      "pick": 56,
+      "player": "Mickey Fox",
+      "team": "POR"
     },
     {
-      "1": "58",
-      "Magic Johnson": "Earl Cureton",
-      "LAL": "PHI"
+      "pick": 57,
+      "player": "Don Marsh",
+      "team": "ATL"
     },
     {
-      "1": "59",
-      "Magic Johnson": "Ricardo Brown",
-      "LAL": "HOU"
+      "pick": 58,
+      "player": "Earl Cureton",
+      "team": "PHI"
     },
     {
-      "1": "60",
-      "Magic Johnson": "Walter Daniels",
-      "LAL": "LAL"
+      "pick": 59,
+      "player": "Ricardo Brown",
+      "team": "HOU"
     },
     {
-      "1": "61",
-      "Magic Johnson": "Ernesto Malcolm",
-      "LAL": "BOS"
+      "pick": 60,
+      "player": "Walter Daniels",
+      "team": "LAL"
     },
     {
-      "1": "62",
-      "Magic Johnson": "Terry Crosby",
-      "LAL": "KCK"
+      "pick": 61,
+      "player": "Ernesto Malcolm",
+      "team": "BOS"
     },
     {
-      "1": "63",
-      "Magic Johnson": "Sylvester Norris",
-      "LAL": "SAS"
+      "pick": 62,
+      "player": "Terry Crosby",
+      "team": "KCK"
     },
     {
-      "1": "64",
-      "Magic Johnson": "Al Green",
-      "LAL": "PHO"
+      "pick": 63,
+      "player": "Sylvester Norris",
+      "team": "SAS"
     },
     {
-      "1": "65",
-      "Magic Johnson": "Bill Laimbeer",
-      "LAL": "CLE"
+      "pick": 64,
+      "player": "Al Green",
+      "team": "PHO"
     },
     {
-      "1": "66",
-      "Magic Johnson": "Charles Floyd",
-      "LAL": "WSB"
+      "pick": 65,
+      "player": "Bill Laimbeer",
+      "team": "CLE"
     },
     {
-      "1": "67",
-      "Magic Johnson": "Greg Deane",
-      "LAL": "UTA"
+      "pick": 66,
+      "player": "Charles Floyd",
+      "team": "WSB"
     },
     {
-      "1": "68",
-      "Magic Johnson": "Nick Galis",
-      "LAL": "BOS"
+      "pick": 67,
+      "player": "Greg Deane",
+      "team": "UTA"
     },
     {
-      "1": "69",
-      "Magic Johnson": "Eugene Robinson",
-      "LAL": "MIL"
+      "pick": 68,
+      "player": "Nick Galis",
+      "team": "BOS"
     },
     {
-      "1": "70",
-      "Magic Johnson": "Rick Swing",
-      "LAL": "CLE"
+      "pick": 69,
+      "player": "Eugene Robinson",
+      "team": "MIL"
     },
     {
-      "1": "71",
-      "Magic Johnson": "Larry Rogers",
-      "LAL": "NYK"
+      "pick": 70,
+      "player": "Rick Swing",
+      "team": "CLE"
     },
     {
-      "1": "72",
-      "Magic Johnson": "George Maynor",
-      "LAL": "CHI"
+      "pick": 71,
+      "player": "Larry Rogers",
+      "team": "NYK"
     },
     {
-      "1": "73",
-      "Magic Johnson": "James Donaldson",
-      "LAL": "SEA"
+      "pick": 72,
+      "player": "George Maynor",
+      "team": "CHI"
     },
     {
-      "1": "74",
-      "Magic Johnson": "Don Newman",
-      "LAL": "IND"
+      "pick": 73,
+      "player": "James Donaldson",
+      "team": "SEA"
     },
     {
-      "1": "75",
-      "Magic Johnson": "Ron Ripley",
-      "LAL": "GSW"
+      "pick": 74,
+      "player": "Don Newman",
+      "team": "IND"
     },
     {
-      "1": "76",
-      "Magic Johnson": "Sammy Drummer",
-      "LAL": "HOU"
+      "pick": 75,
+      "player": "Ron Ripley",
+      "team": "GSW"
     },
     {
-      "1": "77",
-      "Magic Johnson": "Lionel Garrett",
-      "LAL": "SDC"
+      "pick": 76,
+      "player": "Sammy Drummer",
+      "team": "HOU"
     },
     {
-      "1": "78",
-      "Magic Johnson": "Darryl Robinson",
-      "LAL": "POR"
+      "pick": 77,
+      "player": "Lionel Garrett",
+      "team": "SDC"
     },
     {
-      "1": "79",
-      "Magic Johnson": "Ray White",
-      "LAL": "LAL"
+      "pick": 78,
+      "player": "Darryl Robinson",
+      "team": "POR"
     },
     {
-      "1": "80",
-      "Magic Johnson": "Lionel Green",
-      "LAL": "HOU"
+      "pick": 79,
+      "player": "Ray White",
+      "team": "LAL"
     },
     {
-      "1": "81",
-      "Magic Johnson": "Ricky Reed",
-      "LAL": "LAL"
+      "pick": 80,
+      "player": "Lionel Green",
+      "team": "HOU"
     },
     {
-      "1": "82",
-      "Magic Johnson": "Jerry Sichting",
-      "LAL": "GSW"
+      "pick": 81,
+      "player": "Ricky Reed",
+      "team": "LAL"
     },
     {
-      "1": "83",
-      "Magic Johnson": "Mike Niles",
-      "LAL": "PHI"
+      "pick": 82,
+      "player": "Jerry Sichting",
+      "team": "GSW"
     },
     {
-      "1": "84",
-      "Magic Johnson": "Al Daniel",
-      "LAL": "SAS"
+      "pick": 83,
+      "player": "Mike Niles",
+      "team": "PHI"
     },
     {
-      "1": "85",
-      "Magic Johnson": "John McCullough",
-      "LAL": "KCK"
+      "pick": 84,
+      "player": "Al Daniel",
+      "team": "SAS"
     },
     {
-      "1": "86",
-      "Magic Johnson": "Malcolm Cesare",
-      "LAL": "PHO"
+      "pick": 85,
+      "player": "John McCullough",
+      "team": "KCK"
     },
     {
-      "1": "87",
-      "Magic Johnson": "Richie Allen",
-      "LAL": "SEA"
+      "pick": 86,
+      "player": "Malcolm Cesare",
+      "team": "PHO"
     },
     {
-      "1": "88",
-      "Magic Johnson": "Lamont Reid",
-      "LAL": "WSB"
+      "pick": 87,
+      "player": "Richie Allen",
+      "team": "SEA"
     },
     {
-      "1": "89",
-      "Magic Johnson": "Perry Wolfe",
-      "LAL": "UTA"
+      "pick": 88,
+      "player": "Lamont Reid",
+      "team": "WSB"
     },
     {
-      "1": "90",
-      "Magic Johnson": "Jimmy Allen",
-      "LAL": "BOS"
+      "pick": 89,
+      "player": "Perry Wolfe",
+      "team": "UTA"
     },
     {
-      "1": "91",
-      "Magic Johnson": "Matt Simpkins",
-      "LAL": "CLE"
+      "pick": 90,
+      "player": "Jimmy Allen",
+      "team": "BOS"
     },
     {
-      "1": "92",
-      "Magic Johnson": "Flintie Ray Williams",
-      "LAL": "DET"
+      "pick": 91,
+      "player": "Matt Simpkins",
+      "team": "CLE"
     },
     {
-      "1": "93",
-      "Magic Johnson": "Larry Washington",
-      "LAL": "CHI"
+      "pick": 92,
+      "player": "Flintie Ray Williams",
+      "team": "DET"
     },
     {
-      "1": "94",
-      "Magic Johnson": "Johnny Green",
-      "LAL": "NYK"
+      "pick": 93,
+      "player": "Larry Washington",
+      "team": "CHI"
     },
     {
-      "1": "95",
-      "Magic Johnson": "Jim Abromaitis",
-      "LAL": "NJN"
+      "pick": 94,
+      "player": "Johnny Green",
+      "team": "NYK"
     },
     {
-      "1": "96",
-      "Magic Johnson": "George Lett",
-      "LAL": "GSW"
+      "pick": 95,
+      "player": "Jim Abromaitis",
+      "team": "NJN"
     },
     {
-      "1": "97",
-      "Magic Johnson": "Jim Tillman",
-      "LAL": "MIL"
+      "pick": 96,
+      "player": "George Lett",
+      "team": "GSW"
     },
     {
-      "1": "98",
-      "Magic Johnson": "Billy Reid",
-      "LAL": "IND"
+      "pick": 97,
+      "player": "Jim Tillman",
+      "team": "MIL"
     },
     {
-      "1": "99",
-      "Magic Johnson": "Greg Joyner",
-      "LAL": "SDC"
+      "pick": 98,
+      "player": "Billy Reid",
+      "team": "IND"
     },
     {
-      "1": "100",
-      "Magic Johnson": "Matt White",
-      "LAL": "POR"
+      "pick": 99,
+      "player": "Greg Joyner",
+      "team": "SDC"
     },
     {
-      "1": "101",
-      "Magic Johnson": "Tiny Pinder",
-      "LAL": "ATL"
+      "pick": 100,
+      "player": "Matt White",
+      "team": "POR"
     },
     {
-      "1": "102",
-      "Magic Johnson": "Larry Williams",
-      "LAL": "DEN"
+      "pick": 101,
+      "player": "Tiny Pinder",
+      "team": "ATL"
     },
     {
-      "1": "103",
-      "Magic Johnson": "Carl McPipe",
-      "LAL": "PHI"
+      "pick": 102,
+      "player": "Larry Williams",
+      "team": "DEN"
     },
     {
-      "1": "104",
-      "Magic Johnson": "Allen Leavell",
-      "LAL": "HOU"
+      "pick": 103,
+      "player": "Carl McPipe",
+      "team": "PHI"
     },
     {
-      "1": "105",
-      "Magic Johnson": "Curtis Watkins",
-      "LAL": "KCK"
+      "pick": 104,
+      "player": "Allen Leavell",
+      "team": "HOU"
     },
     {
-      "1": "106",
-      "Magic Johnson": "Steve Schall",
-      "LAL": "SAS"
+      "pick": 105,
+      "player": "Curtis Watkins",
+      "team": "KCK"
     },
     {
-      "1": "107",
-      "Magic Johnson": "Mark Eaton",
-      "LAL": "PHO"
+      "pick": 106,
+      "player": "Steve Schall",
+      "team": "SAS"
     },
     {
-      "1": "108",
-      "Magic Johnson": "Marshall Ashford",
-      "LAL": "WSB"
+      "pick": 107,
+      "player": "Mark Eaton",
+      "team": "PHO"
     },
     {
-      "1": "109",
-      "Magic Johnson": "Ernie Cobb",
-      "LAL": "UTA"
+      "pick": 108,
+      "player": "Marshall Ashford",
+      "team": "WSB"
     },
     {
-      "1": "110",
-      "Magic Johnson": "Marvin Delph",
-      "LAL": "BOS"
+      "pick": 109,
+      "player": "Ernie Cobb",
+      "team": "UTA"
     },
     {
-      "1": "111",
-      "Magic Johnson": "Truman Claytor",
-      "LAL": "DET"
+      "pick": 110,
+      "player": "Marvin Delph",
+      "team": "BOS"
     },
     {
-      "1": "112",
-      "Magic Johnson": "Jon Manning",
-      "LAL": "CLE"
+      "pick": 111,
+      "player": "Truman Claytor",
+      "team": "DET"
     },
     {
-      "1": "113",
-      "Magic Johnson": "Phil Abney",
-      "LAL": "NYK"
+      "pick": 112,
+      "player": "Jon Manning",
+      "team": "CLE"
     },
     {
-      "1": "114",
-      "Magic Johnson": "Steve Smith",
-      "LAL": "CHI"
+      "pick": 113,
+      "player": "Phil Abney",
+      "team": "NYK"
     },
     {
-      "1": "115",
-      "Magic Johnson": "Tony Smith",
-      "LAL": "NJN"
+      "pick": 114,
+      "player": "Steve Smith",
+      "team": "CHI"
     },
     {
-      "1": "116",
-      "Magic Johnson": "Derrick Mayes",
-      "LAL": "MIL"
+      "pick": 115,
+      "player": "Tony Smith",
+      "team": "NJN"
     },
     {
-      "1": "117",
-      "Magic Johnson": "Greg Guye",
-      "LAL": "IND"
+      "pick": 116,
+      "player": "Derrick Mayes",
+      "team": "MIL"
     },
     {
-      "1": "118",
-      "Magic Johnson": "Jim Mitchem",
-      "LAL": "GSW"
+      "pick": 117,
+      "player": "Greg Guye",
+      "team": "IND"
     },
     {
-      "1": "119",
-      "Magic Johnson": "Bob Bender",
-      "LAL": "SDC"
+      "pick": 118,
+      "player": "Jim Mitchem",
+      "team": "GSW"
     },
     {
-      "1": "120",
-      "Magic Johnson": "Ray Ellis",
-      "LAL": "POR"
+      "pick": 119,
+      "player": "Bob Bender",
+      "team": "SDC"
     },
     {
-      "1": "121",
-      "Magic Johnson": "Dwight Williams",
-      "LAL": "ATL"
+      "pick": 120,
+      "player": "Ray Ellis",
+      "team": "POR"
     },
     {
-      "1": "122",
-      "Magic Johnson": "Odell Ball",
-      "LAL": "DEN"
+      "pick": 121,
+      "player": "Dwight Williams",
+      "team": "ATL"
     },
     {
-      "1": "123",
-      "Magic Johnson": "Dan Hartshorne",
-      "LAL": "PHI"
+      "pick": 122,
+      "player": "Odell Ball",
+      "team": "DEN"
     },
     {
-      "1": "124",
-      "Magic Johnson": "Collie Davis",
-      "LAL": "HOU"
+      "pick": 123,
+      "player": "Dan Hartshorne",
+      "team": "PHI"
     },
     {
-      "1": "125",
-      "Magic Johnson": "Terry Knight",
-      "LAL": "SAS"
+      "pick": 124,
+      "player": "Collie Davis",
+      "team": "HOU"
     },
     {
-      "1": "126",
-      "Magic Johnson": "Bob Roma",
-      "LAL": "KCK"
+      "pick": 125,
+      "player": "Terry Knight",
+      "team": "SAS"
     },
     {
-      "1": "127",
-      "Magic Johnson": "Dale Shackleford",
-      "LAL": "PHO"
+      "pick": 126,
+      "player": "Bob Roma",
+      "team": "KCK"
     },
     {
-      "1": "128",
-      "Magic Johnson": "Garcia Hopkins",
-      "LAL": "WSB"
+      "pick": 127,
+      "player": "Dale Shackleford",
+      "team": "PHO"
     },
     {
-      "1": "129",
-      "Magic Johnson": "Paul Poe",
-      "LAL": "UTA"
+      "pick": 128,
+      "player": "Garcia Hopkins",
+      "team": "WSB"
     },
     {
-      "1": "130",
-      "Magic Johnson": "Steve Castellan",
-      "LAL": "BOS"
+      "pick": 129,
+      "player": "Paul Poe",
+      "team": "UTA"
     },
     {
-      "1": "131",
-      "Magic Johnson": "Steve Skaggs",
-      "LAL": "CLE"
+      "pick": 130,
+      "player": "Steve Castellan",
+      "team": "BOS"
     },
     {
-      "1": "132",
-      "Magic Johnson": "Ken Jones",
-      "LAL": "DET"
+      "pick": 131,
+      "player": "Steve Skaggs",
+      "team": "CLE"
     },
     {
-      "1": "133",
-      "Magic Johnson": "Mike Eversley",
-      "LAL": "CHI"
+      "pick": 132,
+      "player": "Ken Jones",
+      "team": "DET"
     },
     {
-      "1": "134",
-      "Magic Johnson": "Marc Coleman",
-      "LAL": "NYK"
+      "pick": 133,
+      "player": "Mike Eversley",
+      "team": "CHI"
     },
     {
-      "1": "135",
-      "Magic Johnson": "Jim Strickland",
-      "LAL": "NJN"
+      "pick": 134,
+      "player": "Marc Coleman",
+      "team": "NYK"
     },
     {
-      "1": "136",
-      "Magic Johnson": "Dirk Ewing",
-      "LAL": "IND"
+      "pick": 135,
+      "player": "Jim Strickland",
+      "team": "NJN"
     },
     {
-      "1": "137",
-      "Magic Johnson": "Ren Watson",
-      "LAL": "GSW"
+      "pick": 136,
+      "player": "Dirk Ewing",
+      "team": "IND"
     },
     {
-      "1": "138",
-      "Magic Johnson": "Stan Ray",
-      "LAL": "MIL"
+      "pick": 137,
+      "player": "Ren Watson",
+      "team": "GSW"
     },
     {
-      "1": "139",
-      "Magic Johnson": "Jene Grey",
-      "LAL": "SDC"
+      "pick": 138,
+      "player": "Stan Ray",
+      "team": "MIL"
     },
     {
-      "1": "140",
-      "Magic Johnson": "Jeff Tropf",
-      "LAL": "POR"
+      "pick": 139,
+      "player": "Jene Grey",
+      "team": "SDC"
     },
     {
-      "1": "141",
-      "Magic Johnson": "Tim Waterman",
-      "LAL": "ATL"
+      "pick": 140,
+      "player": "Jeff Tropf",
+      "team": "POR"
     },
     {
-      "1": "142",
-      "Magic Johnson": "Bobby Willis",
-      "LAL": "PHI"
+      "pick": 141,
+      "player": "Tim Waterman",
+      "team": "ATL"
     },
     {
-      "1": "143",
-      "Magic Johnson": "Rich Valavicius",
-      "LAL": "HOU"
+      "pick": 142,
+      "player": "Bobby Willis",
+      "team": "PHI"
     },
     {
-      "1": "144",
-      "Magic Johnson": "John Johnson",
-      "LAL": "DEN"
+      "pick": 143,
+      "player": "Rich Valavicius",
+      "team": "HOU"
     },
     {
-      "1": "145",
-      "Magic Johnson": "Nick Daniels",
-      "LAL": "KCK"
+      "pick": 144,
+      "player": "John Johnson",
+      "team": "DEN"
     },
     {
-      "1": "146",
-      "Magic Johnson": "Tyrone Branyan",
-      "LAL": "SAS"
+      "pick": 145,
+      "player": "Nick Daniels",
+      "team": "KCK"
     },
     {
-      "1": "147",
-      "Magic Johnson": "Ollie Matson Jr.",
-      "LAL": "PHO"
+      "pick": 146,
+      "player": "Tyrone Branyan",
+      "team": "SAS"
     },
     {
-      "1": "148",
-      "Magic Johnson": "Keith McDonald",
-      "LAL": "UTA"
+      "pick": 147,
+      "player": "Ollie Matson Jr.",
+      "team": "PHO"
     },
     {
-      "1": "149",
-      "Magic Johnson": "Glenn Sudhop",
-      "LAL": "BOS"
+      "pick": null,
+      "player": "Forfeited",
+      "team": "WSB"
     },
     {
-      "1": "150",
-      "Magic Johnson": "Rodney Lee",
-      "LAL": "DET"
+      "pick": 148,
+      "player": "Keith McDonald",
+      "team": "UTA"
     },
     {
-      "1": "151",
-      "Magic Johnson": "Mark Haymore",
-      "LAL": "CLE"
+      "pick": 149,
+      "player": "Glenn Sudhop",
+      "team": "BOS"
     },
     {
-      "1": "152",
-      "Magic Johnson": "Billy Tucker",
-      "LAL": "NYK"
+      "pick": 150,
+      "player": "Rodney Lee",
+      "team": "DET"
     },
     {
-      "1": "153",
-      "Magic Johnson": "Tony Warren",
-      "LAL": "CHI"
+      "pick": 151,
+      "player": "Mark Haymore",
+      "team": "CLE"
     },
     {
-      "1": "154",
-      "Magic Johnson": "Henry Hollingsworth",
-      "LAL": "NJN"
+      "pick": 152,
+      "player": "Billy Tucker",
+      "team": "NYK"
     },
     {
-      "1": "155",
-      "Magic Johnson": "Mario Butler",
-      "LAL": "GSW"
+      "pick": 153,
+      "player": "Tony Warren",
+      "team": "CHI"
     },
     {
-      "1": "156",
-      "Magic Johnson": "Larry Spicer",
-      "LAL": "MIL"
+      "pick": 154,
+      "player": "Henry Hollingsworth",
+      "team": "NJN"
     },
     {
-      "1": "157",
-      "Magic Johnson": "Brian Magid",
-      "LAL": "IND"
+      "pick": 155,
+      "player": "Mario Butler",
+      "team": "GSW"
     },
     {
-      "1": "158",
-      "Magic Johnson": "Renaldo Lawrence",
-      "LAL": "SDC"
+      "pick": 156,
+      "player": "Larry Spicer",
+      "team": "MIL"
     },
     {
-      "1": "159",
-      "Magic Johnson": "Willie Pounds",
-      "LAL": "POR"
+      "pick": 157,
+      "player": "Brian Magid",
+      "team": "IND"
     },
     {
-      "1": "160",
-      "Magic Johnson": "John Goedeke",
-      "LAL": "ATL"
+      "pick": 158,
+      "player": "Renaldo Lawrence",
+      "team": "SDC"
     },
     {
-      "1": "161",
-      "Magic Johnson": "Delbert Watson",
-      "LAL": "HOU"
+      "pick": 159,
+      "player": "Willie Pounds",
+      "team": "POR"
     },
     {
-      "1": "162",
-      "Magic Johnson": "Matt Teahan",
-      "LAL": "DEN"
+      "pick": 160,
+      "player": "John Goedeke",
+      "team": "ATL"
     },
     {
-      "1": "163",
-      "Magic Johnson": "Rick Raivio",
-      "LAL": "PHI"
+      "pick": 161,
+      "player": "Delbert Watson",
+      "team": "HOU"
     },
     {
-      "1": "164",
-      "Magic Johnson": "Tony Vann",
-      "LAL": "KCK"
+      "pick": 162,
+      "player": "Matt Teahan",
+      "team": "DEN"
     },
     {
-      "1": "165",
-      "Magic Johnson": "Charles Jones",
-      "LAL": "PHO"
+      "pick": 163,
+      "player": "Rick Raivio",
+      "team": "PHI"
     },
     {
-      "1": "166",
-      "Magic Johnson": "Jo Jo Walters",
-      "LAL": "WSB"
+      "pick": 164,
+      "player": "Tony Vann",
+      "team": "KCK"
     },
     {
-      "1": "167",
-      "Magic Johnson": "Milt Huggins",
-      "LAL": "UTA"
+      "pick": 165,
+      "player": "Charles Jones",
+      "team": "PHO"
     },
     {
-      "1": "168",
-      "Magic Johnson": "Kevin Sinnett",
-      "LAL": "BOS"
+      "pick": 166,
+      "player": "Jo Jo Walters",
+      "team": "WSB"
     },
     {
-      "1": "169",
-      "Magic Johnson": "Tim Joyce",
-      "LAL": "CLE"
+      "pick": null,
+      "player": "Forfeited",
+      "team": "SAS"
     },
     {
-      "1": "170",
-      "Magic Johnson": "Val Bracey",
-      "LAL": "DET"
+      "pick": 167,
+      "player": "Milt Huggins",
+      "team": "UTA"
     },
     {
-      "1": "171",
-      "Magic Johnson": "James Jackson",
-      "LAL": "CHI"
+      "pick": 168,
+      "player": "Kevin Sinnett",
+      "team": "BOS"
     },
     {
-      "1": "172",
-      "Magic Johnson": "Brett Wyatt",
-      "LAL": "NYK"
+      "pick": 169,
+      "player": "Tim Joyce",
+      "team": "CLE"
     },
     {
-      "1": "173",
-      "Magic Johnson": "Ricky Free",
-      "LAL": "NJN"
+      "pick": 170,
+      "player": "Val Bracey",
+      "team": "DET"
     },
     {
-      "1": "174",
-      "Magic Johnson": "Roger Lapham",
-      "LAL": "MIL"
+      "pick": 171,
+      "player": "James Jackson",
+      "team": "CHI"
     },
     {
-      "1": "175",
-      "Magic Johnson": "Gene Ransom",
-      "LAL": "GSW"
+      "pick": 172,
+      "player": "Brett Wyatt",
+      "team": "NYK"
     },
     {
-      "1": "176",
-      "Magic Johnson": "Mike Dodd",
-      "LAL": "SDC"
+      "pick": 173,
+      "player": "Ricky Free",
+      "team": "NJN"
     },
     {
-      "1": "177",
-      "Magic Johnson": "Stan Eckwood",
-      "LAL": "POR"
+      "pick": 174,
+      "player": "Roger Lapham",
+      "team": "MIL"
     },
     {
-      "1": "178",
-      "Magic Johnson": "Cedric Oliver",
-      "LAL": "ATL"
+      "pick": 175,
+      "player": "Gene Ransom",
+      "team": "GSW"
     },
     {
-      "1": "179",
-      "Magic Johnson": "Emmett Lewis",
-      "LAL": "DEN"
+      "pick": 176,
+      "player": "Mike Dodd",
+      "team": "SDC"
     },
     {
-      "1": "180",
-      "Magic Johnson": "Coby Leavitt",
-      "LAL": "PHI"
+      "pick": 177,
+      "player": "Stan Eckwood",
+      "team": "POR"
     },
     {
-      "1": "181",
-      "Magic Johnson": "Gary Wilson",
-      "LAL": "KCK"
+      "pick": 178,
+      "player": "Cedric Oliver",
+      "team": "ATL"
     },
     {
-      "1": "182",
-      "Magic Johnson": "Eddie McLeod",
-      "LAL": "SAS"
+      "pick": 179,
+      "player": "Emmett Lewis",
+      "team": "DEN"
     },
     {
-      "1": "183",
-      "Magic Johnson": "Hosea Champine",
-      "LAL": "PHO"
+      "pick": 180,
+      "player": "Coby Leavitt",
+      "team": "PHI"
     },
     {
-      "1": "184",
-      "Magic Johnson": "Gary Ray Hooker",
-      "LAL": "WSB"
+      "pick": 181,
+      "player": "Gary Wilson",
+      "team": "KCK"
     },
     {
-      "1": "185",
-      "Magic Johnson": "Paul Dawkins",
-      "LAL": "UTA"
+      "pick": 182,
+      "player": "Eddie McLeod",
+      "team": "SAS"
     },
     {
-      "1": "186",
-      "Magic Johnson": "Alton Byrd",
-      "LAL": "BOS"
+      "pick": 183,
+      "player": "Hosea Champine",
+      "team": "PHO"
     },
     {
-      "1": "187",
-      "Magic Johnson": "Willie Polk",
-      "LAL": "DET"
+      "pick": 184,
+      "player": "Gary Ray Hooker",
+      "team": "WSB"
     },
     {
-      "1": "188",
-      "Magic Johnson": "Terry Peavy",
-      "LAL": "CLE"
+      "pick": 185,
+      "player": "Paul Dawkins",
+      "team": "UTA"
     },
     {
-      "1": "189",
-      "Magic Johnson": "Gordon Thomas",
-      "LAL": "NYK"
+      "pick": 186,
+      "player": "Alton Byrd",
+      "team": "BOS"
     },
     {
-      "1": "190",
-      "Magic Johnson": "Marvin Thomas",
-      "LAL": "CHI"
+      "pick": 187,
+      "player": "Willie Polk",
+      "team": "DET"
     },
     {
-      "1": "191",
-      "Magic Johnson": "Eric Fleisher",
-      "LAL": "NJN"
+      "pick": 188,
+      "player": "Terry Peavy",
+      "team": "CLE"
     },
     {
-      "1": "192",
-      "Magic Johnson": "Kevin Heenan",
-      "LAL": "GSW"
+      "pick": 189,
+      "player": "Gordon Thomas",
+      "team": "NYK"
     },
     {
-      "1": "193",
-      "Magic Johnson": "Chris Fahrbach",
-      "LAL": "MIL"
+      "pick": 190,
+      "player": "Marvin Thomas",
+      "team": "CHI"
     },
     {
-      "1": "194",
-      "Magic Johnson": "Greg Hunter",
-      "LAL": "SDC"
+      "pick": 191,
+      "player": "Eric Fleisher",
+      "team": "NJN"
     },
     {
-      "1": "195",
-      "Magic Johnson": "Kelvin Small",
-      "LAL": "POR"
+      "pick": 192,
+      "player": "Kevin Heenan",
+      "team": "GSW"
     },
     {
-      "1": "196",
-      "Magic Johnson": "Chad Nelson",
-      "LAL": "ATL"
+      "pick": 193,
+      "player": "Chris Fahrbach",
+      "team": "MIL"
     },
     {
-      "1": "197",
-      "Magic Johnson": "Cortez Collins",
-      "LAL": "CHI"
+      "pick": 194,
+      "player": "Greg Hunter",
+      "team": "SDC"
     },
     {
-      "1": "198",
-      "Magic Johnson": "Keith McCord",
-      "LAL": "PHI"
+      "pick": 195,
+      "player": "Kelvin Small",
+      "team": "POR"
     },
     {
-      "1": "199",
-      "Magic Johnson": "Glenn Fine",
-      "LAL": "SAS"
+      "pick": 196,
+      "player": "Chad Nelson",
+      "team": "ATL"
     },
     {
-      "1": "200",
-      "Magic Johnson": "Russell Saunders",
-      "LAL": "KCK"
+      "pick": 197,
+      "player": "Cortez Collins",
+      "team": "CHI"
     },
     {
-      "1": "201",
-      "Magic Johnson": "Korky Nelson",
-      "LAL": "PHO"
+      "pick": 198,
+      "player": "Keith McCord",
+      "team": "PHI"
     },
     {
-      "1": "202",
-      "Magic Johnson": "Steve Martin",
-      "LAL": "WSB"
+      "pick": 199,
+      "player": "Glenn Fine",
+      "team": "SAS"
+    },
+    {
+      "pick": 200,
+      "player": "Russell Saunders",
+      "team": "KCK"
+    },
+    {
+      "pick": 201,
+      "player": "Korky Nelson",
+      "team": "PHO"
+    },
+    {
+      "pick": 202,
+      "player": "Steve Martin",
+      "team": "WSB"
     }
   ],
   "1980": [
@@ -4534,6 +4569,11 @@
       "GSW": "BOS"
     },
     {
+      "1": "-",
+      "Joe Barry Carroll": "Forfeited",
+      "GSW": "LAL"
+    },
+    {
       "1": "161",
       "Joe Barry Carroll": "Leroy Loggins",
       "GSW": "DET"
@@ -4627,6 +4667,21 @@
       "1": "179",
       "Joe Barry Carroll": "Steve Wright",
       "GSW": "BOS"
+    },
+    {
+      "1": "-",
+      "Joe Barry Carroll": "Forfeited",
+      "GSW": "DEN"
+    },
+    {
+      "1": "-",
+      "Joe Barry Carroll": "Forfeited",
+      "GSW": "KCK"
+    },
+    {
+      "1": "-",
+      "Joe Barry Carroll": "Forfeited",
+      "GSW": "ATL"
     },
     {
       "1": "180",
@@ -4802,6 +4857,31 @@
       "1": "214",
       "Joe Barry Carroll": "John Nolan",
       "GSW": "BOS"
+    },
+    {
+      "1": "-",
+      "Joe Barry Carroll": "Forfeited",
+      "GSW": "DET"
+    },
+    {
+      "1": "-",
+      "Joe Barry Carroll": "Forfeited",
+      "GSW": "NJN"
+    },
+    {
+      "1": "-",
+      "Joe Barry Carroll": "Forfeited",
+      "GSW": "HOU"
+    },
+    {
+      "1": "-",
+      "Joe Barry Carroll": "Forfeited",
+      "GSW": "KCK"
+    },
+    {
+      "1": "-",
+      "Joe Barry Carroll": "Forfeited",
+      "GSW": "ATL"
     }
   ],
   "1981": [
@@ -8163,6 +8243,16 @@
       "1": "226",
       "Ralph Sampson": "Andy Kupec",
       "HOU": "BOS"
+    },
+    {
+      "1": "-",
+      "Ralph Sampson": "Forfeited",
+      "HOU": "HOU"
+    },
+    {
+      "1": "-",
+      "Ralph Sampson": "Forfeited",
+      "HOU": "PHI"
     }
   ],
   "1984": [
@@ -16492,6 +16582,11 @@
       "team": "IND"
     },
     {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "MIN"
+    },
+    {
       "pick": 30,
       "player": "Anderson Varejão",
       "team": "ORL"
@@ -17828,6 +17923,26 @@
       "pick": 56,
       "player": "Sasha Kaun",
       "team": "SEA"
+    },
+    {
+      "pick": 57,
+      "player": "James Gist",
+      "team": "SAS"
+    },
+    {
+      "pick": 58,
+      "player": "Joe Crawford",
+      "team": "LAL"
+    },
+    {
+      "pick": 59,
+      "player": "Deron Washington",
+      "team": "DET"
+    },
+    {
+      "pick": 60,
+      "player": "Semih Erden",
+      "team": "BOS"
     }
   ],
   "2009": [
@@ -22023,6 +22138,16 @@
       "team": "BOS"
     },
     {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "MIL"
+    },
+    {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "MIA"
+    },
+    {
       "pick": 54,
       "player": "Yannick Nzosa",
       "team": "WAS"
@@ -22330,6 +22455,16 @@
       "team": "MEM"
     },
     {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "CHI"
+    },
+    {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "PHI"
+    },
+    {
       "pick": 57,
       "player": "Trayce Jackson-Davis",
       "team": "WAS"
@@ -22582,6 +22717,11 @@
       "team": "SAS"
     },
     {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "PHI"
+    },
+    {
       "pick": 49,
       "player": "Tristen Newton",
       "team": "IND"
@@ -22625,6 +22765,11 @@
       "pick": 57,
       "player": "Ulrich Chomche",
       "team": "MEM"
+    },
+    {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "PHO"
     },
     {
       "pick": 58,
@@ -22909,6 +23054,11 @@
       "team": "LAL"
     },
     {
+      "pick": null,
+      "player": "Forfeited",
+      "team": "NYK"
+    },
+    {
       "pick": 56,
       "player": "Will Richard",
       "team": "MEM"
@@ -22927,11 +23077,6 @@
       "pick": 59,
       "player": "Jahmai Mashack",
       "team": "HOU"
-    },
-    {
-      "pick": 60,
-      "player": "",
-      "team": "NYK"
     }
   ]
 }

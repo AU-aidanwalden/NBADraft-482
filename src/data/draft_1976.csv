@@ -16,6 +16,7 @@ pick,player,team
 15,Chuckie Williams,CLE
 16,Norm Cook,BOS
 17,Sonny Parker,GSW
+-,Forfeited,NYK
 18,Willie Smith,CHI
 19,Bayard Forrest,SEA
 20,Major Jones,POR
@@ -33,6 +34,7 @@ pick,player,team
 32,Mo Howard,CLE
 33,Butch Feher,PHO
 34,Marshall Rogers,GSW
+-,Forfeited,PHI
 35,Dallas Smith,CHI
 36,Mike Dabney,LAL
 37,Lars Hansen,CHI
@@ -49,6 +51,7 @@ pick,player,team
 48,Gary Brewster,BUF
 49,Bill Cook,WSB
 50,Abdul Jeelani,CLE
+-,Forfeited,GSW
 51,Jerry Fort,BOS
 52,Keith Starr,CHI
 53,Tom Barker,ATL
@@ -67,6 +70,7 @@ pick,player,team
 66,John Engles,CLE
 67,Lewis Linder,BOS
 68,Jeff Fosnes,GSW
+-,Forfeited,BUF
 69,Nate Williams,CHI
 70,Ron Davis,ATL
 71,Willie Hodge,KCK
