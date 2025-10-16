@@ -53,9 +53,6 @@ export default function DraftClasses() {
           ) : (
             <p className="text-center italic">No draft classes found.</p>
           )}
-          <div>
-            <span className="italic">etc.</span>
-          </div>
         </div>
       </main>
     </div>
