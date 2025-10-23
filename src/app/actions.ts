@@ -5,10 +5,10 @@ import { headers } from "next/headers";
 
 export type ServerSession = Awaited<ReturnType<typeof auth.api.getSession>>;
 
-export async function getServerSession(): Promise<ServerSession> {
+export async function getServerSession(): Promise<ServerSession | null> {
   const session = await auth.api.getSession({
     headers: await headers(),
   });
 
-  return session;
+  return session ?? null;
 }
