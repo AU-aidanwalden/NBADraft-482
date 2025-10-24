@@ -11,18 +11,18 @@ interface DraftPick {
 }
 
 interface RedraftPick extends DraftPick {
-  _dragId: string; // unique per redraft
+  _dragId: string;
 }
 
 interface DragDropDraftsProps {
   year: string;
   draftClass: DraftPick[];
+  loggedIn: boolean; // <-- pass this prop from your parent
 }
 
-export default function DragDropDrafts({ year, draftClass }: DragDropDraftsProps) {
+export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropDraftsProps) {
   const [redraft, setRedraft] = useState<RedraftPick[]>([]);
 
-  // On page load, create a fresh redraft list with unique IDs
   useEffect(() => {
     const newRedraft = draftClass.map((pick, idx) => ({
       ...pick,
@@ -40,6 +40,7 @@ export default function DragDropDrafts({ year, draftClass }: DragDropDraftsProps
   };
 
   const exportCSV = () => {
+    if (!loggedIn) return; // extra safety
     const rows: string[][] = [["pick", "player", "team"]];
     redraft.forEach((pick, idx) => {
       const currentPick = (idx + 1).toString();
@@ -59,27 +60,26 @@ export default function DragDropDrafts({ year, draftClass }: DragDropDraftsProps
 
   return (
     <div className="flex gap-8">
-      {/* Left panel: Original draft */}
+      {/* Left panel */}
       <div className="w-1/2 border p-4 rounded bg-gray-100 dark:bg-gray-800">
         <h3 className="text-xl font-semibold mb-4">Original Draft</h3>
-        {draftClass.map((pick) => (
+        {draftClass.map(pick => (
           <div key={pick._originalId} className="flex justify-between p-2 mb-1 border rounded bg-white dark:bg-gray-700">
-            <span className="font-bold">
-              {pick.pick === null || pick.pick === "-" ? "—" : `#${pick.pick}`}
-            </span>
+            <span className="font-bold">{pick.pick === null || pick.pick === "-" ? "—" : `#${pick.pick}`}</span>
             <span className="flex-1">{pick.player ?? "Pick Forfeited"}</span>
             <span className="w-24 text-right">{pick.team ?? "-"}</span>
           </div>
         ))}
       </div>
 
-      {/* Right panel: Redraft */}
+      {/* Right panel */}
       <div className="w-1/2 border p-4 rounded bg-gray-50 dark:bg-gray-900">
         <h3 className="text-xl font-semibold mb-4">Your Redraft</h3>
 
         <button
-          className="mb-4 p-2 bg-green-500 text-white rounded"
+          className={`mb-4 p-2 rounded text-white ${loggedIn ? "bg-green-500 hover:bg-green-600" : "bg-gray-400 cursor-not-allowed"}`}
           onClick={exportCSV}
+          disabled={!loggedIn} // <-- disables the button if not logged in
         >
           Export Redraft CSV
         </button>
@@ -91,51 +91,37 @@ export default function DragDropDrafts({ year, draftClass }: DragDropDraftsProps
         </div>
 
         <DragDropContext onDragEnd={handleDragEnd}>
-  <Droppable droppableId="redraft">
-    {(provided) => (
-      <div ref={provided.innerRef} {...provided.droppableProps}>
-        {redraft.map((pick, index) => {
-          // Team that originally picked at this slot
-          const originalTeam = draftClass[index]?.team ?? "-";
+          <Droppable droppableId="redraft">
+            {(provided) => (
+              <div ref={provided.innerRef} {...provided.droppableProps}>
+                {redraft.map((pick, index) => {
+                  const originalTeam = draftClass[index]?.team ?? "-";
 
-          return (
-            <div
-              key={pick._dragId}
-              className="grid grid-cols-[60px_1fr_100px] gap-2 items-center mb-1"
-            >
-              {/* Static pick number */}
-              <div className="text-center font-bold">#{index + 1}</div>
-
-              {/* Draggable player (still moves) */}
-              <Draggable draggableId={pick._dragId} index={index}>
-                {(provided) => (
-                  <div
-                    ref={provided.innerRef}
-                    {...provided.draggableProps}
-                    {...provided.dragHandleProps}
-                    className="p-2 border rounded bg-white dark:bg-gray-800 flex justify-between"
-                  >
-                    <span>{pick.player ?? "Pick Forfeited"}</span>
-                    <span className="text-gray-500 text-sm">
-                      ({pick.team ?? "-"})
-                    </span>
-                  </div>
-                )}
-              </Draggable>
-
-              {/* Redraft team stays fixed based on original pick slot */}
-              <div className="text-right font-medium text-gray-800 dark:text-gray-200">
-                {originalTeam}
+                  return (
+                    <div key={pick._dragId} className="grid grid-cols-[60px_1fr_100px] gap-2 items-center mb-1">
+                      <div className="text-center font-bold">#{index + 1}</div>
+                      <Draggable draggableId={pick._dragId} index={index}>
+                        {(provided) => (
+                          <div
+                            ref={provided.innerRef}
+                            {...provided.draggableProps}
+                            {...provided.dragHandleProps}
+                            className="p-2 border rounded bg-white dark:bg-gray-800 flex justify-between"
+                          >
+                            <span>{pick.player ?? "Pick Forfeited"}</span>
+                            <span className="text-gray-500 text-sm">({pick.team ?? "-"})</span>
+                          </div>
+                        )}
+                      </Draggable>
+                      <div className="text-right font-medium text-gray-800 dark:text-gray-200">{originalTeam}</div>
+                    </div>
+                  );
+                })}
+                {provided.placeholder}
               </div>
-            </div>
-          );
-        })}
-        {provided.placeholder}
-      </div>
-    )}
-  </Droppable>
-</DragDropContext>
-
+            )}
+          </Droppable>
+        </DragDropContext>
       </div>
     </div>
   );
