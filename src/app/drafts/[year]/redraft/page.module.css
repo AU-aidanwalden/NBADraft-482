@@ -1,0 +1,131 @@
+/* Redrafts.module.css */
+
+.page {
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #111; /* default text color */
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.playerList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.playerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #fff;
+  cursor: grab;
+  color: #111;
+}
+
+.playerRow:active {
+  cursor: grabbing;
+}
+
+.draftPick {
+  flex: 0 0 50px;
+  font-weight: bold;
+}
+
+.playerName {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.teamName {
+  flex: 0 0 120px;
+  text-align: right;
+}
+
+.roundHeading {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.roundHeadingSpacing {
+  margin-top: 1.5rem;
+}
+
+.emptyState {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+.saveButton {
+  margin-top: 16px;
+  padding: 10px 16px;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.saveButton:hover {
+  background-color: #1d4ed8;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .page {
+    background-color: #121212;
+    color: #eee;
+  }
+
+  .card {
+    background-color: #1f1f1f;
+    color: #eee;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  }
+
+  .playerRow {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    color: #eee;
+  }
+
+  .draftPick,
+  .playerName,
+  .teamName {
+    color: #eee;
+  }
+
+  .roundHeading {
+    color: #eee;
+  }
+
+  .emptyState {
+    color: #aaa;
+  }
+
+  .saveButton {
+    background-color: #3b82f6;
+    color: #fff;
+  }
+
+  .saveButton:hover {
+    background-color: #2563eb;
+  }
+}

@@ -44,10 +44,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem 1rem;
+  padding: 1rem 1rem; /* increased from 0.75rem */
   border-radius: 0.5rem;
   border: 1px solid color-mix(in srgb, var(--color-neutral-content), transparent 65%);
   background-color: color-mix(in srgb, var(--color-base-300), var(--color-neutral-content) 12%);
+  margin-bottom: 1rem; /* add spacing between rows */
   transition: background-color 0.2s ease;
 }
 

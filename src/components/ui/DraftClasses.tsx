@@ -46,7 +46,9 @@ export default function DraftClasses() {
                     <button className="btn btn-soft">View Class</button>
                   </Link>
                   <button className="btn btn-soft">View re-drafts</button>
+                    <Link href={`/drafts/${year}/redraft`}>
                   <button className="btn btn-soft">Create Re-draft</button>
+                  </Link>
                 </div>
               </div>
             ))
