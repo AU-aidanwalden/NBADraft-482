@@ -1,13 +1,12 @@
-// app/drafts/[year]/redraft/page.tsx
 import Header from "@/components/ui/Header";
-import draftDataImport from "@/data/drafts.json" assert { type: "json" };
+import draftDataImport from "@/data/drafts.json";
 import DragDropDrafts from "@/components/ui/DragDropDrafts";
 
 interface DraftPick {
   pick: number | "-" | null;
   player: string | null;
   team: string | null;
-  _originalId: string; // stable reference
+  _originalId: string;
 }
 
 interface DraftData {
@@ -16,18 +15,17 @@ interface DraftData {
 
 const draftData = draftDataImport as DraftData;
 
-interface Props { params: { year: string } }
+export default async function RedraftPage({ params }: { params: { year: string } }) {
+  const { year } = params;
 
-export default async function RedraftPage({ params }: Props) {
-   const { year } = await params;
-
-  // Map the imported draft picks, creating fresh objects and assigning stable _originalId
   const draftClass: DraftPick[] = draftData[year]?.map((pick, idx) => ({
     pick: pick.pick,
     player: pick.player ?? null,
     team: pick.team ?? null,
     _originalId: pick.pick != null && pick.pick !== "-" ? `${year}-${pick.pick}` : `forfeit-${year}-${idx}`
   })) || [];
+
+  const loggedIn = true; // <-- or get this from your auth context/session
 
   return (
     <div className="min-h-screen bg-gray-50 dark:bg-gray-900">
@@ -36,9 +34,8 @@ export default async function RedraftPage({ params }: Props) {
         <h2 className="text-2xl font-bold text-center mb-6 text-gray-900 dark:text-gray-100">
           {year} NBA Draft Re-draft
         </h2>
-        <DragDropDrafts year={year} draftClass={draftClass} />
+        <DragDropDrafts year={year} draftClass={draftClass} loggedIn={loggedIn} />
       </main>
     </div>
   );
 }
-
