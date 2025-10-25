@@ -71,7 +71,11 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
       <div className="w-1/2 border p-4 rounded bg-gray-100 dark:bg-gray-800">
         <h3 className="text-xl font-semibold mb-4">Original Draft</h3>
         {draftClass.map(pick => (
-          <div key={pick._originalId} className="flex justify-between p-2 mb-1 border rounded bg-white dark:bg-gray-700">
+          <div key={pick._originalId} className="flex justify-between 
+                                                p-2 
+                                                mb-1 border rounded 
+                                                bg-white 
+                                                    dark:bg-gray-700">
             <span className="font-bold">{pick.pick === null || pick.pick === "-" ? "—" : `#${pick.pick}`}</span>
             <span className="flex-1">{pick.player ?? "Pick Forfeited"}</span>
             <span className="w-24 text-right">{pick.team ?? "-"}</span>
@@ -80,18 +84,30 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
       </div>
 
       {/* Right panel */}
-      <div className="w-1/2 border p-4 rounded bg-gray-50 dark:bg-gray-900">
+      <div className="w-1/2 border 
+                        p-4 rounded 
+                        bg-gray-50 
+                            dark:bg-gray-900">
         <h3 className="text-xl font-semibold mb-4">Your Redraft</h3>
 
         <button
-          className={`mb-4 p-2 rounded text-white ${loggedIn ? "bg-green-500 hover:bg-green-600" : "bg-gray-400 cursor-not-allowed"}`}
+          className={`mb-4 
+            p-2 rounded 
+            text-white 
+            ${loggedIn ? "bg-green-500 hover:bg-green-600" : "bg-gray-400 cursor-not-allowed"}`} //button greyed out if not logged in
           onClick={exportCSV}
-          disabled={!loggedIn} //if someone is logged in button should be disabled
+          disabled={!loggedIn} //if someone isn't logged in button should be disabled
         >
           Export Redraft CSV
         </button>
 
-        <div className="grid grid-cols-[60px_1fr_100px] gap-2 font-semibold text-sm text-gray-600 mb-2">
+        <div className="grid 
+                        grid-cols-[60px_1fr_100px] 
+                        gap-2 
+                        font-semibold 
+                        text-sm 
+                        text-gray-600 
+                        mb-2">
           <div>#</div>
           <div>Player (Original Team)</div>
           <div className="text-right">Redraft Team</div>
@@ -110,22 +126,34 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
                   {/*return done by ChatGPT, just handles how each object's index is updated based on where the player is dragged
                     and dropped*/}
                   return (
-                    <div key={pick._dragId} className="grid grid-cols-[60px_1fr_100px] gap-2 items-center mb-1">
-                      <div className="text-center font-bold">#{index + 1}</div>
+                    <div key={pick._dragId} className="grid 
+                                                    grid-cols-[60px_1fr_100px] 
+                                                    gap-2 
+                                                    items-center 
+                                                    mb-1">
+                      <div className="text-center 
+                                    font-bold">#{index + 1}</div>
                       <Draggable draggableId={pick._dragId} index={index}>
                         {(provided) => (
                           <div
                             ref={provided.innerRef}
                             {...provided.draggableProps}
                             {...provided.dragHandleProps}
-                            className="p-2 border rounded bg-white dark:bg-gray-800 flex justify-between"
+                            className="p-2 border rounded 
+                                    bg-white 
+                                        dark:bg-gray-800
+                                    flex justify-between"
                           >
                             <span>{pick.player ?? "Pick Forfeited"}</span>
-                            <span className="text-gray-500 text-sm">({pick.team ?? "-"})</span>
+                            <span className="text-gray-500 
+                                            text-sm">({pick.team ?? "-"})</span>
                           </div>
                         )}
                       </Draggable>
-                      <div className="text-right font-medium text-gray-800 dark:text-gray-200">{originalTeam}</div>
+                      <div className="text-right 
+                                    font-medium 
+                                    text-gray-800 
+                                        dark:text-gray-200">{originalTeam}</div>
                     </div>
                   );
                 })}
