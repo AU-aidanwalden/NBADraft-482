@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { DragDropContext, Droppable, Draggable, DropResult } from "@hello-pangea/dnd";
 
+//draft pick logic loads
 interface DraftPick {
   pick: number | "-" | null;
   player: string | null;
@@ -10,19 +11,23 @@ interface DraftPick {
   _originalId: string;
 }
 
+//redraft pick logic
 interface RedraftPick extends DraftPick {
   _dragId: string;
 }
 
+//redraft interface logic
 interface DragDropDraftsProps {
   year: string;
   draftClass: DraftPick[];
-  loggedIn: boolean; // <-- pass this prop from your parent
+  loggedIn: boolean; //doesn't work yet
 }
+
 
 export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropDraftsProps) {
   const [redraft, setRedraft] = useState<RedraftPick[]>([]);
 
+  //chatgpt effect, maps each pick asset to an ID so that it can be dragged and dropped 
   useEffect(() => {
     const newRedraft = draftClass.map((pick, idx) => ({
       ...pick,
@@ -40,13 +45,15 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
   };
 
   const exportCSV = () => {
-    if (!loggedIn) return; // extra safety
+    //log in check (doesn't work right yet)
+    if (!loggedIn) return;
     const rows: string[][] = [["pick", "player", "team"]];
     redraft.forEach((pick, idx) => {
       const currentPick = (idx + 1).toString();
       rows.push([currentPick, pick.player ?? "", pick.team ?? ""]);
     });
 
+    //cgpt csv creator
     const csvContent = rows.map(r => r.map(v => `"${v.replace(/"/g, '""')}"`).join(",")).join("\n");
     const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
     const url = URL.createObjectURL(blob);
@@ -79,7 +86,7 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
         <button
           className={`mb-4 p-2 rounded text-white ${loggedIn ? "bg-green-500 hover:bg-green-600" : "bg-gray-400 cursor-not-allowed"}`}
           onClick={exportCSV}
-          disabled={!loggedIn} // <-- disables the button if not logged in
+          disabled={!loggedIn} //if someone is logged in button should be disabled
         >
           Export Redraft CSV
         </button>
@@ -90,13 +97,18 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
           <div className="text-right">Redraft Team</div>
         </div>
 
-        <DragDropContext onDragEnd={handleDragEnd}>
+        {/*hello-pangea drag drop logic*/}
+        <DragDropContext onDragEnd={handleDragEnd}> 
+          {/*new droppable object created*/}
           <Droppable droppableId="redraft">
             {(provided) => (
-              <div ref={provided.innerRef} {...provided.droppableProps}>
+              <div ref={provided.innerRef} {...provided.droppableProps}> {/*Each droppable object is mapped to a pick 
+                as well as an index which contains their redraft*/}
                 {redraft.map((pick, index) => {
                   const originalTeam = draftClass[index]?.team ?? "-";
 
+                  {/*return done by ChatGPT, just handles how each object's index is updated based on where the player is dragged
+                    and dropped*/}
                   return (
                     <div key={pick._dragId} className="grid grid-cols-[60px_1fr_100px] gap-2 items-center mb-1">
                       <div className="text-center font-bold">#{index + 1}</div>
