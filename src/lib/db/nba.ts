@@ -1,4 +1,5 @@
 import { int, json, index, mysqlTable, varchar } from "drizzle-orm/mysql-core";
+import { user } from "./better-auth-schema";
 
 export const city = mysqlTable(
   "city",
@@ -8,9 +9,7 @@ export const city = mysqlTable(
     country: varchar("country", { length: 100 }).notNull(),
     state: varchar("state", { length: 100 }),
   },
-  (table) => [
-    index("idx_city_name").on(table.name),
-  ]
+  (table) => [index("idx_city_name").on(table.name)],
 );
 
 export const team = mysqlTable(
@@ -26,9 +25,7 @@ export const team = mysqlTable(
         onUpdate: "cascade",
       }),
   },
-  (table) => [
-    index("idx_team_city").on(table.cityID),
-  ]
+  (table) => [index("idx_team_city").on(table.cityID)],
 );
 
 export const player = mysqlTable(
@@ -51,5 +48,39 @@ export const player = mysqlTable(
     index("idx_player_name").on(table.name),
     index("idx_player_fame").on(table.fameScore),
     index("idx_player_team").on(table.teamID),
-  ]
+  ],
+);
+
+export const mockDraft = mysqlTable(
+  "mock_draft",
+  {
+    mockDraftID: int("mock_draft_id").primaryKey().autoincrement(),
+    name: varchar("name", { length: 100 }).notNull(),
+    year: int("year").notNull(),
+    userID: varchar("user_id", { length: 36 })
+      .notNull()
+      .references(() => user.id, {
+        onDelete: "cascade",
+        onUpdate: "cascade",
+      }),
+    playerOrder: json("player_order")
+      .$type<number[][]>() // array of rounds, each round holds Player.playerID values in pick order
+      .notNull(),
+  },
+  (table) => [
+    index("idx_mock_draft_user").on(table.userID),
+    index("idx_mock_draft_year").on(table.year),
+  ],
+);
+
+export const draft = mysqlTable(
+  "draft",
+  {
+    draftID: int("draft_id").primaryKey().autoincrement(),
+    year: int("year").notNull(),
+    playerOrder: json("player_order")
+      .$type<number[][]>() // array of rounds, each round holds Player.playerID values in pick order
+      .notNull(),
+  },
+  (table) => [index("idx_draft_year").on(table.year)],
 );
