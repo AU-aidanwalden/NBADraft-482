@@ -1,4 +1,16 @@
-import { int, json, index, mysqlTable, varchar } from "drizzle-orm/mysql-core";
+import {
+  int,
+  json,
+  index,
+  mysqlTable,
+  varchar,
+  tinyint,
+  smallint,
+  timestamp,
+  unique,
+  year,
+} from "drizzle-orm/mysql-core";
+
 import { user } from "./better-auth-schema";
 
 export const city = mysqlTable(
@@ -51,6 +63,53 @@ export const player = mysqlTable(
   ],
 );
 
+export const draft = mysqlTable(
+  "draft",
+  {
+    draftID: int("draft_id").primaryKey().autoincrement(),
+    draftYear: year("draft_year").notNull().unique(),
+    location: varchar("location", { length: 100 }),
+    draftDate: timestamp("draft_date"),
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+  },
+  (table) => [index("idx_draft_year").on(table.draftYear)],
+);
+
+export const draftPlayer = mysqlTable(
+  "draft_player",
+  {
+    draftPickID: int("draft_pick_id").primaryKey().autoincrement(),
+    draftID: int("draft_id")
+      .notNull()
+      .references(() => draft.draftID, {
+        onDelete: "cascade",
+        onUpdate: "cascade",
+      }),
+    playerID: int("player_id").references(() => player.playerID, {
+      onDelete: "restrict",
+      onUpdate: "cascade",
+    }),
+    round: tinyint("round").notNull(),
+    roundIndex: tinyint("round_index").notNull(),
+    pickNumber: smallint("pick_number").notNull(),
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+    updatedAt: timestamp("updated_at").defaultNow().onUpdateNow().notNull(),
+  },
+  (table) => [
+    unique("unique_pick_position").on(
+      table.draftID,
+      table.round,
+      table.roundIndex,
+    ),
+    unique("unique_player_per_draft").on(table.draftID, table.playerID),
+    unique("unique_pick_number").on(table.draftID, table.pickNumber),
+
+    index("idx_draft_round").on(table.draftID, table.round),
+    index("idx_player_lookup").on(table.playerID),
+    index("idx_pick_order").on(table.draftID, table.pickNumber),
+  ],
+);
+
 export const mockDraft = mysqlTable(
   "mock_draft",
   {
@@ -63,9 +122,8 @@ export const mockDraft = mysqlTable(
         onDelete: "cascade",
         onUpdate: "cascade",
       }),
-    playerOrder: json("player_order")
-      .$type<number[][]>() // array of rounds, each round holds Player.playerID values in pick order
-      .notNull(),
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+    updatedAt: timestamp("updated_at").defaultNow().onUpdateNow().notNull(),
   },
   (table) => [
     index("idx_mock_draft_user").on(table.userID),
@@ -73,14 +131,42 @@ export const mockDraft = mysqlTable(
   ],
 );
 
-export const draft = mysqlTable(
-  "draft",
+export const mockDraftPlayer = mysqlTable(
+  "mock_draft_player",
   {
-    draftID: int("draft_id").primaryKey().autoincrement(),
-    year: int("year").notNull(),
-    playerOrder: json("player_order")
-      .$type<number[][]>() // array of rounds, each round holds Player.playerID values in pick order
-      .notNull(),
+    mockDraftPickID: int("mock_draft_pick_id").primaryKey().autoincrement(),
+    mockDraftID: int("mock_draft_id")
+      .notNull()
+      .references(() => mockDraft.mockDraftID, {
+        onDelete: "cascade",
+        onUpdate: "cascade",
+      }),
+    playerID: int("player_id")
+      .notNull()
+      .references(() => player.playerID, {
+        onDelete: "restrict",
+        onUpdate: "cascade",
+      }),
+    round: tinyint("round").notNull(),
+    roundIndex: tinyint("round_index").notNull(),
+    pickNumber: smallint("pick_number").notNull(),
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+    updatedAt: timestamp("updated_at").defaultNow().onUpdateNow().notNull(),
   },
-  (table) => [index("idx_draft_year").on(table.year)],
+  (table) => [
+    unique("unique_mock_pick_position").on(
+      table.mockDraftID,
+      table.round,
+      table.roundIndex,
+    ),
+    unique("unique_mock_player_per_draft").on(
+      table.mockDraftID,
+      table.playerID,
+    ),
+    unique("unique_mock_pick_number").on(table.mockDraftID, table.pickNumber),
+
+    index("idx_mock_draft_round").on(table.mockDraftID, table.round),
+    index("idx_mock_player_lookup").on(table.playerID),
+    index("idx_mock_pick_order").on(table.mockDraftID, table.pickNumber),
+  ],
 );
