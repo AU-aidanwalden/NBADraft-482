@@ -2,26 +2,28 @@
 
 import { Fragment, useState } from "react";
 import styles from "@/app/drafts/[year]/page.module.css";
-import { DraftData, DraftPick } from "@/app/drafts/[year]/page";
+
+export interface DraftPick {
+  pick: number | "-" | null;
+  player: string;
+  team: string;
+  _originalId: string;
+}
+
+// Extend DraftPick to include the derived property
+type DraftPickWithForfeit = DraftPick & { isForfeited: boolean };
 
 export interface DraftViewerProps {
   year: string;
   loggedIn: boolean;
-  draftData: DraftData;
+  draftData: DraftPick[];
 }
 
-export default function DraftViewer({
-  draftData,
-  year,
-  loggedIn,
-}: DraftViewerProps) {
-  // Grab the picks for this year from the draftData prop
-  const draftClass: DraftPick[] = draftData[year] || [];
-
-  // Add derived isForfeited flag for convenience
-  const draftWithForfeits = draftClass.map(p => ({
+export default function DraftViewer({ draftData, loggedIn }: DraftViewerProps) {
+  // Create derived array with isForfeited
+  const draftWithForfeits: DraftPickWithForfeit[] = draftData.map((p) => ({
     ...p,
-    isForfeited: p.pick === null || p.pick === "-" 
+    isForfeited: p.pick === null || p.pick === "-",
   }));
 
   const picksPerRoundMap: Record<number, number> = {
@@ -45,36 +47,34 @@ export default function DraftViewer({
     1993: 27,
     1994: 27,
   };
-
   for (let y = 1995; y <= 2003; y++) picksPerRoundMap[y] = 28;
   for (let y = 2004; y <= 2025; y++) picksPerRoundMap[y] = 30;
 
-  const picksByRound = draftWithForfeits.reduce<Record<number, typeof draftWithForfeits[0][]>>(
+  const picksByRound = draftWithForfeits.reduce<Record<number, DraftPickWithForfeit[]>>(
     (acc, selection) => {
-      const picksPerRound = picksPerRoundMap[Number(year)] || 30;
+      const year = Number(selection._originalId.split("-")[0]);
+      const picksPerRound = picksPerRoundMap[year] || 30;
 
       const round = selection.isForfeited
-        ? Math.max(...Object.keys(acc).map(Number), 1) // last round for forfeits
+        ? Math.max(...Object.keys(acc).map(Number), 1)
         : Math.ceil((selection.pick as number) / picksPerRound);
 
       if (!acc[round]) acc[round] = [];
       acc[round].push(selection);
-
       return acc;
     },
     {}
   );
 
-  const rounds = Object.entries(picksByRound).sort(
-    ([a], [b]) => Number(a) - Number(b)
-  );
-
+  const rounds = Object.entries(picksByRound).sort(([a], [b]) => Number(a) - Number(b));
   const [redrafting, setRedrafting] = useState(false);
 
   return (
     <main className={styles.card}>
       <div className="flex justify-between">
-        <h2 className={styles.title}>{year} NBA Draft</h2>
+        <h2 className={styles.title}>
+          {draftWithForfeits[0]?._originalId.split("-")[0]} NBA Draft
+        </h2>
         {loggedIn && (
           <button
             className="btn btn-secondary"
@@ -85,11 +85,10 @@ export default function DraftViewer({
           </button>
         )}
       </div>
+
       <div className={styles.playerList}>
         {rounds.length === 0 ? (
-          <p className={styles.emptyState}>
-            Draft data for {year} is not yet available.
-          </p>
+          <p className={styles.emptyState}>Draft data not yet available.</p>
         ) : (
           rounds.map(([round, picks]) => (
             <Fragment key={round}>
@@ -102,24 +101,20 @@ export default function DraftViewer({
               >
                 Round {round}
               </h3>
-              {picks.map((selection, index) => (
-                <div
-                  key={selection._originalId ?? `forfeit-${index}`}
-                  className={styles.playerRow}
-                >
+              {picks.map((selection) => (
+                <div key={selection._originalId} className={styles.playerRow}>
                   <span className={styles.draftPick}>
                     {selection.isForfeited ? "—" : `#${selection.pick}`}
                   </span>
-                  <span className={styles.playerName}>
-                    {selection.player ?? "Pick Forfeited"}
-                  </span>
-                  <span className={styles.teamName}>{selection.team ?? "-"}</span>
+                  <span className={styles.playerName}>{selection.player}</span>
+                  <span className={styles.teamName}>{selection.team}</span>
                 </div>
               ))}
             </Fragment>
           ))
         )}
       </div>
+
       {redrafting && (
         <div>
           <h3>Redraft</h3>

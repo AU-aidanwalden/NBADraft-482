@@ -79,7 +79,6 @@ await globalThis.nbaDB.insert(draft_player).values({
 });
 }
 
-
   }
 }
 
