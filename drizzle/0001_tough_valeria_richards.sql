@@ -1,0 +1,1 @@
+ALTER TABLE `draft_player` ADD `team_id` int NOT NULL;

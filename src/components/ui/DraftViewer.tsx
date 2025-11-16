@@ -1,13 +1,13 @@
 "use client";
 
-import { DraftData, DraftPick } from "@/app/drafts/[year]/page";
-import styles from "@/app/drafts/[year]/page.module.css";
 import { Fragment, useState } from "react";
+import styles from "@/app/drafts/[year]/page.module.css";
+import { DraftData, DraftPick } from "@/app/drafts/[year]/page";
 
-interface DraftViewerProps {
-  draftData: DraftData;
+export interface DraftViewerProps {
   year: string;
   loggedIn: boolean;
+  draftData: DraftData;
 }
 
 export default function DraftViewer({
@@ -15,7 +15,14 @@ export default function DraftViewer({
   year,
   loggedIn,
 }: DraftViewerProps) {
+  // Grab the picks for this year from the draftData prop
   const draftClass: DraftPick[] = draftData[year] || [];
+
+  // Add derived isForfeited flag for convenience
+  const draftWithForfeits = draftClass.map(p => ({
+    ...p,
+    isForfeited: p.pick === null || p.pick === "-" 
+  }));
 
   const picksPerRoundMap: Record<number, number> = {
     1976: 18,
@@ -39,56 +46,41 @@ export default function DraftViewer({
     1994: 27,
   };
 
-  for (let y = 1995; y <= 2003; y++) {
-    picksPerRoundMap[y] = 28; // standardized 2-round draft
-  }
+  for (let y = 1995; y <= 2003; y++) picksPerRoundMap[y] = 28;
+  for (let y = 2004; y <= 2025; y++) picksPerRoundMap[y] = 30;
 
-  for (let y = 2004; y <= 2025; y++) {
-    picksPerRoundMap[y] = 30; // standardized 2-round draft
-  }
-
-  const picksByRound = draftClass.reduce<Record<number, DraftPick[]>>(
+  const picksByRound = draftWithForfeits.reduce<Record<number, typeof draftWithForfeits[0][]>>(
     (acc, selection) => {
       const picksPerRound = picksPerRoundMap[Number(year)] || 30;
 
-      // Treat null or "-" as forfeited
-      const isForfeited = selection.pick === "-" || selection.pick === null;
+      const round = selection.isForfeited
+        ? Math.max(...Object.keys(acc).map(Number), 1) // last round for forfeits
+        : Math.ceil((selection.pick as number) / picksPerRound);
 
-      if (!isForfeited) {
-        // Convert pick to number safely
-        const numericPick = selection.pick as number;
-        const round = Math.ceil(numericPick / picksPerRound);
-        if (!acc[round]) acc[round] = [];
-        acc[round].push(selection);
-      } else {
-        // put forfeits at the end of the last round
-        const lastRound = Math.max(...Object.keys(acc).map(Number), 1);
-        if (!acc[lastRound]) acc[lastRound] = [];
-        acc[lastRound].push(selection);
-      }
+      if (!acc[round]) acc[round] = [];
+      acc[round].push(selection);
 
       return acc;
     },
-    {},
+    {}
   );
 
   const rounds = Object.entries(picksByRound).sort(
-    ([roundA], [roundB]) => Number(roundA) - Number(roundB),
+    ([a], [b]) => Number(a) - Number(b)
   );
 
   const [redrafting, setRedrafting] = useState(false);
-  const [redraftedDraft, setRedraftedDraft] = useState<DraftPick[]>([]);
-
-  const handleRedraft = () => {
-    setRedrafting(true);
-  };
 
   return (
     <main className={styles.card}>
       <div className="flex justify-between">
         <h2 className={styles.title}>{year} NBA Draft</h2>
         {loggedIn && (
-          <button className="btn btn-secondary" disabled={redrafting}>
+          <button
+            className="btn btn-secondary"
+            disabled={redrafting}
+            onClick={() => setRedrafting(true)}
+          >
             Create Re-draft
           </button>
         )}
@@ -110,29 +102,20 @@ export default function DraftViewer({
               >
                 Round {round}
               </h3>
-              {picks.map((selection, index) => {
-                const isForfeited =
-                  selection.pick === null ||
-                  (typeof selection.pick === "number" &&
-                    selection.pick % 1 !== 0);
-
-                return (
-                  <div
-                    key={selection.pick ?? `forfeit-${index}`}
-                    className={styles.playerRow}
-                  >
-                    <span className={styles.draftPick}>
-                      {isForfeited
-                        ? "—"
-                        : `#${Math.floor(selection.pick as number)}`}
-                    </span>
-                    <span className={styles.playerName}>
-                      {selection.player || "Pick Forfeited"}
-                    </span>
-                    <span className={styles.teamName}>{selection.team}</span>
-                  </div>
-                );
-              })}
+              {picks.map((selection, index) => (
+                <div
+                  key={selection._originalId ?? `forfeit-${index}`}
+                  className={styles.playerRow}
+                >
+                  <span className={styles.draftPick}>
+                    {selection.isForfeited ? "—" : `#${selection.pick}`}
+                  </span>
+                  <span className={styles.playerName}>
+                    {selection.player ?? "Pick Forfeited"}
+                  </span>
+                  <span className={styles.teamName}>{selection.team ?? "-"}</span>
+                </div>
+              ))}
             </Fragment>
           ))
         )}
