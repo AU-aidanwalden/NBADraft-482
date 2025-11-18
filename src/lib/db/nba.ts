@@ -2,6 +2,18 @@
 import { mysqlTable, varchar, text, int, tinyint, smallint, timestamp, serial } from "drizzle-orm/mysql-core";
 import { getNBAConnection } from "./connection";
 
+export const user = mysqlTable("user", {
+  id: varchar("id", { length: 36 }).primaryKey(),
+  name: text("name").notNull(),
+  email: varchar("email", { length: 255 }).notNull(),
+  email_verified: tinyint("email_verified").default(0).notNull(),
+  image: text("image"),
+  created_at: timestamp("created_at").defaultNow().notNull(),
+  updated_at: timestamp("updated_at").defaultNow().onUpdateNow().notNull(),
+  username: varchar("username", { length: 255 }),
+  display_username: text("display_username"),
+});
+
 export const player = mysqlTable("player", {
   player_id: int("player_id").primaryKey().autoincrement(),
   name: varchar("name", { length: 100 }).notNull(),
@@ -40,15 +52,16 @@ export const draft_player = mysqlTable("draft_player", {
   updated_at: timestamp("updated_at").defaultNow().onUpdateNow(),
 });
 
-export const redraft = mysqlTable("redraft", {
+export const redraft = mysqlTable("redraft", {  
   redraft_id: varchar("redraft_id", { length: 36 }).primaryKey(),
   user_id: varchar("user_id", { length: 36 }),
   year: int("year"),
+  draft_data: text("draft_data"), // optional JSON column
   created_at: timestamp("created_at"),
   updated_at: timestamp("updated_at"),
 });
 
-export const redraftPlayer = mysqlTable("redraft_player", {
+export const redraftPlayer = mysqlTable("redraft_player", { 
   redraft_player_id: varchar("redraft_player_id", { length: 36 }).primaryKey(),
   redraft_id: varchar("redraft_id", { length: 36 }),
   player_id: int("player_id"),
@@ -56,6 +69,8 @@ export const redraftPlayer = mysqlTable("redraft_player", {
   round: int("round"),
   round_index: int("round_index"),
   pick_number: int("pick_number"),
+  created_at: timestamp("created_at"),
+  updated_at: timestamp("updated_at"),
 });
 
 export const nbaDB = getNBAConnection();

@@ -2,14 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { DragDropContext, Droppable, Draggable, DropResult } from "@hello-pangea/dnd";
-
-//draft pick logic loads
-interface DraftPick {
-  pick: number | "-" | null;
-  player: string | null;
-  team: string | null;
-  _originalId: string;
-}
+import { DraftPick } from "@/types/draft"; // use shared type
 
 //redraft pick logic
 interface RedraftPick extends DraftPick {
@@ -51,33 +44,39 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
   };
 
   const submitRedraft = async () => {
-    const payload = {
-      year,
-      redraft: redraft.map((pick, idx) => ({
-        pick: idx + 1,
-        player: pick.player,
-        team: pick.team,
-      })),
-    };
+  const picks = redraft.map((pick, idx) => ({
+    playerID: pick.player_id,      // you MUST have player_id in draftClass input
+    teamID: pick.team_id,          // same here
+    round: pick.round ?? 1,        // if your draft is always 1 round
+    roundIndex: idx,
+    pickNumber: idx + 1,
+  }));
 
-    try {
-      const res = await fetch("/api/redrafts/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-
-      if (!res.ok) {
-        const data = await res.json();
-        alert("Error: " + data.message);
-        return;
-      }
-
-      alert("Redraft submitted!");
-    } catch {
-      alert("Error submitting redraft");
-    }
+  const payload = {
+    year: Number(year),
+    picks,
   };
+
+  try {
+    const res = await fetch("/api/redrafts/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      alert("Error: " + data.error);
+      return;
+    }
+
+    alert("Redraft submitted!");
+  } catch {
+    alert("Error submitting redraft");
+  }
+};
+
 
   return (
     <div className="flex gap-8">
