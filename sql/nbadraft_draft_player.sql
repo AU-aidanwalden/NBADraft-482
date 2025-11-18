@@ -1,0 +1,12 @@
+CREATE TABLE draft_player (
+    draft_player_id INT PRIMARY KEY AUTO_INCREMENT,
+    draft_id VARCHAR(36) NOT NULL,
+    player_id INT NOT NULL,
+    round TINYINT NOT NULL,
+    round_index TINYINT NOT NULL,
+    pick_number SMALLINT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+    FOREIGN KEY (draft_id) REFERENCES draft(draft_id) ON DELETE CASCADE,
+    FOREIGN KEY (player_id) REFERENCES player(player_id) ON DELETE CASCADE
+);
