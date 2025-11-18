@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { signOut } from "@/lib/auth-client";
 import type { ServerSession } from "@/app/actions";
 
 interface AccountButtonProps {
@@ -34,7 +33,7 @@ export default function AccountButton({ currentSession }: AccountButtonProps) {
 
   let icon: React.ReactNode;
   if (currentSession) {
-    statusText = "Logout";
+    statusText = "My Account";
     icon = (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -44,11 +43,11 @@ export default function AccountButton({ currentSession }: AccountButtonProps) {
         stroke="currentColor"
         className="size-6"
       >
-        {/* Heroicons: arrow-right-on-rectangle */}
+        {/* Heroicons: user-circle */}
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6A2.25 2.25 0 0 0 5.25 5.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m-3.75-3h9m0 0-3-3m3 3-3 3"
+          d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
         />
       </svg>
     );
@@ -75,16 +74,7 @@ export default function AccountButton({ currentSession }: AccountButtonProps) {
 
   async function handleClick(_e: React.MouseEvent) {
     if (currentSession) {
-      const result = await signOut();
-      if (!result.error) {
-        setModalState({ success: true, message: "Logged out successfully." });
-        router.refresh();
-      } else {
-        setModalState({
-          success: false,
-          message: result.error.message || "Error logging out.",
-        });
-      }
+      router.push(`/user/${currentSession.user.username}`);
     } else {
       router.push("/login");
     }

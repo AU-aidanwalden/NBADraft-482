@@ -5,6 +5,8 @@ import Link from "next/link";
 import { getNBAConnection } from "@/lib/db/connection";
 import { eq } from "drizzle-orm";
 import { user as userTable, redraft as redraftTable } from "@/lib/db/nba";
+import { auth } from "@/lib/auth";
+import { headers } from "next/headers";
 
 interface UserPageProps {
   params: { username: string };
@@ -13,8 +15,11 @@ interface UserPageProps {
 export default async function UserPage({ params }: UserPageProps) {
   const { username } = params;
   const nbaDB = await getNBAConnection();
+  const currentSession = await auth.api.getSession({
+    headers: await headers()
+  });
 
-  // 1️⃣ Fetch user info
+  // Fetch user info
   const userRows = await nbaDB
     .select()
     .from(userTable)
@@ -23,7 +28,7 @@ export default async function UserPage({ params }: UserPageProps) {
   if (!userRows[0]) return <div>User not found</div>;
   const user = userRows[0];
 
-  // 2️⃣ Fetch redrafts by this user
+  // Fetch redrafts by this user
   const redrafts = await nbaDB
     .select()
     .from(redraftTable)
@@ -33,7 +38,7 @@ export default async function UserPage({ params }: UserPageProps) {
     <div className="page">
       <Header />
       <main className={styles.userProfile}>
-        <AccountSidebar />
+        <AccountSidebar username={username} currentSession={currentSession} />
         <div className={styles.avatarDisplay}>
           <div className="avatar avatar-placeholder">
             <div className="bg-neutral text-neutral-content w-24 rounded-full">

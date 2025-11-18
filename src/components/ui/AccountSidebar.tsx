@@ -1,6 +1,16 @@
 "use client";
 
-export default function AccountSidebar() {
+import { ServerSession } from "@/app/actions";
+import { signOut } from "@/lib/auth-client";
+import { useRouter } from "next/navigation";
+
+interface AccountSidebarProps {
+  username: string;
+  currentSession: ServerSession | null;
+}
+
+export default function AccountSidebar({ username, currentSession }: AccountSidebarProps) {
+  const router = useRouter();
   return (
     <ul className="menu bg-base-200 rounded-box w-56">
       <li>
@@ -41,25 +51,29 @@ export default function AccountSidebar() {
           Item 1
         </a>
       </li>
-      <li>
-        <a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-            />
-          </svg>
-          Item 3
-        </a>
-      </li>
+      {currentSession?.user.username === username && (
+        <li>
+          <a onClick={() => {
+            signOut()
+            router.push("/")
+          }}>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M15.75 9V5.25A2.25 2.25 0 0 0 13.5 3h-6a2.25 2.25 0 0 0-2.25 2.25v13.5A2.25 2.25 0 0 0 7.5 21h6a2.25 2.25 0 0 0 2.25-2.25V15m3 0 3-3m0 0-3-3m3 3H9"
+              />
+            </svg>
+            <span className="text-red-500">Log out</span>
+          </a>
+        </li>
+      )}
     </ul>
   );
 }
