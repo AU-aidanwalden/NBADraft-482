@@ -3,7 +3,6 @@
 import { useState, useEffect } from "react";
 import { DragDropContext, Droppable, Draggable, DropResult } from "@hello-pangea/dnd";
 import { DraftPick } from "@/types/draft"; // use shared type
-import { useRouter } from "next/navigation";
 
 //redraft pick logic
 interface RedraftPick extends DraftPick {
@@ -20,7 +19,6 @@ interface DragDropDraftsProps {
 
 export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropDraftsProps) {
   const [redraft, setRedraft] = useState<RedraftPick[]>([]);
-  const router = useRouter();
 
   // initialize redraft state with drag IDs and isForfeited flag
   useEffect(() => {
@@ -46,38 +44,38 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
   };
 
   const submitRedraft = async () => {
-    const picks = redraft.map((pick, idx) => ({
-      playerID: pick.player_id,      // you MUST have player_id in draftClass input
-      teamID: pick.team_id,          // same here
-      round: pick.round ?? 1,        // if your draft is always 1 round
-      roundIndex: idx,
-      pickNumber: idx + 1,
-    }));
+  const picks = redraft.map((pick, idx) => ({
+    playerID: pick.player_id,      // you MUST have player_id in draftClass input
+    teamID: pick.team_id,          // same here
+    round: pick.round ?? 1,        // if your draft is always 1 round
+    roundIndex: idx,
+    pickNumber: idx + 1,
+  }));
 
-    const payload = {
-      year: Number(year),
-      picks,
-    };
-
-    try {
-      const res = await fetch("/api/redrafts/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(payload),
-      });
-
-      const data = await res.json();
-
-      if (!res.ok) {
-        alert("Error: " + data.error);
-        return;
-      }
-
-      router.push(`/redrafts/${data.redraft_id}`);
-    } catch {
-      alert("Error submitting redraft");
-    }
+  const payload = {
+    year: Number(year),
+    picks,
   };
+
+  try {
+    const res = await fetch("/api/redrafts/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+
+    const data = await res.json();
+
+    if (!res.ok) {
+      alert("Error: " + data.error);
+      return;
+    }
+
+    alert("Redraft submitted!");
+  } catch {
+    alert("Error submitting redraft");
+  }
+};
 
 
   return (
@@ -99,8 +97,9 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
         <h3 className="text-xl font-semibold mb-4">Your Redraft</h3>
 
         <button
-          className={`mb-4 p-2 rounded text-white ${loggedIn ? "bg-green-500 hover:bg-green-600" : "bg-gray-400 cursor-not-allowed"
-            }`}
+          className={`mb-4 p-2 rounded text-white ${
+            loggedIn ? "bg-green-500 hover:bg-green-600" : "bg-gray-400 cursor-not-allowed"
+          }`}
           onClick={submitRedraft}
           disabled={!loggedIn}
         >

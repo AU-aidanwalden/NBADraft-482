@@ -14,7 +14,7 @@ interface UserPageProps {
   params: { username: string };
 }
 
-async function deleteRedraft(redraftId: number, username: string) {
+async function deleteRedraft(redraftId: string, username: string){
   "use server";
 
   const nbaDB = await getNBAConnection();
@@ -39,7 +39,8 @@ async function deleteRedraft(redraftId: number, username: string) {
   // Delete the redraft
   await nbaDB
     .delete(redraftTable)
-    .where(eq(redraftTable.redraft_id, redraftId));
+    .where(eq(redraftTable.redraft_id, `${redraftId}`))
+
 
   // Revalidate the page to show updated data
   revalidatePath(`/user/${username}`);
