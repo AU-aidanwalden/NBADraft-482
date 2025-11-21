@@ -70,6 +70,11 @@ To create/update your database tables based on the schema:
 npx drizzle-kit push
 ```
 
+In addition, the drafts themselves must be loaded onto the database initially. To do this, run:
+```bash
+npx ts-node --project tsconfig.node.json tooling/importDrafts.ts
+```
+
 ### 6. Run the Development Server
 
 Start the Next.js development server:
