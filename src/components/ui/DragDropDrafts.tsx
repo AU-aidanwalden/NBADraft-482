@@ -44,10 +44,11 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
   };
 
   const submitRedraft = async () => {
+  // Build payload with static teams from original draftClass
   const picks = redraft.map((pick, idx) => ({
-    playerID: pick.player_id,      // you MUST have player_id in draftClass input
-    teamID: pick.team_id,          // same here
-    round: pick.round ?? 1,        // if your draft is always 1 round
+    playerID: pick.player_id,           // player in the redraft slot
+    teamID: draftClass[idx].team_id,    // always use original draft team
+    round: pick.round ?? 1,
     roundIndex: idx,
     pickNumber: idx + 1,
   }));
@@ -76,6 +77,7 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
     alert("Error submitting redraft");
   }
 };
+
 
 
   return (
@@ -130,18 +132,20 @@ export default function DragDropDrafts({ year, draftClass, loggedIn }: DragDropD
                         </div>
                       ) : (
                         <Draggable draggableId={pick._dragId} index={index}>
-                          {(provided) => (
-                            <div
-                              ref={provided.innerRef}
-                              {...provided.draggableProps}
-                              {...provided.dragHandleProps}
-                              className="p-2 border rounded bg-white dark:bg-gray-800 flex justify-between"
-                            >
-                              <span>{pick.player ?? "Pick Forfeited"}</span>
-                              <span className="text-gray-500 text-sm">({pick.team ?? "-"})</span>
-                            </div>
-                          )}
-                        </Draggable>
+  {(provided) => (
+    <div
+      ref={provided.innerRef}
+      {...provided.draggableProps}
+      {...provided.dragHandleProps}
+      className="p-2 border rounded bg-white dark:bg-gray-800 flex justify-between"
+    >
+      <span>{pick.player ?? "Pick Forfeited"}</span>
+      <span className="text-gray-500 text-sm">({draftClass[index]?.team ?? "-"})</span>
+
+    </div>
+  )}
+</Draggable>
+
                       )}
 
                       <div className="text-right font-medium text-gray-800 dark:text-gray-200">{originalTeam}</div>
