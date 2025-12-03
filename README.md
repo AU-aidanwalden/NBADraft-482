@@ -70,6 +70,11 @@ To create/update your database tables based on the schema:
 npx drizzle-kit push
 ```
 
+In addition, the drafts themselves must be loaded onto the database initially. To do this, run:
+```bash
+npx ts-node --project tsconfig.node.json tooling/importDrafts.ts
+```
+
 ### 6. Run the Development Server
 
 Start the Next.js development server:
@@ -85,6 +90,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the a
 ```bash
 npm run build
 npm start
+```
+## Unit Test
+
+## For the unit test, we opted to use Playwright. This is the command to run the unit test:
+
+```bash
+npm run test:e2e
 ```
 
 ## Styling
