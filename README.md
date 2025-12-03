@@ -91,6 +91,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to see the a
 npm run build
 npm start
 ```
+## Unit Test
+
+## For the unit test, we opted to use Playwright. This is the command to run the unit test:
+
+```bash
+npm run test:e2e
+```
 
 ## Styling
 
