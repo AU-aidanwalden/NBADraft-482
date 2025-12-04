@@ -113,3 +113,4 @@ export const userComments = mysqlTable("user_comments", {
 }));
 
 export const nbaDB = getNBAConnection();
+export { user };
