@@ -74,8 +74,8 @@ export const redraft = mysqlTable("redraft", {
   user_id: varchar("user_id", { length: 36 }).notNull().references(() => user.id, { onDelete: "cascade" }),
   year: int("year").notNull(),
   draft_data: text("draft_data"), // JSON column for draft configuration
-  created_at: timestamp("created_at", { fsp: 3 }).defaultNow().notNull(),
-  updated_at: timestamp("updated_at", { fsp: 3 }).defaultNow().onUpdateNow().notNull(),
+  created_at: timestamp("created_at").defaultNow().notNull(),
+  updated_at: timestamp("updated_at").defaultNow().onUpdateNow().notNull(),
 }, (table) => ({
   userIdx: index("idx_redraft_user").on(table.user_id),
   yearIdx: index("idx_redraft_year").on(table.year),
@@ -90,8 +90,8 @@ export const redraftPlayer = mysqlTable("redraft_player", {
   round: tinyint("round").notNull(),
   round_index: tinyint("round_index").notNull(),
   pick_number: smallint("pick_number").notNull(),
-  created_at: timestamp("created_at", { fsp: 3 }).defaultNow().notNull(),
-  updated_at: timestamp("updated_at", { fsp: 3 }).defaultNow().onUpdateNow().notNull(),
+  created_at: timestamp("created_at").defaultNow().notNull(),
+  updated_at: timestamp("updated_at").defaultNow().onUpdateNow().notNull(),
 }, (table) => ({
   redraftPickUnique: unique("redraft_pick_unique").on(table.redraft_id, table.pick_number),
   redraftIdx: index("idx_redraft_player_redraft").on(table.redraft_id),
@@ -104,8 +104,8 @@ export const userComments = mysqlTable("user_comments", {
   user_id: varchar("user_id", { length: 36 }).notNull().references(() => user.id, { onDelete: "cascade" }),
   redraft_id: varchar("redraft_id", { length: 36 }).notNull().references(() => redraft.redraft_id, { onDelete: "cascade" }),
   comment_text: text("comment_text").notNull(),
-  created_at: timestamp("created_at", { fsp: 3 }).defaultNow().notNull(),
-  updated_at: timestamp("updated_at", { fsp: 3 }).defaultNow().onUpdateNow().notNull(),
+  created_at: timestamp("created_at").defaultNow().notNull(),
+  updated_at: timestamp("updated_at").defaultNow().onUpdateNow().notNull(),
 }, (table) => ({
   userIdx: index("idx_user_comments_user").on(table.user_id),
   redraftIdx: index("idx_user_comments_redraft").on(table.redraft_id),
