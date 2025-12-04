@@ -2,7 +2,7 @@
 import fs from "fs";
 import { randomUUID } from "crypto";
 import { getNBAConnection, NBASchema } from "../src/lib/db/connection";
-import { player, team, draft, draft_player } from "../src/lib/db/nba";
+import { player, team, draft, draft_player, city } from "../src/lib/db/nba";
 import { eq } from "drizzle-orm";
 import type { MySqlDatabase, MySqlQueryResultHKT, PreparedQueryHKTBase } from "drizzle-orm/mysql-core";
 
@@ -22,12 +22,40 @@ for (let y = 1995; y <= 2003; y++) picksPerRoundMap[y] = 28;
 for (let y = 2004; y <= 2025; y++) picksPerRoundMap[y] = 30;
 
 // Helpers
+let unknownCityId: number | null = null;
+
+async function getUnknownCityId() {
+  if (unknownCityId !== null) return unknownCityId;
+
+  // Check if "Unknown" city already exists
+  const existingCity = await globalThis.nbaDB
+    .select()
+    .from(city)
+    .where(eq(city.name, "Unknown"))
+    .limit(1);
+
+  if (existingCity.length > 0) {
+    unknownCityId = existingCity[0].city_id;
+    return unknownCityId;
+  }
+
+  // Create an "Unknown" city if it doesn't exist
+  const [inserted] = await globalThis.nbaDB
+    .insert(city)
+    .values({ name: "Unknown", country: "USA", state: null })
+    .$returningId();
+
+  unknownCityId = inserted.city_id;
+  return unknownCityId;
+}
+
 async function getOrCreateTeamId(slug: string, name?: string) {
   const result = await globalThis.nbaDB.select().from(team).where(eq(team.slug, slug));
   if (result.length === 0) {
+    const cityId = await getUnknownCityId();
     const [inserted] = await globalThis.nbaDB
       .insert(team)
-      .values({ slug, name: name ?? slug, city_id: 0 })
+      .values({ slug, name: name ?? slug, city_id: cityId })
       .$returningId();
     return inserted.team_id;
   }
@@ -62,29 +90,50 @@ async function insertDrafts() {
       draft_date: new Date(),
     });
 
-    for (const pick of picks) {
-  const teamId = pick.team ? await getOrCreateTeamId(pick.team) : 0;
-const playerId = pick.player ? await getOrCreatePlayerId(pick.player, pick.team) : 0;
-const round = pick.pick ? Math.ceil(pick.pick / picksPerRound) : 0;
-const roundIndex = pick.pick ? pick.pick - picksPerRound * (round - 1) : 0;
-const pickNumber = pick.pick ?? -1; // for forfeits
+    let forfeitCounter = 0; // Counter for forfeited picks in this draft
 
-await globalThis.nbaDB.insert(draft_player).values({
-  draft_id: draftId,
-  player_id: playerId,
-  team_id: teamId,
-  round,
-  round_index: roundIndex,
-  pick_number: pickNumber,
-});
-}
+    for (const pick of picks) {
+      let pickNumber: number;
+      let round: number;
+      let roundIndex: number;
+
+      // Handle forfeited picks (they have null pick numbers)
+      if (!pick.pick || pick.player === "Forfeited") {
+        // Assign negative numbers to forfeited picks to avoid conflicts
+        forfeitCounter--;
+        pickNumber = forfeitCounter;
+        round = 0; // Unknown round for forfeited picks
+        roundIndex = 0;
+      } else {
+        pickNumber = pick.pick;
+        round = Math.ceil(pick.pick / picksPerRound);
+        roundIndex = pick.pick - picksPerRound * (round - 1);
+      }
+
+      const teamId = pick.team ? await getOrCreateTeamId(pick.team) : 0;
+      const playerId = pick.player ? await getOrCreatePlayerId(pick.player, pick.team) : 0;
+
+      await globalThis.nbaDB.insert(draft_player).values({
+        draft_id: draftId,
+        player_id: playerId,
+        team_id: teamId,
+        round,
+        round_index: roundIndex,
+        pick_number: pickNumber,
+      });
+    }
 
   }
 }
 
 //main execution
 async function main() {
-  globalThis.nbaDB = await getNBAConnection(); 
+  globalThis.nbaDB = await getNBAConnection();
+
+  // Ensure we have an "Unknown" city before inserting drafts
+  await getUnknownCityId();
+  console.log("Unknown city created/found with ID:", unknownCityId);
+
   await insertDrafts();
 }
 
