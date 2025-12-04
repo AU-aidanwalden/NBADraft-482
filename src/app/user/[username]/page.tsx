@@ -48,7 +48,7 @@ async function deleteRedraft(redraftId: string, username: string){
 }
 
 export default async function UserPage({ params }: UserPageProps) {
-  const { username } = params;
+  const { username } = await params;
   const nbaDB = await getNBAConnection();
   const currentSession = await auth.api.getSession({
     headers: await headers()

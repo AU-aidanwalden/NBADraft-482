@@ -16,7 +16,7 @@ interface DraftsPageProps {
 }
 
 export default async function DraftsPage({ params }: DraftsPageProps) {
-  const year = params.year;
+  const { year } = await params;
   const session = await getServerSession();
   const loggedIn = session !== null;
 

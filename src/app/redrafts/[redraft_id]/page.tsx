@@ -8,7 +8,7 @@ interface RedraftPageProps {
 }
 
 export default async function UserRedraftPage({ params }: RedraftPageProps) {
-  const { redraft_id } = params;
+  const { redraft_id } = await params;
   const nbaDB = await getNBAConnection();
 
   // Fetch the redraft itself to get the year

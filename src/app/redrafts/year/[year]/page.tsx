@@ -12,7 +12,7 @@ interface YearRedraftsPageProps {
 }
 
 export default async function YearRedraftsPage({ params }: YearRedraftsPageProps) {
-  const { year } = params;
+  const { year } = await params;
   const nbaDB = await getNBAConnection();
 
   // Fetch all redrafts for this year, joining users for display name

@@ -10,7 +10,7 @@ export default async function RedraftPage({
 }: {
   params: { year: string };
 }) {
-  const yearStr = params.year;
+  const { year: yearStr } = await params;
   const yearNum = parseInt(yearStr);
   const nbaDB = await getNBAConnection();
 
