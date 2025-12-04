@@ -15,6 +15,27 @@
       "when": 1763249648774,
       "tag": "0001_tough_valeria_richards",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1764876376419,
+      "tag": "0002_tiresome_meltdown",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1764877155280,
+      "tag": "0003_giant_carlie_cooper",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1764877199127,
+      "tag": "0004_tiresome_mephistopheles",
+      "breakpoints": true
     }
   ]
 }
